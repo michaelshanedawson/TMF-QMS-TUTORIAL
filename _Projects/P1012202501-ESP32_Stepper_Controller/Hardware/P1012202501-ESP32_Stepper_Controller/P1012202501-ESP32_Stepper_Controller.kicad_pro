@@ -412,6 +412,10 @@
     [
       "27f0531a-0a2b-4c68-af50-4332bf165b5a",
       "Root"
+    ],
+    [
+      "3d19e829-0f52-4265-8dbe-adefa6854968",
+      "ESP32"
     ]
   ],
   "text_variables": {}

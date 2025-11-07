@@ -52,6 +52,9 @@
         <mxCell id="CQeGojmUFbUggSPf8g_c-1" value="BLE&lt;div&gt;WiFi&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="600" y="240" width="70" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="kHKWL_DHJB4HdmZjQRSm-1" value="Active Cooling:&lt;div&gt;5V PWM W/Tach&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;CFM-4010-03-22&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-130" width="130" height="130" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

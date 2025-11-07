@@ -1024,6 +1024,241 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "COMPONENTS:PMAP63205WU-7"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 5.08 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "PMAP63205WU-7"
+				(at 4.572 -20.066 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "COMPONENTS:TSOT-26-6"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switching Voltage Regulator, Buck, 3.8V to 32V Input, 5.0V @ 2A Output, 1 Channel, Positive, -40°C to 85°C, RoHS"
+				(at 23.622 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a P/N" "621-AP63205WU-7"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1" "Diodes Incorporated"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1 P/N" "AP63205WU-7"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a" "Mouser"
+				(at -30.48 -27.686 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost LV" "0.71"
+				(at -27.686 -29.718 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost HV" "0.342"
+				(at -26.924 -32.004 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PMAP63205WU-7_1_1"
+				(rectangle
+					(start 5.08 0)
+					(end 20.32 -19.05)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -16.51 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "BST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -12.7 180)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -16.51 180)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+24V"
 			(power)
 			(pin_numbers
@@ -1274,6 +1509,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1407,6 +1767,26 @@
 		)
 		(uuid "1c2b6b0d-6a1c-4858-ac6a-fb40fc20af22")
 	)
+	(text_box "5.0V Supply, 3.8V to 32V Input, 2A Output"
+		(exclude_from_sim no)
+		(at 63.5 74.93 0)
+		(size 29.21 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ba4a24ea-49af-409b-8535-ac45f4a90609")
+	)
 	(junction
 		(at 137.16 25.4)
 		(diameter 0)
@@ -1432,10 +1812,40 @@
 		(uuid "2b65e6b5-0079-438d-a40f-e608aaa11d15")
 	)
 	(junction
+		(at 149.86 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "369147b9-4add-4181-906a-eb2af64bd563")
+	)
+	(junction
 		(at 40.64 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d03ca45-e662-434b-9244-43300bebb8b3")
+	)
+	(junction
+		(at 162.56 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56ab3326-567d-49c3-abb0-8fe2c4671936")
+	)
+	(junction
+		(at 26.67 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a3609b1-aca0-41ca-842a-be63bcf5af39")
+	)
+	(junction
+		(at 41.91 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "692b1fb2-c3f1-43a9-b6fa-515149768f19")
+	)
+	(junction
+		(at 110.49 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bd9c393-1807-492f-9cd9-c6cf03455dc9")
 	)
 	(junction
 		(at 53.34 25.4)
@@ -1450,16 +1860,90 @@
 		(uuid "826b5817-2f07-4bc3-8c36-7d855a81b48f")
 	)
 	(junction
+		(at 138.43 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95762f49-3e0a-4e18-91d2-6b7e2bcb06a4")
+	)
+	(junction
+		(at 158.75 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c4161ac-d92b-4f6b-b85e-bbebf94761a8")
+	)
+	(junction
 		(at 148.59 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a91de558-04b8-4d5f-a359-b63891060507")
 	)
 	(junction
+		(at 54.61 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c242a623-741e-40ab-b093-4f1d60f35a5e")
+	)
+	(junction
 		(at 33.02 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d95d415d-af92-4c2b-bdad-d6307a6f905f")
+	)
+	(junction
+		(at 34.29 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f90bdc98-8a3a-4363-88ab-284f5e556d2a")
+	)
+	(wire
+		(pts
+			(xy 34.29 115.57) (xy 41.91 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ce70a9-3b93-418b-87c8-6d23db795111")
+	)
+	(wire
+		(pts
+			(xy 54.61 92.71) (xy 54.61 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "058833d7-abe8-443a-9d87-3764059f2234")
+	)
+	(wire
+		(pts
+			(xy 66.04 101.6) (xy 63.5 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07dad752-2178-46b5-a639-769db31c6f0d")
+	)
+	(wire
+		(pts
+			(xy 149.86 114.3) (xy 158.75 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de7691d-7606-4552-b3f9-611fde3abf89")
+	)
+	(wire
+		(pts
+			(xy 110.49 87.63) (xy 115.57 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fa1bbdf-c52e-4032-af5f-061e4cbb459a")
 	)
 	(wire
 		(pts
@@ -1470,6 +1954,26 @@
 			(type default)
 		)
 		(uuid "1547bfef-0ccb-4e1c-ab10-60f866a92e60")
+	)
+	(wire
+		(pts
+			(xy 26.67 87.63) (xy 26.67 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15af6175-c20c-4c50-9b98-5c6dd9655c62")
+	)
+	(wire
+		(pts
+			(xy 110.49 87.63) (xy 107.95 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a578103-a7d6-448b-9acb-1a34c3869b9f")
 	)
 	(wire
 		(pts
@@ -1513,6 +2017,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 85.09) (xy 162.56 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "212298c8-bcd9-4e60-bf0d-b2b3b0e52419")
+	)
+	(wire
+		(pts
 			(xy 137.16 25.4) (xy 148.59 25.4)
 		)
 		(stroke
@@ -1533,6 +2047,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 107.95) (xy 26.67 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e169cd6-26f9-4cc2-ae42-63f977926d09")
+	)
+	(wire
+		(pts
 			(xy 64.77 30.48) (xy 53.34 30.48)
 		)
 		(stroke
@@ -1540,6 +2064,16 @@
 			(type default)
 		)
 		(uuid "397a9b1f-6512-4b2b-b7ee-78a8371b2fd9")
+	)
+	(wire
+		(pts
+			(xy 138.43 101.6) (xy 91.44 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ee06583-095c-435a-bd94-53d2dd766fa2")
 	)
 	(wire
 		(pts
@@ -1553,6 +2087,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 101.6) (xy 63.5 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e875d6-8a8a-4728-b3ea-ce2773142f06")
+	)
+	(wire
+		(pts
 			(xy 62.23 39.37) (xy 62.23 43.18)
 		)
 		(stroke
@@ -1560,6 +2104,26 @@
 			(type default)
 		)
 		(uuid "42ef9d2c-fa35-414e-8e83-fd4954b254b8")
+	)
+	(wire
+		(pts
+			(xy 135.89 87.63) (xy 138.43 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e3c08d-4864-4cf7-840c-8d0b68bac843")
+	)
+	(wire
+		(pts
+			(xy 149.86 104.14) (xy 149.86 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "489ec843-5fae-478a-a4df-e190ff540c4d")
 	)
 	(wire
 		(pts
@@ -1583,6 +2147,36 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 92.71) (xy 54.61 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e1a13cd-294b-4ed0-bba2-ef7c2dd09db0")
+	)
+	(wire
+		(pts
+			(xy 162.56 87.63) (xy 162.56 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6087f4d9-fc00-4bb2-bd00-8abd37f6b0e3")
+	)
+	(wire
+		(pts
+			(xy 41.91 87.63) (xy 54.61 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70d10388-d186-4fd5-a296-7127990b7429")
+	)
+	(wire
+		(pts
 			(xy 148.59 41.91) (xy 148.59 52.07)
 		)
 		(stroke
@@ -1593,6 +2187,36 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 87.63) (xy 95.25 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7971c3b1-7e33-4e75-a5db-f91d6023da74")
+	)
+	(wire
+		(pts
+			(xy 138.43 87.63) (xy 149.86 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "801a28cf-7e8d-4889-9dff-2790d0d71ecf")
+	)
+	(wire
+		(pts
+			(xy 138.43 87.63) (xy 138.43 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83d510ab-c342-4727-b825-7d1c061d0878")
+	)
+	(wire
+		(pts
 			(xy 64.77 39.37) (xy 62.23 39.37)
 		)
 		(stroke
@@ -1600,6 +2224,16 @@
 			(type default)
 		)
 		(uuid "87079920-f969-4b4e-904f-cd7c5612088f")
+	)
+	(wire
+		(pts
+			(xy 162.56 114.3) (xy 162.56 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c1d618-ad6b-4d76-9264-d199ada1482a")
 	)
 	(wire
 		(pts
@@ -1633,6 +2267,26 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 114.3) (xy 162.56 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a40e5a09-9568-4fc3-9a28-dc602fe7ff1a")
+	)
+	(wire
+		(pts
+			(xy 91.44 97.79) (xy 110.49 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab8af37f-4161-4e17-abac-b1039fb088ce")
+	)
+	(wire
+		(pts
 			(xy 40.64 53.34) (xy 40.64 45.72)
 		)
 		(stroke
@@ -1653,6 +2307,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 97.79) (xy 110.49 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad80f0dc-9ce0-4e3a-9202-babde2d0216a")
+	)
+	(wire
+		(pts
 			(xy 53.34 30.48) (xy 53.34 25.4)
 		)
 		(stroke
@@ -1660,6 +2324,16 @@
 			(type default)
 		)
 		(uuid "af25c6bb-02ff-4559-9e9b-f112fce815da")
+	)
+	(wire
+		(pts
+			(xy 41.91 115.57) (xy 41.91 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b557e4aa-e580-4444-bf4a-f2bb3093db1e")
 	)
 	(wire
 		(pts
@@ -1680,6 +2354,16 @@
 			(type default)
 		)
 		(uuid "b6a77ffc-ed7b-4b49-9e17-45f0860b04ed")
+	)
+	(wire
+		(pts
+			(xy 149.86 87.63) (xy 162.56 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b71bff92-c6e5-4f0d-b0a9-bb9f36e3d74c")
 	)
 	(wire
 		(pts
@@ -1710,6 +2394,16 @@
 			(type default)
 		)
 		(uuid "d062aec2-bbd9-49a7-8ba6-e8505e0c342c")
+	)
+	(wire
+		(pts
+			(xy 26.67 115.57) (xy 34.29 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10e6984-bc0e-40ea-ae08-61aa50b0e0a3")
 	)
 	(wire
 		(pts
@@ -1760,6 +2454,170 @@
 			(type default)
 		)
 		(uuid "f291845b-20ff-440f-bb2f-a844ca25c2ef")
+	)
+	(wire
+		(pts
+			(xy 41.91 87.63) (xy 41.91 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f585b8c5-4f66-40ff-b8c4-377f60ed056f")
+	)
+	(wire
+		(pts
+			(xy 54.61 87.63) (xy 66.04 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8866417-5575-4759-aa5c-d18491691322")
+	)
+	(wire
+		(pts
+			(xy 149.86 91.44) (xy 149.86 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa670064-7392-4935-afda-13bf10bdf73c")
+	)
+	(wire
+		(pts
+			(xy 26.67 87.63) (xy 41.91 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff7a7f20-7ede-4459-8d92-88a110149a1f")
+	)
+	(symbol
+		(lib_id "COMPONENTS:LSRP2512-2R2M")
+		(at 115.57 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03137141-4553-420c-bf81-58da4c9b9575")
+		(property "Reference" "L2"
+			(at 125.73 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LSRP2512-2R2M"
+			(at 125.73 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "COMPONENTS:IND-1005"
+			(at 132.08 183.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 283.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor, Power, Shielded, 2.2µH, 20%, 2.3A, -40°C to 125°C, RoHS"
+			(at 115.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Bourns"
+			(at 115.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "SRP2512-2R2M"
+			(at 115.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 115.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "652-SRP2512-2R2M"
+			(at 115.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.33"
+			(at 115.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.199"
+			(at 115.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "653d4c04-699c-4c32-810d-5fea0ee30afc")
+		)
+		(pin "1"
+			(uuid "ece992a5-7fbc-444f-a2e0-542c2c864493")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2078,6 +2936,322 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 34.29 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4009c465-9dea-4697-a70e-2903bda77cdf")
+		(property "Reference" "#PWR07"
+			(at 34.29 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b373427d-55e8-4089-b4e2-ef72378d6370")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COMPONENTS:CC0603104050AAAX7R")
+		(at 95.25 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41bbc101-e6ce-4923-b135-1730a015a1f3")
+		(property "Reference" "C8"
+			(at 100.33 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CC0603104050AAAX7R"
+			(at 92.456 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "COMPONENTS:CAP-0603"
+			(at 104.14 183.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 283.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, Chip, 0603, 10µF, 50V, 10%, X7R, -55°C to 125°C, RoHS"
+			(at 96.012 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Yageo"
+			(at 79.756 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "CC0603KRX7R9BB104"
+			(at 84.328 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 78.232 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "603-CC603KRX7R9BB104"
+			(at 87.884 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.10"
+			(at 78.232 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.012"
+			(at 85.598 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6520a66f-c121-4ad3-8174-db607f74985e")
+		)
+		(pin "1"
+			(uuid "97b1af0a-40fb-4767-b35d-306bd64cf249")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COMPONENTS:CC1210226025AAAX7R")
+		(at 162.56 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "435e94f0-2e38-4589-bb9b-4eaa3cd5ae94")
+		(property "Reference" "C10"
+			(at 166.37 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CC1210226025AAAX7R"
+			(at 158.242 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "COMPONENTS:CAP-1210"
+			(at 66.37 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -33.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, Chip, 1210, 22µF, 25V, 10%, X7R, -55°C to 125°C, RoHS"
+			(at 155.702 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Taiyo Yuden"
+			(at 147.32 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "TMK325B7226KM-PR"
+			(at 149.86 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 142.748 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "963-TMK325B7226KM-PR"
+			(at 152.4 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.60"
+			(at 144.78 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.187"
+			(at 144.526 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3830c8b-ac3d-4feb-95fc-085749838bfe")
+		)
+		(pin "2"
+			(uuid "31c5cc36-370e-4472-b7d7-1df5173da281")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 157.48 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2131,12 +3305,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "3fee647f-6964-4508-ba40-7a46828d1772")
+			(uuid "3fee647f-6964-4508-ba40-7a46828d1773")
 		)
 		(instances
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fa585c6-15d7-4cbe-b94b-31b05c2ced8e")
+		(property "Reference" "#PWR09"
+			(at 158.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84fd3160-6cbe-4032-a4ed-8b8b084966fa")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2203,6 +3443,131 @@
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COMPONENTS:CC1206106050AAAX7R")
+		(at 41.91 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "998f133f-60fe-4c99-b2a3-6de5de268344")
+		(property "Reference" "C7"
+			(at 45.72 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CC1206106050AAAX7R"
+			(at 37.846 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "COMPONENTS:CAP-1206"
+			(at -54.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-19/375194.pdf"
+			(at -154.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, Chip, 1206, 10µF, 50V, 10%, X7R, -55°C to 125°C, RoHS"
+			(at 35.052 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Samsung"
+			(at 26.67 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "CL31B106KBHNNNE"
+			(at 29.21 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 22.098 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "187-CL31B106KBHNNNE"
+			(at 31.75 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.22"
+			(at 24.13 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.068"
+			(at 23.876 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c417f427-0a31-4af5-99ab-9665a548e6fb")
+		)
+		(pin "2"
+			(uuid "a56a45d7-234d-408b-a4b9-94a8cd9fd443")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -2476,6 +3841,214 @@
 		)
 	)
 	(symbol
+		(lib_id "COMPONENTS:PMAP63205WU-7")
+		(at 66.04 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a94e49a0-fbd3-4a7d-a17a-40c8a2679d79")
+		(property "Reference" "IC2"
+			(at 72.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMAP63205WU-7"
+			(at 78.994 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "COMPONENTS:TSOT-26-6"
+			(at 87.63 180.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 280.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switching Voltage Regulator, Buck, 3.8V to 32V Input, 5.0V @ 2A Output, 1 Channel, Positive, -40°C to 85°C, RoHS"
+			(at 89.662 110.49 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "621-AP63205WU-7"
+			(at 87.63 580.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Diodes Incorporated"
+			(at 87.63 780.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "AP63205WU-7"
+			(at 87.63 880.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 35.56 112.776 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.71"
+			(at 38.354 114.808 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.342"
+			(at 39.116 117.094 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "757cf4dd-6587-4b04-9ea4-af7c0aaf725c")
+		)
+		(pin "4"
+			(uuid "78afca17-8da5-44b2-a4ea-ed321951550f")
+		)
+		(pin "3"
+			(uuid "f624d6c6-2518-422f-a4e5-654ee3a46590")
+		)
+		(pin "2"
+			(uuid "3e75f1be-a1fa-417c-b37f-6f5e34fe2f95")
+		)
+		(pin "1"
+			(uuid "5a5754d1-56a9-4806-b629-19660c9d2e01")
+		)
+		(pin "5"
+			(uuid "d1fc1b6b-14ca-4839-9662-f012a1ead669")
+		)
+		(instances
+			(project ""
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adb044d8-7df9-4b86-83f0-c1bdc605edf0")
+		(property "Reference" "#PWR08"
+			(at 63.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d992b6a-9b12-410e-8fd1-c9bfa091abc0")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "COMPONENTS:CC0603104050AAAX7R")
 		(at 93.98 25.4 0)
 		(unit 1)
@@ -2601,6 +4174,131 @@
 		)
 	)
 	(symbol
+		(lib_id "COMPONENTS:CC1210226025AAAX7R")
+		(at 149.86 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbd95bba-5ea8-4f50-8a4c-e5a985b31e45")
+		(property "Reference" "C9"
+			(at 153.67 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CC1210226025AAAX7R"
+			(at 145.288 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "COMPONENTS:CAP-1210"
+			(at 53.67 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -46.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, Chip, 1210, 22µF, 25V, 10%, X7R, -55°C to 125°C, RoHS"
+			(at 143.002 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Taiyo Yuden"
+			(at 134.62 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "TMK325B7226KM-PR"
+			(at 137.16 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 130.048 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "963-TMK325B7226KM-PR"
+			(at 139.7 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.60"
+			(at 132.08 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.187"
+			(at 131.826 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bd81c8f-1983-48e8-9062-a32f2b1b14f2")
+		)
+		(pin "2"
+			(uuid "47d2a5c3-0346-4aee-898c-d7e675e99966")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 62.23 43.18 0)
 		(unit 1)
@@ -2655,7 +4353,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3fee647f-6964-4508-ba40-7a46828d1772")
+			(uuid "3fee647f-6964-4508-ba40-7a46828d1774")
 		)
 		(instances
 			(project ""
@@ -2792,6 +4490,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 162.56 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7c7133e-b79f-4a67-95b3-b5608a7a4906")
+		(property "Reference" "#PWR010"
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c55768c5-a3c0-4929-a12b-94349bba7026")
+		)
+		(instances
+			(project ""
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 25.4 25.4 0)
 		(unit 1)
@@ -2852,6 +4616,197 @@
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 26.67 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f594b857-73f4-4e18-974c-2de86f554745")
+		(property "Reference" "#PWR06"
+			(at 26.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 26.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 26.67 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e543a1e-7f69-4342-a8fb-2859f8798bcb")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COMPONENTS:CC1206106050AAAX7R")
+		(at 26.67 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd2ed633-89f5-447e-812a-2f7c954d2bf6")
+		(property "Reference" "C6"
+			(at 30.48 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CC1206106050AAAX7R"
+			(at 22.352 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "COMPONENTS:CAP-1206"
+			(at -69.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-19/375194.pdf"
+			(at -169.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, Chip, 1206, 10µF, 50V, 10%, X7R, -55°C to 125°C, RoHS"
+			(at 19.812 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Samsung"
+			(at 11.43 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "CL31B106KBHNNNE"
+			(at 13.97 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 6.858 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "187-CL31B106KBHNNNE"
+			(at 16.51 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.22"
+			(at 8.89 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.068"
+			(at 8.636 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8eb794c-a02c-435c-b5fd-eff1c44ba25e")
+		)
+		(pin "2"
+			(uuid "3fa5855e-97d2-4e90-9f77-6701e0e0594f")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2968,16 +4923,58 @@
 			)
 		)
 		(pin "1"
-			(uuid "c58c9d85-41e2-47b1-a547-7a8d02fcb393")
+			(uuid "c58c9d85-41e2-47b1-a547-7a8d02fcb394")
 		)
 		(pin "2"
-			(uuid "18587f0d-92c7-49c2-afdc-d87b3c54a9f9")
+			(uuid "18587f0d-92c7-49c2-afdc-d87b3c54a9fa")
 		)
 		(instances
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
 					(reference "C5")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 0 228.6)
+		(size 295.91 248.92)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3d19e829-0f52-4265-8dbe-adefa6854968")
+		(property "Sheetname" "ESP32"
+			(at 0 227.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 0 478.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
+					(page "2")
 				)
 			)
 		)
