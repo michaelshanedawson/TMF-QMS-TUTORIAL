@@ -1,0 +1,109 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "27f0531a-0a2b-4c68-af50-4332bf165b5a")
+	(paper "A4")
+	(lib_symbols)
+	(text "Cover Sheet"
+		(exclude_from_sim yes)
+		(at 194.564 189.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "0e68369d-7bb3-4213-8627-fa7ede985254")
+	)
+	(sheet
+		(at 38.1 25.4)
+		(size 13.97 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d737bb1a-43fc-4186-97c6-d6ed9cc0125d")
+		(property "Sheetname" "Power Supplies"
+			(at 38.1 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "P1012202501-Power Supplies.kicad_sch"
+			(at 38.1 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P1012202501-Cover Sheet"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 45.72)
+		(size 13.97 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f6c7a317-40aa-4f84-adca-4f38b8a6ae36")
+		(property "Sheetname" "ESP32"
+			(at 38.1 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "P1012202501-ESP32.kicad_sch"
+			(at 38.1 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P1012202501-Cover Sheet"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

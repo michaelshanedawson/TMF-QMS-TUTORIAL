@@ -15,7 +15,7 @@
 | MDL-011 | Test Logs and Results | Raw test logs, lab notes, fixture setups for each release | QA Lead | /test/test-logs/ | V1.0 | No | 7 years |
 | MDL-012 | Firmware Release Procedure | Build, versioning, OTA packaging, rollout and rollback procedures | Firmware Lead | /firmware/MDL-012_Firmware_Release.md | V1.0 | Yes | 7 years |
 | MDL-013 | Software Bill of Materials (SBOM) | Third-party component list, licenses, versions for firmware | Firmware Lead | /firmware/SBOM.md | V1.0 | Yes | 7 years |
-| MDL-014 | Supplier Approval & Supplier List | Approved suppliers, qualification evidence, alternate sources | Manufacturing Lead | /MDL-014_Master_Supplier_List.md | V1.0 | Yes | 7 years |
+| MDL-014 | Supplier Approval & Supplier List | Approved suppliers, qualification evidence, alternate sources | Manufacturing Lead | /QMS/MDL-014_Master_Supplier_List.md | V1.0 | Yes | 7 years |
 | MDL-015 | Procurement Procedure | Purchasing workflow, PO template, receiving, and inspection steps | Ops Lead | /docs/MDL-015_Procurement_Procedure.md | V1.0 | Yes | 7 years |
 | MDL-016 | Production Router & Work Instructions | Step-by-step assembly, reflow, test, and packing instructions | Manufacturing Lead | /manufacturing/assembly-instructions.md | V1.0 | Yes | 7 years |
 | MDL-017 | First Article Inspection Report | FAI record for first assembled lot, results and dispositions | Manufacturing Lead | /docs/MDL-017_FAI_Report.md | V1.0 | Yes | 7 years |
