@@ -1,0 +1,229 @@
+(footprint "SOT-23-3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "sot-23-sm")
+	(tags "Diode")
+	(property "Reference" "D**"
+		(at -0.5 3 0)
+		(layer "F.SilkS")
+		(uuid "6f6b94b4-cd5a-4839-ae64-6363e8ca5669")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOT-23-3"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3c3b8727-16cc-4300-8ae9-25468efe4e74")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1be3c2de-5675-478c-b7e1-0db4b4019606")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbc68a4b-b8e2-440e-b49c-e466477689b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.625 -1.5)
+		(end -0.375 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f9c25665-abb0-4c04-8601-87da61a87e2b")
+	)
+	(fp_line
+		(start -0.025 -1.45)
+		(end 0.025 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5411706-b79b-4cec-9123-47e8a52db7d7")
+	)
+	(fp_line
+		(start -0.025 1.45)
+		(end -0.025 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6b15e4c-989c-4240-9055-73e61695ed98")
+	)
+	(fp_line
+		(start 0.025 -1.45)
+		(end 0.025 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8711cca-2064-489a-b179-43dd9d7c4af9")
+	)
+	(fp_line
+		(start 0.025 1.45)
+		(end -0.025 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f167714-b837-46a5-bd46-e3608ea7c735")
+	)
+	(fp_line
+		(start -1.875 -1.75)
+		(end 1.875 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a9f8f869-81d7-49c3-a0b5-e260a7795b6b")
+	)
+	(fp_line
+		(start -1.875 1.75)
+		(end -1.875 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "f4ed6606-2c0f-41e4-87da-9402db572ab1")
+	)
+	(fp_line
+		(start -0.65 -1.45)
+		(end 0.65 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "31ad7698-ca4f-4b09-bcb6-7ecca711c033")
+	)
+	(fp_line
+		(start -0.65 -0.5)
+		(end 0.3 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "59ba4c8a-993e-4958-bf21-f9ee5c8fa563")
+	)
+	(fp_line
+		(start -0.65 1.45)
+		(end -0.65 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "39067637-0e26-4413-a720-ac5fcee72513")
+	)
+	(fp_line
+		(start 0.65 -1.45)
+		(end 0.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "90816ec2-4082-47d3-aef2-cf29f40dba4b")
+	)
+	(fp_line
+		(start 0.65 1.45)
+		(end -0.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "678a0efc-f004-4d18-8282-e4ddcc452e3d")
+	)
+	(fp_line
+		(start 1.875 -1.75)
+		(end 1.875 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d9ae3c69-edeb-48a7-9cf6-e0f34349df30")
+	)
+	(fp_line
+		(start 1.875 1.75)
+		(end -1.875 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7c5a2a07-cdc5-4188-9a10-d1687c8e5b16")
+	)
+	(pad "1" smd rect
+		(at -1 -0.95 90)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "bee2b8d1-9fc8-4ec1-8543-b8b7a332a5fc")
+	)
+	(pad "2" smd rect
+		(at -1 0.95 90)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "0e7571e1-1808-4cd3-9185-0e2792b37806")
+	)
+	(pad "3" smd rect
+		(at 1 0 90)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "6b60272a-9afb-440a-9913-58709cadb0fc")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/cloud/Downloads/LIB_CDSOT23-SM712/CDSOT23-SM712/3D/CDSOT23-SM712.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
