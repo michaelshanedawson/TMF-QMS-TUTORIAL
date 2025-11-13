@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7d693358-ccb2-47dd-81c3-4a980edbc43f")
+	(paper "A4")
+	(lib_symbols)
+	(text "Control Inputs"
+		(exclude_from_sim yes)
+		(at 192.786 189.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "2fb6810a-b8be-4a55-9708-39ab1d9e35a5")
+	)
+)

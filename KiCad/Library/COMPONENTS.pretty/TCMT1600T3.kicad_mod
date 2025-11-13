@@ -1,0 +1,243 @@
+(footprint "TCMT1600T3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "4 pin sop_2")
+	(tags "Phototransistor")
+	(property "Reference" "Q**"
+		(at -0.7 2.7 0)
+		(layer "F.SilkS")
+		(uuid "a0c8f8a2-f56e-458c-b85f-9bb0f6d124bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TCMT1600T3"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8e4cf4f0-89c5-4ac3-8326-2a88385c87ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30312dda-d417-4567-82de-fb355e0936f1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "677b8e3a-02a5-494f-b684-21ab35ca65e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.025 -1.31)
+		(end -2.375 -1.31)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6db6ffc5-68f6-4df1-99ae-31f22ebce06c")
+	)
+	(fp_line
+		(start -2.025 -1.3)
+		(end 2.025 -1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "673a5d7d-6174-4015-bc3f-d5e792f7309f")
+	)
+	(fp_line
+		(start -2.025 1.3)
+		(end -2.025 -1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f7be4ec-c9b0-4f0a-a888-65908d30a662")
+	)
+	(fp_line
+		(start 2.025 -1.3)
+		(end 2.025 1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9366154-73b0-4110-b934-a08fc0f52b9e")
+	)
+	(fp_line
+		(start 2.025 1.3)
+		(end -2.025 1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34d86d13-a76a-4b03-a582-345978a5dafb")
+	)
+	(fp_line
+		(start -4.275 -1.65)
+		(end 4.275 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "480ff661-d2e1-493f-ba69-f0155b9eb076")
+	)
+	(fp_line
+		(start -4.275 1.65)
+		(end -4.275 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fe7af87f-7563-4ac7-b023-d7b367c2cf2f")
+	)
+	(fp_line
+		(start 4.275 -1.65)
+		(end 4.275 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6dba9ef8-84af-468f-9554-14fa67864da0")
+	)
+	(fp_line
+		(start 4.275 1.65)
+		(end -4.275 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f3f5ae4c-c0cb-4ae9-9dd5-22a75b441f9c")
+	)
+	(fp_line
+		(start -2.2 -1.3)
+		(end 2.2 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d6ecb25c-4a51-425f-93e9-7e0c706e521d")
+	)
+	(fp_line
+		(start -2.2 -0.03)
+		(end -0.93 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fbb9da13-fab1-4bc3-9111-c3f3f04894a5")
+	)
+	(fp_line
+		(start -2.2 1.3)
+		(end -2.2 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16eb1644-b549-4049-b633-89fd38f66a9d")
+	)
+	(fp_line
+		(start 2.2 -1.3)
+		(end 2.2 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fb770df6-d4fe-49a6-8cc8-0b88784a8e5c")
+	)
+	(fp_line
+		(start 2.2 1.3)
+		(end -2.2 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a63fbd5d-020d-4377-836b-4b9254ed88a7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "12cbbfc7-83d9-45ab-8574-6df7fd776324")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.2 -0.635 90)
+		(size 0.65 1.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f8f7e651-ca05-4a53-9dc4-3ebec6f6d493")
+	)
+	(pad "2" smd rect
+		(at -3.2 0.635 90)
+		(size 0.65 1.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9d560aef-12ba-4d04-a84d-f4b80765d251")
+	)
+	(pad "3" smd rect
+		(at 3.2 0.635 90)
+		(size 0.65 1.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ef9a485f-c989-46d4-9067-7f2d74059174")
+	)
+	(pad "4" smd rect
+		(at 3.2 -0.635 90)
+		(size 0.65 1.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5e9dc656-e79d-4060-92e9-e40aba06ea52")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/cloud/Downloads/LIB_TCMT1600T3 (1)/TCMT1600T3/3D/TCMT1600T3.stp"
+		(offset
+			(xyz 0 0 1.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

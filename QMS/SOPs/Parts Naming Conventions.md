@@ -16,4 +16,4 @@ RC - Prefix for Resistor, Chip
 0603 - Package Size
 682 - Standard 3 digit value code , not always using this
 075 - Voltage
-AAA - Three letters for power rating , AAA = 100mW
+AAA - Three letters for power rating , AAA = 100mW, AAB = 125mW

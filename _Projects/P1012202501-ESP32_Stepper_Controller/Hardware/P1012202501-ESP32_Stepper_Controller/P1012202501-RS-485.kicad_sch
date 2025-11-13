@@ -620,6 +620,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "COMPONENTS:RC0805121150AAB"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 5.08 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "RC0805121150AAB"
+				(at 1.524 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "COMPONENTS:RES-0805"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, Chip, 0805, 120Ω, 150V, 5%, -55°C to 155°C, RoHS, AEC-Q200"
+				(at 4.064 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1" "Panasonic"
+				(at -2.54 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1 P/N" "ERJ-6GEYJ121V"
+				(at 7.112 -13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a" "Mouser"
+				(at -19.812 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a P/N" "667-ERJ-6GEYJ121V"
+				(at -3.81 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost LV" "0.10"
+				(at -18.796 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost HV" "0.013"
+				(at -18.288 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Val" "120Ω"
+				(at 8.89 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RC0805121150AAB_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "COMPONENTS:TVSCDSOT23-SM712"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1067,6 +1235,162 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CONNECTORS:KH22-28-5021"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "KH22-28-5021"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CONNECTORS:2x1HDR2.54mm"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector, Header, 2 Pin, 1 Row, Vertical, Through Hole, 2.54mm Pitch, 8.13mm Post Length, -40°C to 80°C, RoHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1" "Molex"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1 P/N" "22-28-5021"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a" "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a P/N" "538-22-28-5021"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost LV" "0.10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost HV" "0.071"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KH22-28-5021_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -1306,28 +1630,34 @@
 		(uuid "cf71f4d2-9336-4df1-a6be-b07f3cb4be8b")
 	)
 	(junction
-		(at 152.4 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1fb22517-c599-4141-b51e-f6b24520ebb4")
-	)
-	(junction
-		(at 157.48 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2873663e-161e-4942-80ec-3bc89d63ce31")
-	)
-	(junction
 		(at 142.24 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b9e2e36-6369-49dd-907a-eaddf7d3bbc4")
 	)
 	(junction
+		(at 185.42 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e8c277a-2e6c-4f33-a2b9-b117119b090f")
+	)
+	(junction
+		(at 189.23 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fee3476-610f-4ed1-9a8c-7e902c745ba1")
+	)
+	(junction
 		(at 109.22 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7171e588-725e-41cf-831c-36b96d31e368")
+	)
+	(junction
+		(at 171.45 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7490793d-b1d8-4b1c-a3b9-f51da05b52dd")
 	)
 	(junction
 		(at 124.46 39.37)
@@ -1347,25 +1677,31 @@
 		(color 0 0 0 0)
 		(uuid "80e49526-5f9b-425a-9d69-3bcc98b08a83")
 	)
-	(wire
-		(pts
-			(xy 152.4 76.2) (xy 166.37 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0384c3d9-f579-4c4c-bf25-fc3a535de055")
+	(junction
+		(at 189.23 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd9e3dee-d7b1-4613-b27b-97b76f9e279d")
 	)
 	(wire
 		(pts
-			(xy 140.97 78.74) (xy 157.48 78.74)
+			(xy 171.45 54.61) (xy 189.23 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1017ceb6-c084-4acc-a29e-10489cd44a70")
+		(uuid "0ff497fc-c647-47e1-8d83-dd019410bae7")
+	)
+	(wire
+		(pts
+			(xy 185.42 93.98) (xy 185.42 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "115c7b34-2da1-4e5e-af5e-ca97cc29cbb1")
 	)
 	(wire
 		(pts
@@ -1379,23 +1715,73 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 105.41) (xy 152.4 105.41)
+			(xy 140.97 76.2) (xy 163.83 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "21a051ad-eb10-431c-9fbf-049f620c0ed0")
+		(uuid "1ba651f3-529f-45b0-8657-2fbd4c40ea1e")
 	)
 	(wire
 		(pts
-			(xy 189.23 102.87) (xy 189.23 107.95)
+			(xy 163.83 93.98) (xy 185.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fec2329-c3f6-4b9f-81f9-1e1e97db40cb")
+	)
+	(wire
+		(pts
+			(xy 185.42 93.98) (xy 189.23 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20836854-e4fd-4625-895b-536ceba21691")
+	)
+	(wire
+		(pts
+			(xy 185.42 116.84) (xy 171.45 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "224f78db-bf5b-4209-b76a-47688818be2a")
+	)
+	(wire
+		(pts
+			(xy 189.23 93.98) (xy 204.47 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24934903-e7f7-4978-8165-61b205a709fb")
+	)
+	(wire
+		(pts
+			(xy 209.55 114.3) (xy 209.55 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2b0c52df-55d4-4b89-adb0-12a3039fda3b")
+	)
+	(wire
+		(pts
+			(xy 189.23 54.61) (xy 200.66 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c49bbfb-c6d8-43c4-9c1c-b1b538af6f5e")
 	)
 	(wire
 		(pts
@@ -1406,6 +1792,16 @@
 			(type default)
 		)
 		(uuid "3cccae7b-0474-4b18-b22b-adc488c3b9a0")
+	)
+	(wire
+		(pts
+			(xy 189.23 72.39) (xy 189.23 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4280b657-576e-4272-9ca7-cf613e15a68b")
 	)
 	(wire
 		(pts
@@ -1426,16 +1822,6 @@
 			(type default)
 		)
 		(uuid "55ea0ef6-910a-45e5-acbe-a7b75779fe67")
-	)
-	(wire
-		(pts
-			(xy 157.48 100.33) (xy 157.48 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f5985fe-79c9-4bb2-a853-965886ff4ccd")
 	)
 	(wire
 		(pts
@@ -1469,16 +1855,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 78.74) (xy 166.37 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ca5c688-e0b6-467f-aea0-cf5544f035af")
-	)
-	(wire
-		(pts
 			(xy 135.89 39.37) (xy 124.46 39.37)
 		)
 		(stroke
@@ -1509,7 +1885,17 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 102.87) (xy 189.23 102.87)
+			(xy 140.97 78.74) (xy 163.83 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "864d7efa-df08-403e-ae72-65f8f4ceaf8d")
+	)
+	(wire
+		(pts
+			(xy 205.74 114.3) (xy 209.55 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1529,6 +1915,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 116.84) (xy 171.45 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95114942-c27b-4e57-ac52-97b2312ad5d1")
+	)
+	(wire
+		(pts
 			(xy 109.22 78.74) (xy 109.22 76.2)
 		)
 		(stroke
@@ -1539,13 +1935,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 76.2) (xy 152.4 76.2)
+			(xy 163.83 78.74) (xy 163.83 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d224f7a-2b4b-4733-a58e-dd1b1f5277e6")
+		(uuid "a6b3e385-fbf3-4166-ac5a-bb930c5dfe9e")
 	)
 	(wire
 		(pts
@@ -1629,13 +2025,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 105.41) (xy 152.4 76.2)
+			(xy 163.83 76.2) (xy 163.83 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd952555-ab8c-4ac3-a6ae-8ae21deea780")
+		(uuid "de57532f-5f78-453b-86b6-2b8332e80b94")
 	)
 	(wire
 		(pts
@@ -1649,13 +2045,23 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 100.33) (xy 157.48 100.33)
+			(xy 163.83 54.61) (xy 171.45 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fbe42739-f2c1-4ac5-af1c-5abf8aae9478")
+		(uuid "fd494a83-24a7-4c4d-92ab-614d95ee6a1f")
+	)
+	(wire
+		(pts
+			(xy 189.23 93.98) (xy 189.23 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fec11f56-dba0-48df-af3e-9c42747799eb")
 	)
 	(global_label "485_DIR"
 		(shape input)
@@ -1681,7 +2087,7 @@
 	)
 	(global_label "485_A"
 		(shape bidirectional)
-		(at 166.37 78.74 0)
+		(at 204.47 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1691,7 +2097,7 @@
 		)
 		(uuid "42ef7948-0b33-46fc-8a91-a50a41c126c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.1512 78.74 0)
+			(at 214.2512 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1703,7 +2109,7 @@
 	)
 	(global_label "485_B"
 		(shape bidirectional)
-		(at 166.37 76.2 0)
+		(at 200.66 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1713,7 +2119,7 @@
 		)
 		(uuid "685b97da-dfa1-4209-a65a-a520eb989a07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.3326 76.2 0)
+			(at 210.6226 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1835,7 +2241,7 @@
 	)
 	(symbol
 		(lib_id "COMPONENTS:TVSCDSOT23-SM712")
-		(at 165.1 100.33 0)
+		(at 185.42 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1843,7 +2249,7 @@
 		(dnp no)
 		(uuid "67331b81-c77c-457e-9bb3-9e1ba3e0d8e2")
 		(property "Reference" "D1"
-			(at 171.704 96.52 0)
+			(at 192.024 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1851,7 +2257,7 @@
 			)
 		)
 		(property "Value" "TVSCDSOT23-SM712"
-			(at 175.514 109.728 0)
+			(at 195.834 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,7 +2265,7 @@
 			)
 		)
 		(property "Footprint" "COMPONENTS:SOT-23-3"
-			(at 181.61 195.25 0)
+			(at 201.93 206.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,7 +2275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 295.25 0)
+			(at 201.93 306.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1879,7 +2285,7 @@
 			)
 		)
 		(property "Description" "TVS Diode, 30KV Dual Bi-Directional, 400W peak, 26V Clamping, -55°C to 150°C, RoHS"
-			(at 165.1 100.33 0)
+			(at 185.42 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1888,7 +2294,7 @@
 			)
 		)
 		(property "Manufacturer 1" "Bourns"
-			(at 165.1 100.33 0)
+			(at 185.42 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1897,7 +2303,7 @@
 			)
 		)
 		(property "Manufacturer 1 P/N" "CDSOT23-SM712"
-			(at 165.1 100.33 0)
+			(at 185.42 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1906,7 +2312,7 @@
 			)
 		)
 		(property "Vendor 1a" "Mouser"
-			(at 165.1 100.33 0)
+			(at 185.42 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1915,7 +2321,7 @@
 			)
 		)
 		(property "Vendor 1a P/N" "652-CDSOT23-SM712"
-			(at 165.1 100.33 0)
+			(at 185.42 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1924,7 +2330,7 @@
 			)
 		)
 		(property "Vendor 1a Cost LV" "1.11"
-			(at 165.1 100.33 0)
+			(at 185.42 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1933,7 +2339,7 @@
 			)
 		)
 		(property "Vendor 1a Cost HV" "0.343"
-			(at 165.1 100.33 0)
+			(at 185.42 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,7 +2638,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 107.95 0)
+		(at 209.55 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2241,7 +2647,7 @@
 		(fields_autoplaced yes)
 		(uuid "99af6791-b6e6-40e5-9f1c-3f8fd16a7699")
 		(property "Reference" "#PWR019"
-			(at 189.23 114.3 0)
+			(at 209.55 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2250,7 +2656,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 113.03 0)
+			(at 209.55 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2258,7 +2664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 107.95 0)
+			(at 209.55 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2267,7 +2673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 107.95 0)
+			(at 209.55 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2276,7 +2682,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 107.95 0)
+			(at 209.55 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2357,6 +2763,142 @@
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/f7d1483b-b2e1-4d1b-a579-3453a4da28ca"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COMPONENTS:RC0805121150AAB")
+		(at 189.23 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc3f1df3-9733-40e7-a7a8-aada88c65356")
+		(property "Reference" "R2"
+			(at 191.77 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RC0805121150AAB"
+			(at 183.134 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "COMPONENTS:RES-0805"
+			(at 93.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -6.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, Chip, 0805, 120Ω, 150V, 5%, -55°C to 155°C, RoHS, AEC-Q200"
+			(at 180.086 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Panasonic"
+			(at 173.736 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "ERJ-6GEYJ121V"
+			(at 176.022 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 191.516 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "667-ERJ-6GEYJ121V"
+			(at 199.644 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.10"
+			(at 188.976 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.013"
+			(at 195.58 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "120Ω"
+			(at 191.77 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "933a979f-14f4-47b3-85ae-2cb91f57cf38")
+		)
+		(pin "1"
+			(uuid "313fab40-4ffa-40c5-ab88-7c2937319e85")
+		)
+		(instances
+			(project ""
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/f7d1483b-b2e1-4d1b-a579-3453a4da28ca"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2507,6 +3049,132 @@
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/f7d1483b-b2e1-4d1b-a579-3453a4da28ca"
 					(reference "IC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS:KH22-28-5021")
+		(at 189.23 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea057ab8-03d8-4593-8e5b-95804e2ef78a")
+		(property "Reference" "J1"
+			(at 205.74 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KH22-28-5021"
+			(at 205.74 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONNECTORS:2x1HDR2.54mm"
+			(at 205.74 171.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 271.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector, Header, 2 Pin, 1 Row, Vertical, Through Hole, 2.54mm Pitch, 8.13mm Post Length, -40°C to 80°C, RoHS"
+			(at 189.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Molex"
+			(at 189.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "22-28-5021"
+			(at 189.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 189.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "538-22-28-5021"
+			(at 189.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.10"
+			(at 189.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.071"
+			(at 189.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "213c1f69-198b-4116-833e-d7616917e20d")
+		)
+		(pin "2"
+			(uuid "e8f43ca4-c3b6-4d41-a5a5-d1f569d84c89")
+		)
+		(instances
+			(project ""
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/f7d1483b-b2e1-4d1b-a579-3453a4da28ca"
+					(reference "J1")
 					(unit 1)
 				)
 			)

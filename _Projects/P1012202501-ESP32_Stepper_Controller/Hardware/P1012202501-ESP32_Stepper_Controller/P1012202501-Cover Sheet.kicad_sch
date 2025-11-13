@@ -17,6 +17,48 @@
 		(uuid "0e68369d-7bb3-4213-8627-fa7ede985254")
 	)
 	(sheet
+		(at 38.1 91.44)
+		(size 13.97 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "81412355-a18d-4bff-bb60-8896e16c1f80")
+		(property "Sheetname" "Limit Switches"
+			(at 38.1 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "P1012202501-Limit Switches.kicad_sch"
+			(at 38.1 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P1012202501-Cover Sheet"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 38.1 25.4)
 		(size 13.97 13.97)
 		(exclude_from_sim no)
@@ -138,6 +180,48 @@
 			(project "P1012202501-Cover Sheet"
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 115.57)
+		(size 13.97 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f8e5551b-e31b-452d-9639-b088ef170407")
+		(property "Sheetname" "Control Inputs"
+			(at 38.1 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "P1012202501-Control Inputs.kicad_sch"
+			(at 38.1 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P1012202501-Cover Sheet"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
+					(page "6")
 				)
 			)
 		)

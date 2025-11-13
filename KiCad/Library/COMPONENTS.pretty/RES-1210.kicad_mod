@@ -1,14 +1,14 @@
-(footprint "RES-0603"
+(footprint "RES-1210"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "ERA3A")
+	(descr "CRCW1210")
 	(tags "Resistor")
 	(property "Reference" "R**"
-		(at 0 2 0)
+		(at -0.7 2.55 0)
 		(layer "F.SilkS")
-		(uuid "efbc861d-735a-419d-9c5b-4554e69d32e6")
+		(uuid "ebf0eeb1-243f-47a4-a3f2-983202712b23")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "RES-0603"
+	(property "Value" "RES-1210"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "81338df3-37db-40d6-9890-f939770965c5")
+		(uuid "2ef4c4b9-6051-41a5-ad3a-20949d1e294f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dc091535-88a9-491e-a559-7e3d8e5672d2")
+		(uuid "2c906114-9428-4b95-bc3e-0c7ea79d1898")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7cafab65-2f5c-4e49-93b5-536a167c2bf7")
+		(uuid "15314686-6be5-41da-9e52-beabacaa57da")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,99 +54,99 @@
 	)
 	(attr smd)
 	(fp_line
-		(start 0 -0.4)
-		(end 0 0.4)
+		(start 0 -1.15)
+		(end 0 1.15)
 		(stroke
-			(width 0.127)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e622f8c5-afbc-452e-81d3-fb629664b5a2")
+		(uuid "52ca4b42-4956-4fa7-b830-f0d60199f0fe")
 	)
 	(fp_line
-		(start -1.525 -0.75)
-		(end 1.525 -0.75)
+		(start -2.3 -1.6)
+		(end 2.3 -1.6)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "7854242b-6ca7-4996-bbb2-aea72ebcea0f")
+		(uuid "0e445198-efa0-4f70-96c1-da3a930f1b5d")
 	)
 	(fp_line
-		(start -1.525 0.75)
-		(end -1.525 -0.75)
+		(start -2.3 1.6)
+		(end -2.3 -1.6)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "2c006fe3-bbd3-4c22-8c73-389bfd33fc58")
+		(uuid "7b21bfaa-48f9-471e-bd74-75cf1ab776bd")
 	)
 	(fp_line
-		(start 1.525 -0.75)
-		(end 1.525 0.75)
+		(start 2.3 -1.6)
+		(end 2.3 1.6)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "91520c61-7522-474d-b5e3-191a902fbd6f")
+		(uuid "03fb209e-e950-4de3-94d1-8432d10c437f")
 	)
 	(fp_line
-		(start 1.525 0.75)
-		(end -1.525 0.75)
+		(start 2.3 1.6)
+		(end -2.3 1.6)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a923885e-ff1d-4def-8978-257e004a9d20")
+		(uuid "9c59f59e-6849-4836-984e-53dabfb27c6a")
 	)
 	(fp_line
-		(start -0.8 -0.4)
-		(end 0.8 -0.4)
+		(start -1.6 -1.25)
+		(end 1.6 -1.25)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "d93daa75-5319-42ef-88a7-42b53b30d736")
+		(uuid "26d3449d-8e69-4d38-b1b5-2cfcf39cf2a6")
 	)
 	(fp_line
-		(start -0.8 0.4)
-		(end -0.8 -0.4)
+		(start -1.6 1.25)
+		(end -1.6 -1.25)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "90c7d4b3-5919-4d67-814a-de1ee6a13110")
+		(uuid "a191ae10-4242-4c11-a8cd-4d9c562f7bb8")
 	)
 	(fp_line
-		(start 0.8 -0.4)
-		(end 0.8 0.4)
+		(start 1.6 -1.25)
+		(end 1.6 1.25)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b640fea3-5ef6-4593-be76-f6377c33f776")
+		(uuid "308d9643-d450-4b1a-84cb-e46c12eb3f3f")
 	)
 	(fp_line
-		(start 0.8 0.4)
-		(end -0.8 0.4)
+		(start 1.6 1.25)
+		(end -1.6 1.25)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "369fe888-b4d3-486b-947b-9c34e3a75e35")
+		(uuid "b60500ba-2631-4f30-a9aa-726989706f97")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "a23df592-d2c5-4abb-9c24-23cba3947be5")
+		(uuid "f57c028c-d624-4a25-bcca-36722719b67d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -155,27 +155,27 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -0.725 0)
-		(size 0.65 0.9)
+		(at -1.5 0)
+		(size 1.1 2.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "45d83bf3-770f-453f-8e65-f7b8653b5b04")
+		(uuid "cb5610e3-73fd-48ab-b6b6-9b1a08b070d5")
 	)
 	(pad "2" smd rect
-		(at 0.725 0)
-		(size 0.65 0.9)
+		(at 1.5 0)
+		(size 1.1 2.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "f0f4fb28-b07a-4279-b65a-bee16c3f541e")
+		(uuid "d9091e8c-15a9-42d9-8339-1475ded8f684")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/cloud/Downloads/LIB_ERA-3AEB682V/ERA-3AEB682V/3D/ERA-3AEB682V.stp"
+	(model "C:/Users/cloud/Downloads/LIB_CRCW12101K20JNEA/CRCW12101K20JNEA/3D/CRCW12101K20JNEA.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 0.6)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

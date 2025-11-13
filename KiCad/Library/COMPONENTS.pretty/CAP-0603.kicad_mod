@@ -54,6 +54,16 @@
 	)
 	(attr smd)
 	(fp_line
+		(start 0 -0.4)
+		(end 0 0.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "43aa8689-1539-4498-b46b-395b294d93d4")
+	)
+	(fp_line
 		(start -1.225 -0.62)
 		(end 1.225 -0.62)
 		(stroke
