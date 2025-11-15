@@ -2141,7 +2141,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
+			(property "Reference" "CN"
 				(at 16.51 7.62 0)
 				(effects
 					(font
@@ -4415,20 +4415,22 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20db0c5a-1baa-4bfa-a597-7bdc1794a320")
-		(property "Reference" "J2"
-			(at 24.892 24.13 0)
+		(property "Reference" "CN2"
+			(at 27.686 23.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
 		(property "Value" "KP39522-0002"
-			(at 31.242 34.29 0)
+			(at 36.068 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "CONNECTORS:39522-0002"
@@ -4515,7 +4517,7 @@
 			)
 		)
 		(property "Mate" "39520-0002"
-			(at 30.734 36.576 0)
+			(at 28.448 36.83 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4532,7 +4534,7 @@
 		(instances
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/d737bb1a-43fc-4186-97c6-d6ed9cc0125d"
-					(reference "J2")
+					(reference "CN2")
 					(unit 1)
 				)
 			)
@@ -5595,10 +5597,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "9c662ead-b293-4a3c-8a4f-71d71e3649fb")
+			(uuid "9c662ead-b293-4a3c-8a4f-71d71e3649fc")
 		)
 		(pin "1"
-			(uuid "06ca591c-430f-4022-8f05-e91a77bc31b8")
+			(uuid "06ca591c-430f-4022-8f05-e91a77bc31b9")
 		)
 		(instances
 			(project ""
@@ -6603,7 +6605,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed0e346c-ea05-4290-9592-deb9db415ba5")
+			(uuid "ed0e346c-ea05-4290-9592-deb9db415ba6")
 		)
 		(instances
 			(project ""
@@ -7726,7 +7728,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed0e346c-ea05-4290-9592-deb9db415ba5")
+			(uuid "ed0e346c-ea05-4290-9592-deb9db415ba7")
 		)
 		(instances
 			(project ""
