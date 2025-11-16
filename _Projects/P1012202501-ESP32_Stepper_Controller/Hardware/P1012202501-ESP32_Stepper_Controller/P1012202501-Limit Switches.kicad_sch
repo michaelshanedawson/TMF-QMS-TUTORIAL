@@ -3046,7 +3046,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea4a995c-f828-4704-9753-1e8898ecbfbd")
+			(uuid "ea4a995c-f828-4704-9753-1e8898ecbfbe")
 		)
 		(instances
 			(project ""
@@ -4496,7 +4496,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea4a995c-f828-4704-9753-1e8898ecbfbd")
+			(uuid "ea4a995c-f828-4704-9753-1e8898ecbfbf")
 		)
 		(instances
 			(project ""

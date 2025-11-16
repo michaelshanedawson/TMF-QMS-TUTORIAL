@@ -1,0 +1,234 @@
+(footprint "TBP04R1-500-03BE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "CN**"
+		(at -0.6 11.4 0)
+		(layer "F.SilkS")
+		(uuid "f0b453ad-76ae-4a0f-99f1-a41b08b51c52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TBP04R1-500-03BE"
+		(at 5.62 -8.015 0)
+		(layer "F.Fab")
+		(uuid "06ccfc04-8a72-40b5-80f0-0db2fa690a6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2940a5f5-fe97-4dae-8d27-e90075e132aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18a65092-66b9-4faa-afdc-e1f96b721f7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.5 -2)
+		(end 12.5 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "457d49d3-e189-40ed-a11b-6cbfad1ae5b9")
+	)
+	(fp_line
+		(start -2.5 10)
+		(end -2.5 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7b28b0a-2996-4257-94dd-e7c8983af09a")
+	)
+	(fp_line
+		(start 12.5 -2)
+		(end 12.5 10)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef4a17b1-1c70-4d16-84e0-c4338f994ba3")
+	)
+	(fp_line
+		(start 12.5 10)
+		(end -2.5 10)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6ee5e10-2597-4bf7-9d46-694faffae83d")
+	)
+	(fp_circle
+		(center 0 -3)
+		(end 0.1 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2b3fe793-128d-4f94-9e33-d05ade070aa5")
+	)
+	(fp_line
+		(start -2.75 -2.25)
+		(end 12.75 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8d8a2b87-d39f-462e-a70f-8affca564d47")
+	)
+	(fp_line
+		(start -2.75 10.25)
+		(end -2.75 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1008bae5-113f-45e1-93de-7f4a5157e34c")
+	)
+	(fp_line
+		(start 12.75 -2.25)
+		(end 12.75 10.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a7f9f7ee-a8a5-437b-ac51-f7dc65f7dc0f")
+	)
+	(fp_line
+		(start 12.75 10.25)
+		(end -2.75 10.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9344f527-0af5-411b-ac40-5ffe871a7f24")
+	)
+	(fp_line
+		(start -2.5 -2)
+		(end 12.5 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae631517-53e9-4867-a3d7-d4c31c6cefe8")
+	)
+	(fp_line
+		(start -2.5 10)
+		(end -2.5 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2265ef69-ff43-4020-a570-335f1fc65f7e")
+	)
+	(fp_line
+		(start 12.5 -2)
+		(end 12.5 10)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f5100a87-2f10-4df4-9e1c-074bd22bc877")
+	)
+	(fp_line
+		(start 12.5 10)
+		(end -2.5 10)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "05ba4a94-06cd-4797-846d-50b29b9c9433")
+	)
+	(fp_circle
+		(center 0 -3)
+		(end 0.1 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c1f7ca5b-0623-4bf2-b7f1-a5824c8ec42c")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.55 2.55)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "751fb287-ec73-43b1-8611-2a417009d611")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 2.55 2.55)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "7ba94a85-e2e6-4563-be22-c519bd7dfbda")
+	)
+	(pad "3" thru_hole circle
+		(at 10 0)
+		(size 2.55 2.55)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "47243cf6-fc51-4cc2-8f19-9605a6efe6d6")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/cloud/Downloads/TBP04R1_500_03BE/TBP04R1-500-03BE.step"
+		(offset
+			(xyz 5.8 1 -3.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)

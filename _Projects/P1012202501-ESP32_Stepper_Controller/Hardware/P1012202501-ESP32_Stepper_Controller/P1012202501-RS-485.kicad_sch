@@ -1391,7 +1391,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CONNECTORS:KP39522-0003"
+		(symbol "CONNECTORS:KPTBP04R1-500-03BE"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1406,7 +1406,7 @@
 					)
 				)
 			)
-			(property "Value" "KP39522-0003"
+			(property "Value" "KPTBP04R1-500-03BE"
 				(at 8.382 4.064 0)
 				(effects
 					(font
@@ -1414,7 +1414,7 @@
 					)
 				)
 			)
-			(property "Footprint" "CONNECTORS:39522-0003"
+			(property "Footprint" "CONNECTORS:TBP04R1-500-03BE"
 				(at -9.144 6.858 0)
 				(effects
 					(font
@@ -1434,7 +1434,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Connector, Pluggable, 3 Circuit, 1 Row, Right Angle, Through Hole, 5.0mm Pitch, 300V @ 15A, RoHS"
+			(property "Description" "Connector, Pluggable, 4 Circuit, 1 Row, Right Angle, Through Hole, 5.0mm Pitch, 300V @ 15A, RoHS, Blue"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1443,7 +1443,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer 1" "Molex"
+			(property "Manufacturer 1" "Same Sky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1452,7 +1452,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer 1 P/N" "39522-0003"
+			(property "Manufacturer 1 P/N" "TBP04R1-500-03BE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1470,7 +1470,7 @@
 					(hide yes)
 				)
 			)
-			(property "Vendor 1a P/N" "538-39522-0003"
+			(property "Vendor 1a P/N" "179-TBP04R1-500-03BE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1479,7 +1479,7 @@
 					(hide yes)
 				)
 			)
-			(property "Vendor 1a Cost LV" "0.52"
+			(property "Vendor 1a Cost LV" "0.48"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1488,7 +1488,7 @@
 					(hide yes)
 				)
 			)
-			(property "Vendor 1a Cost HV" "0.471"
+			(property "Vendor 1a Cost HV" "0.189"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1497,7 +1497,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mate" "39520-0003"
+			(property "Mate" "TBP04P1-500-03BE"
 				(at 0 0 0)
 				(show_name)
 				(effects
@@ -1524,7 +1524,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "KP39522-0003_1_1"
+			(symbol "KPTBP04R1-500-03BE_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 15.24 -7.62)
@@ -1591,7 +1591,7 @@
 					)
 				)
 			)
-			(symbol "KP39522-0003_1_2"
+			(symbol "KPTBP04R1-500-03BE_1_2"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 5.08 -7.62)
@@ -3134,7 +3134,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b23183aa-298c-453e-b947-8e866395f598")
+			(uuid "b23183aa-298c-453e-b947-8e866395f599")
 		)
 		(instances
 			(project ""
@@ -3146,7 +3146,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CONNECTORS:KP39522-0003")
+		(lib_id "CONNECTORS:KPTBP04R1-500-03BE")
 		(at 224.79 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3154,7 +3154,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "34c92d10-399d-47fe-be17-b32d57f479e7")
+		(uuid "42e9371a-b00b-44ee-9cc8-d217dcbc710a")
 		(property "Reference" "CN1"
 			(at 241.3 78.7399 0)
 			(effects
@@ -3164,7 +3164,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "KP39522-0003"
+		(property "Value" "KPTBP04R1-500-03BE"
 			(at 241.3 81.2799 0)
 			(effects
 				(font
@@ -3173,7 +3173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONNECTORS:39522-0003"
+		(property "Footprint" "CONNECTORS:TBP04R1-500-03BE"
 			(at 215.646 71.882 0)
 			(effects
 				(font
@@ -3193,7 +3193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector, Pluggable, 3 Circuit, 1 Row, Right Angle, Through Hole, 5.0mm Pitch, 300V @ 15A, RoHS"
+		(property "Description" "Connector, Pluggable, 4 Circuit, 1 Row, Right Angle, Through Hole, 5.0mm Pitch, 300V @ 15A, RoHS, Blue"
 			(at 224.79 78.74 0)
 			(effects
 				(font
@@ -3202,7 +3202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer 1" "Molex"
+		(property "Manufacturer 1" "Same Sky"
 			(at 224.79 78.74 0)
 			(effects
 				(font
@@ -3211,7 +3211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer 1 P/N" "39522-0003"
+		(property "Manufacturer 1 P/N" "TBP04R1-500-03BE"
 			(at 224.79 78.74 0)
 			(effects
 				(font
@@ -3229,7 +3229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor 1a P/N" "538-39522-0003"
+		(property "Vendor 1a P/N" "179-TBP04R1-500-03BE"
 			(at 224.79 78.74 0)
 			(effects
 				(font
@@ -3238,7 +3238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor 1a Cost LV" "0.52"
+		(property "Vendor 1a Cost LV" "0.48"
 			(at 224.79 78.74 0)
 			(effects
 				(font
@@ -3247,7 +3247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor 1a Cost HV" "0.471"
+		(property "Vendor 1a Cost HV" "0.189"
 			(at 224.79 78.74 0)
 			(effects
 				(font
@@ -3256,7 +3256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mate" "39520-0003"
+		(property "Mate" "TBP04P1-500-03BE"
 			(at 241.3 83.8199 0)
 			(show_name yes)
 			(effects
@@ -3266,14 +3266,14 @@
 				(justify left)
 			)
 		)
-		(pin "2"
-			(uuid "e183cc8b-5665-431f-8110-6364ba7683ec")
-		)
 		(pin "1"
-			(uuid "24770476-8a91-40a8-bd22-00af99b84697")
+			(uuid "bbad9170-7ce6-442f-9a69-62a5ec3f1420")
 		)
 		(pin "3"
-			(uuid "ae52a63f-21fe-4dae-aef7-70e6f0e8d9a7")
+			(uuid "6624b29d-4569-4319-a2d4-5762a5f566a3")
+		)
+		(pin "2"
+			(uuid "65ebc739-378e-4899-91b5-94ca4344e389")
 		)
 		(instances
 			(project ""
@@ -4179,7 +4179,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b23183aa-298c-453e-b947-8e866395f598")
+			(uuid "b23183aa-298c-453e-b947-8e866395f59a")
 		)
 		(instances
 			(project ""
@@ -4504,7 +4504,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "166c670b-5676-4362-9cfe-b32728e3dcec")
+			(uuid "166c670b-5676-4362-9cfe-b32728e3dced")
 		)
 		(instances
 			(project ""
