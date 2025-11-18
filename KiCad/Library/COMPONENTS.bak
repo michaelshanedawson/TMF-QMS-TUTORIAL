@@ -3174,6 +3174,247 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "QBC847BDW1T1G"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 19.05 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "QBC847BDW1T1G"
+			(at 19.05 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "COMPONENTS:SC-70-6"
+			(at 19.05 -94.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 -194.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Transistor, BJT, Dual NPN, SC-70-6, 45V, 100mA, -55°C to 150°C, RoHS"
+			(at 2.032 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "onsemi"
+			(at 19.05 -694.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "BC847BDW1T1G"
+			(at 19.05 -794.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at -27.432 9.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "863-BC847BDW1T1G"
+			(at 19.05 -494.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.14"
+			(at 19.05 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.42"
+			(at -23.622 10.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "QBC847BDW1T1G_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 17.78 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "E2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 0 180)
+				(length 5.08)
+				(name "C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -2.54 180)
+				(length 5.08)
+				(name "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -5.08 180)
+				(length 5.08)
+				(name "E1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "QTCMT1600T3"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4063,7 +4304,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "RC060322K1075AAA"
+		(property "Value" "RC060347K5075AAA"
 			(at 1.524 -6.096 0)
 			(effects
 				(font
@@ -4093,7 +4334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, Chip, 0603, 22.1KΩ, 75V, 1%, -55°C to 155°C, RoHS"
+		(property "Description" "Resistor, Chip, 0603, 47.5KΩ, 75V, 0.11%, -55°C to 155°C, RoHS, AEC-Q200"
 			(at 4.064 -9.144 0)
 			(effects
 				(font
@@ -4102,7 +4343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer 1" "Vishay"
+		(property "Manufacturer 1" "Panasonic"
 			(at -2.54 -15.494 0)
 			(effects
 				(font
@@ -4111,7 +4352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer 1 P/N" "CRCW060322K1FKEBC"
+		(property "Manufacturer 1 P/N" "ERA-3AEB4752V"
 			(at 7.112 -13.208 0)
 			(effects
 				(font
@@ -4129,7 +4370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor 1a P/N" "71-CRCW060322K1FKEBC"
+		(property "Vendor 1a P/N" "667-ERA-3AEB4752V"
 			(at -3.81 10.414 0)
 			(effects
 				(font
@@ -4138,7 +4379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor 1a Cost LV" "0.11"
+		(property "Vendor 1a Cost LV" "0.10"
 			(at -18.796 -0.254 0)
 			(effects
 				(font
@@ -4147,7 +4388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor 1a Cost HV" "0.009"
+		(property "Vendor 1a Cost HV" "0.042"
 			(at -18.288 6.35 0)
 			(effects
 				(font
@@ -4156,7 +4397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "22.1KΩ"
+		(property "Val" "47.5KΩ"
 			(at 8.89 -2.54 0)
 			(effects
 				(font
@@ -4877,6 +5118,230 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SW435151014845"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "S"
+			(at 26.67 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "SW435151014845"
+			(at 26.67 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "435151014845"
+			(at 26.67 -87.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/435151014845.pdf"
+			(at 26.67 -187.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "WS-TASV Tact Switch 3.0*2.6mm Vertical type, SMT, Height 1.4mm, Salmon actuator, 450gf, T&R"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.4"
+			(at 26.67 -387.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-435151014845"
+			(at 26.67 -487.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/435151014845?qs=OlC7AqGiEDm1DeUERlpGng%3D%3D"
+			(at 26.67 -587.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 26.67 -687.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "435151014845"
+			(at 26.67 -787.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(symbol "SW435151014845_1_1"
+			(rectangle
+				(start 5.08 10.16)
+				(end 25.4 -12.7)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "GND_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 15.24 270)
+				(length 5.08)
+				(name "NO_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 -17.78 90)
+				(length 5.08)
+				(name "COM_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 15.24 270)
+				(length 5.08)
+				(name "NO_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -17.78 90)
+				(length 5.08)
+				(name "COM_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 0 180)
+				(length 5.08)
+				(name "GND_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
