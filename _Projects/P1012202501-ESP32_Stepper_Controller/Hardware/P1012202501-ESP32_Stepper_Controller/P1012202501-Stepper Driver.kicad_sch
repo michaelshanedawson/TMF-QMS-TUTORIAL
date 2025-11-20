@@ -5,6 +5,1641 @@
 	(uuid "a5553043-cb82-4ac4-a278-c81b7c837de8")
 	(paper "A4")
 	(lib_symbols
+		(symbol "COMPONENTS:CC0603103050AAAX7R"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 4.826 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CC0603103050AAAX7R"
+				(at -3.556 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "COMPONENTS:CAP-0603"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor, Chip, 0603, 0.01µF, 50V, 10%, X7R, -55°C to 125°C, RoHS, AEC-Q200"
+				(at 0.762 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1" "Murata"
+				(at -15.494 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1 P/N" "GCM188R71H103KA37J"
+				(at -10.922 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a" "Mouser"
+				(at -17.018 -19.812 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a P/N" "81-GCM188R71H103KA7J"
+				(at -7.366 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost LV" "0.10"
+				(at -17.018 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost HV" "0.019"
+				(at -9.652 -18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Val" "0.01µF, 50V, 0603"
+				(at 4.826 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CC0603103050AAAX7R_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "COMPONENTS:CC0603104050AAAX7R"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 4.826 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CC0603104050AAAX7R"
+				(at -3.556 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "COMPONENTS:CAP-0603"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor, Chip, 0603, 10µF, 50V, 10%, X7R, -55°C to 125°C, RoHS"
+				(at 0.762 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1" "Yageo"
+				(at -15.494 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1 P/N" "CC0603KRX7R9BB104"
+				(at -10.922 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a" "Mouser"
+				(at -17.018 -19.812 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a P/N" "603-CC603KRX7R9BB104"
+				(at -7.366 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost LV" "0.10"
+				(at -17.018 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost HV" "0.012"
+				(at -9.652 -18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Val" "0.1µF, 50V, 0603"
+				(at 4.826 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CC0603104050AAAX7R_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "COMPONENTS:CEA771MS107M1JLAS018"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CEA771MS107M1JLAS018"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "COMPONENTS:A768MS157M1HLAE024"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor, Electrolytic, Organic Polymer, 100µF, 63V, 10mm Diameter, 12.2mm Height, -55°C to 155°C, RoHS, AEC-Q200"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1" "KEMET"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1 P/N" "A771MS107M1JLAS018"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a" "Mouser"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a P/N" "80-A771MS107M1JLAS18"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost LV" "1.49"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost HV" "0.472"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Val" "100µF, 63V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CEA771MS107M1JLAS018_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 1.778) (xy 4.064 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 1.27) (xy 3.556 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 2.54)
+					(end 5.842 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54) (xy 6.858 -2.54) (xy 6.858 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "COMPONENTS:RC06031M0075AAA"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 5.08 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "RC06031M0075AAA"
+				(at 1.524 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "COMPONENTS:RES-0603"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, Chip, 0603, 1MΩ, 75V, 0.1%, -55°C to 15°C, RoHS"
+				(at 4.064 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1" "Vishay"
+				(at -2.54 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1 P/N" "MCT0603MD1004BP500"
+				(at 7.112 -13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a" "Mouser"
+				(at -19.812 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a P/N" "594-MCT0603MD1004BP5"
+				(at -3.81 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost LV" "0.24"
+				(at -18.796 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost HV" "0.139"
+				(at -18.288 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Val" "1MΩ"
+				(at 8.89 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RC06031M0075AAA_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "COMPONENTS:RC08050R2075AAE"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 5.08 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "RC08050R2075AAE"
+				(at 1.524 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "COMPONENTS:RES-0805"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, Chip, 0805, 0.2Ω, 75V, 1%, -55°C to 155°C, RoHS, AEC-Q200"
+				(at 4.064 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1" "Vishay"
+				(at -2.54 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1 P/N" "RCWE0805R200FKEA"
+				(at 7.112 -13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a" "Mouser"
+				(at -19.812 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a P/N" "71-RCWE0805R200FKEA"
+				(at -3.81 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost LV" "0.17"
+				(at -18.796 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost HV" "0.051"
+				(at -18.288 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Val" "0.2Ω"
+				(at 8.89 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RC08050R2075AAE_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "COMPONENTS:UDRV8825PWPR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 5.334 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "UDRV8825PWPR"
+				(at 6.858 -46.482 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "COMPONENTS:HTSSOP-28"
+				(at 31.75 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 31.75 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Driver IC, 2.5A Bipolar Stepper Motor Driver with On-Chip 1/32 Microstepping Indexer (Step/Dir Ctrl), 2.5A, 8.2V to 45V, -40°C to 85°C, RoHS"
+				(at 10.668 14.732 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1" "Texas Instruments"
+				(at 31.75 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1 P/N" "DRV8825PWPR"
+				(at 31.75 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a" "Mouser"
+				(at 31.75 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a P/N" "595-DRV8825PWPR"
+				(at 31.75 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost LV" "4.03"
+				(at 31.75 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost HV" "2.40"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Val" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "UDRV8825PWPR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 30.48 -45.72)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VMA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "VMB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 0)
+					(length 5.08)
+					(name "VCP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 0)
+					(length 5.08)
+					(name "NENBL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -11.43 0)
+					(length 5.08)
+					(name "NRESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -13.97 0)
+					(length 5.08)
+					(name "NSLEEP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -16.51 0)
+					(length 5.08)
+					(name "NHOME"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -19.05 0)
+					(length 5.08)
+					(name "DIR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -21.59 0)
+					(length 5.08)
+					(name "STEP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -24.13 0)
+					(length 5.08)
+					(name "DECAY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -26.67 0)
+					(length 5.08)
+					(name "MODE0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -29.21 0)
+					(length 5.08)
+					(name "MODE1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -31.75 0)
+					(length 5.08)
+					(name "MODE2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -34.29 0)
+					(length 5.08)
+					(name "AVREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -36.83 0)
+					(length 5.08)
+					(name "BVREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -40.64 0)
+					(length 5.08)
+					(name "ISENA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -43.18 0)
+					(length 5.08)
+					(name "ISENB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 0 180)
+					(length 5.08)
+					(name "CP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -6.35 180)
+					(length 5.08)
+					(name "CP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -13.97 180)
+					(length 5.08)
+					(name "AOUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -16.51 180)
+					(length 5.08)
+					(name "AOUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -19.05 180)
+					(length 5.08)
+					(name "BOUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -21.59 180)
+					(length 5.08)
+					(name "BOUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -30.48 180)
+					(length 5.08)
+					(name "NFAULT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -33.02 180)
+					(length 5.08)
+					(name "V3P3OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 35.56 -35.56 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -38.1 180)
+					(length 5.08)
+					(name "GND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -40.64 180)
+					(length 5.08)
+					(name "GND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -43.18 180)
+					(length 5.08)
+					(name "GND_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CONNECTORS:KPTBP04R1-500-04BE"
 			(pin_names
 				(offset 0.254)
@@ -675,18 +2310,514 @@
 		)
 		(uuid "1072792e-3122-492f-8889-92d5255e1716")
 	)
+	(junction
+		(at 55.88 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08b3f3a9-9792-41e4-884f-9af637126162")
+	)
+	(junction
+		(at 83.82 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09507591-5c1a-4142-85f6-065e450ad0a3")
+	)
+	(junction
+		(at 107.95 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "453892ac-d404-44ed-82c6-58b6baf0df3d")
+	)
+	(junction
+		(at 72.39 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5afbc468-7c2b-477f-b897-33acafb6d9e6")
+	)
+	(junction
+		(at 25.4 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "637d0038-3c74-452d-9eb5-8d010dedf77e")
+	)
+	(junction
+		(at 40.64 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74d0b4de-016a-49b1-8417-17a3aad0ae9b")
+	)
+	(junction
+		(at 123.19 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77a95ad1-7563-4a31-a74e-1f559f47a6f8")
+	)
+	(junction
+		(at 172.72 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db2c5887-fc18-4c80-b3d1-bffcf425a9fd")
+	)
+	(junction
+		(at 172.72 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec841c95-a3b9-4eb2-9d30-4f951f431188")
+	)
+	(junction
+		(at 83.82 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec88afee-6b83-4ac7-a093-555c02e7a219")
+	)
+	(junction
+		(at 40.64 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc8fdcdc-5a80-4af1-ae3e-ff5d0b5212c5")
+	)
+	(wire
+		(pts
+			(xy 107.95 72.39) (xy 107.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00a7e31c-bc01-49ed-95a5-29b02bd08821")
+	)
+	(wire
+		(pts
+			(xy 134.62 72.39) (xy 107.95 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "025befd6-417e-48d0-8951-e84a4123475d")
+	)
+	(wire
+		(pts
+			(xy 172.72 110.49) (xy 172.72 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04abb7e1-614e-4edd-b931-b426d47892db")
+	)
+	(wire
+		(pts
+			(xy 172.72 107.95) (xy 172.72 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04ea7670-3032-42bb-8e75-9950a807d5cc")
+	)
+	(wire
+		(pts
+			(xy 83.82 96.52) (xy 83.82 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f01fc83-f37c-4c14-9b94-10dc4d032ba7")
+	)
+	(wire
+		(pts
+			(xy 91.44 76.2) (xy 91.44 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cfa8c5a-9bbb-4817-b734-902d4405a453")
+	)
+	(wire
+		(pts
+			(xy 72.39 69.85) (xy 72.39 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "224de1d0-e4e0-4857-b787-e117075dc4dd")
+	)
+	(wire
+		(pts
+			(xy 170.18 113.03) (xy 172.72 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28aa0fc9-0db9-474a-98e3-c9eb3b000d87")
+	)
+	(wire
+		(pts
+			(xy 190.5 76.2) (xy 190.5 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e5f79f7-6cdd-4c12-8910-0d26100b5c62")
+	)
+	(wire
+		(pts
+			(xy 40.64 96.52) (xy 40.64 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32544131-14a4-46da-8b37-d5e6eee525b7")
+	)
+	(wire
+		(pts
+			(xy 25.4 96.52) (xy 40.64 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c925725-e440-42db-accd-a608de5ce8f4")
+	)
+	(wire
+		(pts
+			(xy 123.19 133.35) (xy 123.19 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af837e1-af08-4f9d-b12a-408cc16e90aa")
+	)
+	(wire
+		(pts
+			(xy 134.62 76.2) (xy 91.44 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b87a670-8e99-4903-b047-0b42eb81c595")
+	)
+	(wire
+		(pts
+			(xy 172.72 113.03) (xy 172.72 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ea28292-60a8-4a7e-8d20-3d0b40a375be")
+	)
+	(wire
+		(pts
+			(xy 170.18 110.49) (xy 172.72 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5260a748-636f-420e-9c38-ed86c5babadd")
+	)
+	(wire
+		(pts
+			(xy 55.88 87.63) (xy 55.88 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f150be-43c4-4b09-a71e-294965cfb197")
+	)
+	(wire
+		(pts
+			(xy 134.62 113.03) (xy 129.54 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62170445-d6bb-4db9-b398-ecebbc419b30")
+	)
+	(wire
+		(pts
+			(xy 40.64 69.85) (xy 40.64 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6571a4d5-a09a-45db-a5ab-6ec3f96d143a")
+	)
+	(wire
+		(pts
+			(xy 55.88 96.52) (xy 40.64 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67afc0d8-bbd4-4e6e-b483-8744113f4d4b")
+	)
+	(wire
+		(pts
+			(xy 134.62 110.49) (xy 118.11 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67ebdbd0-0db2-4acb-993e-410ba3641012")
+	)
+	(wire
+		(pts
+			(xy 40.64 87.63) (xy 40.64 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b85853-f0d1-4738-b87e-cae1793f6a2e")
+	)
+	(wire
+		(pts
+			(xy 118.11 133.35) (xy 123.19 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7519423e-0758-46e9-8a9d-abe3b531045c")
+	)
+	(wire
+		(pts
+			(xy 91.44 96.52) (xy 83.82 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f4775c-54e0-4ddc-b89e-a9da766c55d6")
+	)
+	(wire
+		(pts
+			(xy 25.4 87.63) (xy 25.4 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a15e5cd6-b705-4232-804b-ad752dd5889d")
+	)
+	(wire
+		(pts
+			(xy 25.4 69.85) (xy 40.64 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a40774ce-6ffd-45e9-bf76-055a93236d7b")
+	)
+	(wire
+		(pts
+			(xy 55.88 69.85) (xy 55.88 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a734943c-405e-4d0b-bbbb-91b86e705707")
+	)
+	(wire
+		(pts
+			(xy 123.19 133.35) (xy 129.54 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38191f9-1d23-4af7-ab52-343752b1ac74")
+	)
+	(wire
+		(pts
+			(xy 72.39 69.85) (xy 83.82 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b78831f1-ff8a-415f-b39f-d24b2248f16d")
+	)
+	(wire
+		(pts
+			(xy 129.54 113.03) (xy 129.54 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be9d3dd1-c68a-47a0-a2d8-d8f251d467c6")
+	)
+	(wire
+		(pts
+			(xy 25.4 60.96) (xy 25.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c185cdf0-b71d-4739-b347-52043cee087f")
+	)
+	(wire
+		(pts
+			(xy 72.39 87.63) (xy 72.39 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd538de1-4219-4f28-b677-be7102211a0f")
+	)
+	(wire
+		(pts
+			(xy 72.39 96.52) (xy 83.82 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf4fa774-397c-4c6c-a66b-830fbd4b94ab")
+	)
+	(wire
+		(pts
+			(xy 170.18 69.85) (xy 175.26 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d45e23fe-8d88-4cf2-9610-1fee171f1d76")
+	)
+	(wire
+		(pts
+			(xy 83.82 69.85) (xy 107.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a14f4e-97ff-422c-8e72-6a2f9d360e3a")
+	)
+	(wire
+		(pts
+			(xy 107.95 69.85) (xy 134.62 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56473d4-bae0-4f30-8dd9-4dc75fa362f0")
+	)
+	(wire
+		(pts
+			(xy 40.64 69.85) (xy 55.88 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e036d5af-57a2-4f38-83f9-4711f17e60c4")
+	)
+	(wire
+		(pts
+			(xy 55.88 69.85) (xy 72.39 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1842a0c-58c8-4dcd-9c40-997a8b2054b8")
+	)
+	(wire
+		(pts
+			(xy 170.18 76.2) (xy 190.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4e6291e-29d2-44d5-879d-39e13dcfb55c")
+	)
+	(wire
+		(pts
+			(xy 25.4 69.85) (xy 25.4 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e78f6acc-05ac-44ac-a089-2465eca6c1b9")
+	)
+	(wire
+		(pts
+			(xy 170.18 107.95) (xy 172.72 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7fced5c-24f4-4a34-9e79-8c0214713bd3")
+	)
+	(wire
+		(pts
+			(xy 190.5 69.85) (xy 187.96 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0168f49-0b5a-433a-ac96-41cf79500824")
+	)
+	(wire
+		(pts
+			(xy 83.82 69.85) (xy 83.82 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f020d9f2-b592-47ac-9dd9-6587664bae15")
+	)
+	(wire
+		(pts
+			(xy 118.11 110.49) (xy 118.11 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd32556f-6bfb-4531-8577-544045e7e4c8")
+	)
 	(symbol
 		(lib_id "CONNECTORS:KPTBP04R1-500-04BE")
-		(at 45.72 163.83 0)
+		(at 232.41 91.44 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5d3c04e0-d7b7-475d-8cd9-f23834d4053b")
 		(property "Reference" "CN6"
-			(at 62.23 165.0999 0)
+			(at 248.92 90.1701 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -695,7 +2826,7 @@
 			)
 		)
 		(property "Value" "KPTBP04R1-500-04BE"
-			(at 62.23 167.6399 0)
+			(at 248.92 87.6301 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -704,7 +2835,7 @@
 			)
 		)
 		(property "Footprint" "CONNECTORS:TBP04R1-500-04BE"
-			(at 36.576 156.972 0)
+			(at 223.266 98.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -714,7 +2845,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.974 173.736 0)
+			(at 232.664 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -724,7 +2855,7 @@
 			)
 		)
 		(property "Description" "Connector, Pluggable, 4 Circuit, 1 Row, Right Angle, Through Hole, 5.0mm Pitch, 300V @ 15A, RoHS, Blue"
-			(at 45.72 163.83 0)
+			(at 232.41 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -733,7 +2864,7 @@
 			)
 		)
 		(property "Manufacturer 1" "Same Sky"
-			(at 45.72 163.83 0)
+			(at 232.41 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -742,7 +2873,7 @@
 			)
 		)
 		(property "Manufacturer 1 P/N" "TBP04R1-500-04BE"
-			(at 45.72 163.83 0)
+			(at 232.41 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -751,7 +2882,7 @@
 			)
 		)
 		(property "Vendor 1a" "Mouser"
-			(at 45.72 163.83 0)
+			(at 232.41 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -760,7 +2891,7 @@
 			)
 		)
 		(property "Vendor 1a P/N" "179-TBP04R1-500-04BE"
-			(at 45.72 163.83 0)
+			(at 232.41 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -769,7 +2900,7 @@
 			)
 		)
 		(property "Vendor 1a Cost LV" "0.62"
-			(at 45.72 163.83 0)
+			(at 232.41 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -778,7 +2909,7 @@
 			)
 		)
 		(property "Vendor 1a Cost HV" "0.246"
-			(at 45.72 163.83 0)
+			(at 232.41 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -787,7 +2918,7 @@
 			)
 		)
 		(property "Mate" "TBP04P1-500-04BE"
-			(at 62.23 170.1799 0)
+			(at 248.92 85.0901 0)
 			(show_name yes)
 			(effects
 				(font
@@ -818,8 +2949,553 @@
 		)
 	)
 	(symbol
+		(lib_id "COMPONENTS:RC08050R2075AAE")
+		(at 129.54 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "681971f6-3bd7-409c-b72f-59b092224d4d")
+		(property "Reference" "R25"
+			(at 132.08 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RC08050R2075AAE"
+			(at 123.444 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "COMPONENTS:RES-0805"
+			(at 33.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -66.65 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, Chip, 0805, 0.2Ω, 75V, 1%, -55°C to 155°C, RoHS, AEC-Q200"
+			(at 120.396 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Vishay"
+			(at 114.046 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "RCWE0805R200FKEA"
+			(at 116.332 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 131.826 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "71-RCWE0805R200FKEA"
+			(at 139.954 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.17"
+			(at 129.286 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.051"
+			(at 135.89 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "0.2Ω"
+			(at 132.08 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "25b2c950-ab67-4f7e-9db1-92dc861d4895")
+		)
+		(pin "2"
+			(uuid "4cf34761-1f0c-4c5c-b6ff-5ec0fa72db52")
+		)
+		(instances
+			(project ""
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COMPONENTS:CEA771MS107M1JLAS018")
+		(at 25.4 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "702cd540-65ca-4b08-a6b3-fa1df83c97f3")
+		(property "Reference" "C25"
+			(at 29.21 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CEA771MS107M1JLAS018"
+			(at 20.32 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "COMPONENTS:A768MS157M1HLAE024"
+			(at -70.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -170.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, Electrolytic, Organic Polymer, 100µF, 63V, 10mm Diameter, 12.2mm Height, -55°C to 155°C, RoHS, AEC-Q200"
+			(at 25.4 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "KEMET"
+			(at -670.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "A771MS107M1JLAS018"
+			(at -770.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at -370.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "80-A771MS107M1JLAS18"
+			(at -470.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "1.49"
+			(at -570.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.472"
+			(at 25.4 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "100µF, 63V"
+			(at 25.4 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6c063e8-6bc3-4d10-8b5a-e403a58addca")
+		)
+		(pin "2"
+			(uuid "5d85e9ee-eb4b-428c-8242-04924c1e8b57")
+		)
+		(instances
+			(project ""
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COMPONENTS:CC0603103050AAAX7R")
+		(at 175.26 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75ae296d-dc8a-4bbc-a111-122e274a4732")
+		(property "Reference" "C26"
+			(at 181.61 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CC0603103050AAAX7R"
+			(at 171.704 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "COMPONENTS:CAP-0603"
+			(at 184.15 166.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 266.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, Chip, 0603, 0.01µF, 50V, 10%, X7R, -55°C to 125°C, RoHS, AEC-Q200"
+			(at 176.022 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Murata"
+			(at 159.766 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "GCM188R71H103KA37J"
+			(at 164.338 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 158.242 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "81-GCM188R71H103KA7J"
+			(at 167.894 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.10"
+			(at 158.242 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.019"
+			(at 165.608 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "0.01µF, 50V, 0603"
+			(at 181.61 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04f5dacc-709e-4941-bd77-5cfde05b1058")
+		)
+		(pin "2"
+			(uuid "6a0bb370-b416-408b-a9a1-1c39776cdb99")
+		)
+		(instances
+			(project ""
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COMPONENTS:RC08050R2075AAE")
+		(at 118.11 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f9fffdc-eda9-4046-b293-d926e1f56dcc")
+		(property "Reference" "R24"
+			(at 120.65 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RC08050R2075AAE"
+			(at 112.014 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "COMPONENTS:RES-0805"
+			(at 21.92 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -78.08 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, Chip, 0805, 0.2Ω, 75V, 1%, -55°C to 155°C, RoHS, AEC-Q200"
+			(at 108.966 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Vishay"
+			(at 102.616 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "RCWE0805R200FKEA"
+			(at 104.902 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 120.396 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "71-RCWE0805R200FKEA"
+			(at 128.524 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.17"
+			(at 117.856 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.051"
+			(at 124.46 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "0.2Ω"
+			(at 120.65 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "25b2c950-ab67-4f7e-9db1-92dc861d4895")
+		)
+		(pin "2"
+			(uuid "4cf34761-1f0c-4c5c-b6ff-5ec0fa72db52")
+		)
+		(instances
+			(project ""
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
-		(at 35.56 62.23 0)
+		(at 25.4 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -828,7 +3504,7 @@
 		(fields_autoplaced yes)
 		(uuid "80c39399-b967-4c2a-bfa9-c24c96bd9dbc")
 		(property "Reference" "#PWR063"
-			(at 35.56 66.04 0)
+			(at 25.4 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -837,7 +3513,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 35.56 57.15 0)
+			(at 25.4 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -845,7 +3521,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 62.23 0)
+			(at 25.4 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -854,7 +3530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 62.23 0)
+			(at 25.4 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -863,7 +3539,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 35.56 62.23 0)
+			(at 25.4 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -885,7 +3561,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 69.85 0)
+		(at 172.72 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -894,7 +3570,7 @@
 		(fields_autoplaced yes)
 		(uuid "850b24f6-0695-4201-946c-a41d423ec222")
 		(property "Reference" "#PWR062"
-			(at 34.29 76.2 0)
+			(at 172.72 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -903,7 +3579,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 74.93 0)
+			(at 172.72 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -911,7 +3587,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 69.85 0)
+			(at 172.72 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -920,7 +3596,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 69.85 0)
+			(at 172.72 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -929,7 +3605,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 69.85 0)
+			(at 172.72 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -944,6 +3620,897 @@
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COMPONENTS:CC0603104050AAAX7R")
+		(at 55.88 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9cf0b812-845f-4948-b6e1-678e71653c26")
+		(property "Reference" "C23"
+			(at 59.69 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CC0603104050AAAX7R"
+			(at 52.324 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "COMPONENTS:CAP-0603"
+			(at -40.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -140.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, Chip, 0603, 10µF, 50V, 10%, X7R, -55°C to 125°C, RoHS"
+			(at 49.022 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Yageo"
+			(at 40.64 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "CC0603KRX7R9BB104"
+			(at 43.18 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 36.068 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "603-CC603KRX7R9BB104"
+			(at 45.72 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.10"
+			(at 38.1 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.012"
+			(at 37.846 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "0.1µF, 50V, 0603"
+			(at 51.816 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "959a680d-2bdb-4833-bda8-9bc9b91347a8")
+		)
+		(pin "2"
+			(uuid "116d9157-beaa-4329-9157-9e2a354e91f6")
+		)
+		(instances
+			(project ""
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COMPONENTS:UDRV8825PWPR")
+		(at 134.62 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b76dafd0-b9cb-425e-8a4b-66e3c2cd0d69")
+		(property "Reference" "IC6"
+			(at 152.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UDRV8825PWPR"
+			(at 152.4 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "COMPONENTS:HTSSOP-28"
+			(at 166.37 164.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 264.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Driver IC, 2.5A Bipolar Stepper Motor Driver with On-Chip 1/32 Microstepping Indexer (Step/Dir Ctrl), 2.5A, 8.2V to 45V, -40°C to 85°C, RoHS"
+			(at 145.288 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Texas Instruments"
+			(at 166.37 764.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "DRV8825PWPR"
+			(at 166.37 864.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 166.37 664.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "595-DRV8825PWPR"
+			(at 166.37 564.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "4.03"
+			(at 166.37 464.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "2.40"
+			(at 134.62 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" ""
+			(at 134.62 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "29"
+			(uuid "ac796939-2490-493f-9239-5761e4597335")
+		)
+		(pin "14"
+			(uuid "47c6721a-5c7c-4747-8ac1-6f151cbc58f6")
+		)
+		(pin "10"
+			(uuid "0c762841-32aa-478c-9c43-4b23edea57b7")
+		)
+		(pin "18"
+			(uuid "35a8af71-d9ae-433a-9cba-d9de1fb7a7fa")
+		)
+		(pin "28"
+			(uuid "1670f446-7b80-4af7-94b9-cc0e7a103fe6")
+		)
+		(pin "7"
+			(uuid "05bfef2a-7aa3-472b-a85e-ac68bfe562b0")
+		)
+		(pin "8"
+			(uuid "2862557c-e288-4212-bf64-ddb4752fc666")
+		)
+		(pin "15"
+			(uuid "01f33760-96ad-4570-8e5f-474494600ca3")
+		)
+		(pin "23"
+			(uuid "0065570a-44da-4877-a811-f73aa8f22775")
+		)
+		(pin "5"
+			(uuid "a0e35203-e63c-4193-907b-0e09da0d4e8f")
+		)
+		(pin "22"
+			(uuid "a805d863-6fdb-458d-a8f7-8924ca9ef1b0")
+		)
+		(pin "11"
+			(uuid "3e09727f-36da-4dae-a155-55c029211a85")
+		)
+		(pin "4"
+			(uuid "3eee8ff2-8268-4c02-9bd7-c35b899184fe")
+		)
+		(pin "3"
+			(uuid "9ef22b71-cae0-4275-af53-66a380a0de3f")
+		)
+		(pin "21"
+			(uuid "a2b26946-c7bf-4913-96f1-24e8c93e03bf")
+		)
+		(pin "16"
+			(uuid "4d6a57d0-6864-430d-9cc8-8f92b18512f5")
+		)
+		(pin "17"
+			(uuid "35c2c15c-5b17-4797-91a9-3326438ff431")
+		)
+		(pin "27"
+			(uuid "4a3ca310-b4b0-4869-aba8-3edcdf5a7896")
+		)
+		(pin "20"
+			(uuid "8f1a91f7-23c1-4b69-9632-e2c7324d07bf")
+		)
+		(pin "19"
+			(uuid "5298986e-2011-4f71-8de2-7f73a896ae76")
+		)
+		(pin "26"
+			(uuid "dfc70520-0a91-43eb-a87b-76c173c635b9")
+		)
+		(pin "12"
+			(uuid "a47350b0-4007-45d3-a229-a541970f45e4")
+		)
+		(pin "9"
+			(uuid "ff6818c7-4b46-4328-b3f8-512559d8f2f9")
+		)
+		(pin "1"
+			(uuid "80478da9-a578-4d45-a55d-a106a2f91680")
+		)
+		(pin "24"
+			(uuid "59a529b3-a47c-466f-aa9d-64e4eb91771b")
+		)
+		(pin "25"
+			(uuid "863f06ce-206a-4a7f-bd1a-43dcf02494bb")
+		)
+		(pin "2"
+			(uuid "902cdc44-e8e4-48c0-b966-b2f30e16ab98")
+		)
+		(pin "6"
+			(uuid "37b95c65-0ed4-47a2-adfa-c6867ece62a3")
+		)
+		(pin "13"
+			(uuid "52726260-8f13-4390-b6b9-ba2d37f8f575")
+		)
+		(instances
+			(project ""
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "IC6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COMPONENTS:CC0603104050AAAX7R")
+		(at 40.64 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcce7f0e-941b-4489-8697-c6b0faacce22")
+		(property "Reference" "C22"
+			(at 44.45 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CC0603104050AAAX7R"
+			(at 37.084 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "COMPONENTS:CAP-0603"
+			(at -55.55 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -155.55 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, Chip, 0603, 10µF, 50V, 10%, X7R, -55°C to 125°C, RoHS"
+			(at 33.782 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Yageo"
+			(at 25.4 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "CC0603KRX7R9BB104"
+			(at 27.94 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 20.828 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "603-CC603KRX7R9BB104"
+			(at 30.48 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.10"
+			(at 22.86 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.012"
+			(at 22.606 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "0.1µF, 50V, 0603"
+			(at 36.576 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "959a680d-2bdb-4833-bda8-9bc9b91347a8")
+		)
+		(pin "2"
+			(uuid "116d9157-beaa-4329-9157-9e2a354e91f6")
+		)
+		(instances
+			(project ""
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COMPONENTS:CC0603104050AAAX7R")
+		(at 72.39 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c43c17b4-4537-458f-8936-7900d4617b25")
+		(property "Reference" "C24"
+			(at 76.2 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CC0603104050AAAX7R"
+			(at 68.834 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "COMPONENTS:CAP-0603"
+			(at -23.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -123.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, Chip, 0603, 10µF, 50V, 10%, X7R, -55°C to 125°C, RoHS"
+			(at 65.532 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Yageo"
+			(at 57.15 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "CC0603KRX7R9BB104"
+			(at 59.69 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 52.578 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "603-CC603KRX7R9BB104"
+			(at 62.23 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.10"
+			(at 54.61 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.012"
+			(at 54.356 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "0.1µF, 50V, 0603"
+			(at 68.58 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "959a680d-2bdb-4833-bda8-9bc9b91347a8")
+		)
+		(pin "2"
+			(uuid "116d9157-beaa-4329-9157-9e2a354e91f6")
+		)
+		(instances
+			(project ""
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40.64 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d553d212-ea7b-40b0-90e6-227ef7c3b1a6")
+		(property "Reference" "#PWR064"
+			(at 40.64 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dcd0525-b5de-492c-bfcc-70013a7f3a3d")
+		)
+		(instances
+			(project "P1012202501-Cover Sheet"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d85d95e3-c51a-4ab1-a6dd-a608815e2b30")
+		(property "Reference" "#PWR065"
+			(at 123.19 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6523e5b-3d8d-403d-a74e-2eaf1104334f")
+		)
+		(instances
+			(project "P1012202501-Cover Sheet"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COMPONENTS:RC06031M0075AAA")
+		(at 83.82 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa6a56d2-9a3e-417a-b5a5-9ac7ef42394b")
+		(property "Reference" "R23"
+			(at 86.614 80.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RC06031M0075AAA"
+			(at 77.724 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "COMPONENTS:RES-0603"
+			(at -12.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -112.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, Chip, 0603, 1MΩ, 75V, 0.1%, -55°C to 15°C, RoHS"
+			(at 74.676 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Vishay"
+			(at 68.326 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "MCT0603MD1004BP500"
+			(at 70.612 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 86.106 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "594-MCT0603MD1004BP5"
+			(at 94.234 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.24"
+			(at 83.566 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.139"
+			(at 90.17 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "1MΩ"
+			(at 81.534 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "be91adf1-08f3-4108-a263-66897e11b552")
+		)
+		(pin "1"
+			(uuid "050d2527-bf41-4323-86bc-2fa1a6032311")
+		)
+		(instances
+			(project ""
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "R23")
 					(unit 1)
 				)
 			)
