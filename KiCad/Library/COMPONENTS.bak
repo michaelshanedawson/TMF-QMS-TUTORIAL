@@ -1460,6 +1460,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "COMPONENTS:A768MS157M1HLAE024"
@@ -1552,11 +1553,11 @@
 		)
 		(property "Val" "100µF, 63V"
 			(at 0 0 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "CEA771MS107M1JLAS018_1_1"
@@ -3169,7 +3170,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "COMPONENTS:FID1.0x1.5mm Round"
 			(at 0 0 0)
 			(effects
 				(font

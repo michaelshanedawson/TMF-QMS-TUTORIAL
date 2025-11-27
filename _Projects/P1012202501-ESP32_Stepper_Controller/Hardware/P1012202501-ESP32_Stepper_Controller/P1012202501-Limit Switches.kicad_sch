@@ -2144,7 +2144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d9dcb22-bda5-4d41-80f7-8e37a839f672")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR038"
 			(at 153.67 170.18 0)
 			(effects
 				(font
@@ -2194,7 +2194,7 @@
 		(instances
 			(project "P1012202501-Cover Sheet"
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/81412355-a18d-4bff-bb60-8896e16c1f80"
-					(reference "#PWR025")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -2210,7 +2210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dae4d4f-cafb-419c-a46d-991b9b8131a3")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR032"
 			(at 52.07 113.03 0)
 			(effects
 				(font
@@ -2260,7 +2260,7 @@
 		(instances
 			(project "P1012202501-Cover Sheet"
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/81412355-a18d-4bff-bb60-8896e16c1f80"
-					(reference "#PWR037")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -2415,7 +2415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42b7b3cd-1ec6-416e-912a-d365d2630146")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 187.96 165.1 0)
 			(effects
 				(font
@@ -2465,7 +2465,7 @@
 		(instances
 			(project "P1012202501-Cover Sheet"
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/81412355-a18d-4bff-bb60-8896e16c1f80"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -2481,7 +2481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fa7abab-96eb-4a86-86f5-ed1eaeca23b1")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR037"
 			(at 152.4 133.35 0)
 			(effects
 				(font
@@ -2531,7 +2531,7 @@
 		(instances
 			(project "P1012202501-Cover Sheet"
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/81412355-a18d-4bff-bb60-8896e16c1f80"
-					(reference "#PWR024")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -2810,7 +2810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63cc0d96-3581-4da7-8d2e-d6ebb9397192")
-		(property "Reference" "R3"
+		(property "Reference" "R6"
 			(at 107.95 22.86 0)
 			(effects
 				(font
@@ -2928,7 +2928,7 @@
 		(instances
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/81412355-a18d-4bff-bb60-8896e16c1f80"
-					(reference "R3")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3190,7 +3190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fb8b187-aaed-4250-a4dd-7a63b9e2881c")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 109.22 76.2 0)
 			(effects
 				(font
@@ -3308,7 +3308,7 @@
 		(instances
 			(project "P1012202501-Cover Sheet"
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/81412355-a18d-4bff-bb60-8896e16c1f80"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3324,7 +3324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "831e595f-90b0-497a-b297-dda515f7a311")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR036"
 			(at 152.4 116.84 0)
 			(effects
 				(font
@@ -3374,7 +3374,7 @@
 		(instances
 			(project "P1012202501-Cover Sheet"
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/81412355-a18d-4bff-bb60-8896e16c1f80"
-					(reference "#PWR023")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3390,7 +3390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a08e336a-4a81-44f9-878d-e8bb33095230")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 110.49 129.54 0)
 			(effects
 				(font
@@ -3508,7 +3508,7 @@
 		(instances
 			(project "P1012202501-Cover Sheet"
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/81412355-a18d-4bff-bb60-8896e16c1f80"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3524,7 +3524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8a4748b-72ce-421b-8e21-a9f7dd20dde0")
-		(property "Reference" "R8"
+		(property "Reference" "R11"
 			(at 156.21 149.8599 90)
 			(effects
 				(font
@@ -3644,7 +3644,7 @@
 		(instances
 			(project "P1012202501-Cover Sheet"
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/81412355-a18d-4bff-bb60-8896e16c1f80"
-					(reference "R8")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3785,7 +3785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b277fa92-3f62-49b6-9ee3-13b956021ff6")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR035"
 			(at 151.13 80.01 0)
 			(effects
 				(font
@@ -3835,7 +3835,7 @@
 		(instances
 			(project "P1012202501-Cover Sheet"
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/81412355-a18d-4bff-bb60-8896e16c1f80"
-					(reference "#PWR022")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -3851,7 +3851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6be68f1-4299-4d37-b496-a851d63b8a53")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR034"
 			(at 151.13 63.5 0)
 			(effects
 				(font
@@ -3901,7 +3901,7 @@
 		(instances
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/81412355-a18d-4bff-bb60-8896e16c1f80"
-					(reference "#PWR021")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -3917,7 +3917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b99fb7dc-1776-4cae-b267-272fdb3ec215")
-		(property "Reference" "R4"
+		(property "Reference" "R9"
 			(at 153.67 43.1799 90)
 			(effects
 				(font
@@ -4037,7 +4037,7 @@
 		(instances
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/81412355-a18d-4bff-bb60-8896e16c1f80"
-					(reference "R4")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4053,7 +4053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdf58943-86b5-4bc3-b277-c1474be73902")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR033"
 			(at 149.86 26.67 0)
 			(effects
 				(font
@@ -4103,7 +4103,7 @@
 		(instances
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/81412355-a18d-4bff-bb60-8896e16c1f80"
-					(reference "#PWR020")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4258,7 +4258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9a18f88-f536-4bd0-b162-11b5cb328dde")
-		(property "Reference" "R6"
+		(property "Reference" "R10"
 			(at 154.94 96.5199 90)
 			(effects
 				(font
@@ -4378,7 +4378,7 @@
 		(instances
 			(project "P1012202501-Cover Sheet"
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/81412355-a18d-4bff-bb60-8896e16c1f80"
-					(reference "R6")
+					(reference "R10")
 					(unit 1)
 				)
 			)

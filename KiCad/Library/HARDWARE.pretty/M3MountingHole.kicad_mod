@@ -1,0 +1,100 @@
+(footprint "M3MountingHole"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "MH**"
+		(at 0.05 5.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f6e57aa4-8fa2-4146-9d0a-3d6a483aec72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "M3MountingHole"
+		(at 11.5 8.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3f0f7858-ac92-40c1-ad8a-f2c62d23daff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19f3294d-a457-476e-9bd9-516a14eb68bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef0a38d4-29b7-443d-ab3e-c9a863fde9c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 11.9 7.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "46370d85-4f9e-4e60-9b74-12f73df640b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0.05 0.05)
+		(size 8 8)
+		(drill 3.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3ca34334-f745-411b-bab7-0b6ae550e35f")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/cloud/Downloads/93475A210_18-8 Stainless Steel Washer.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "C:/Users/cloud/Downloads/92000A116_Passivated 18-8 Stainless Steel Pan Head Phillips Screws.STEP"
+		(offset
+			(xyz 0 0 -1.15)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

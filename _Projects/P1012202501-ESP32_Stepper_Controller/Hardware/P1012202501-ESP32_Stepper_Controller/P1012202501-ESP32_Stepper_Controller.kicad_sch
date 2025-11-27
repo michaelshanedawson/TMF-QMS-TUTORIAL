@@ -32,7 +32,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "COMPONENTS:FID1.0x1.5mm Round"
 				(at 0 0 0)
 				(effects
 					(font
@@ -95,6 +95,175 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "HARDWARE:M3MountingHole"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MH"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "HARDWARE:M3MountingHole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Standard Plated Through Hole for M3 sized fasteners. Adheres to ISO 273-1979 standard."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "M3MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "M3MountingHole_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LOGOS:LOGO10x40mm"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LGO"
+				(at -6.096 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LOGOS:Logo10x40mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LOGO10x40mm_0_1"
+				(rectangle
+					(start -7.62 1.27)
+					(end 7.62 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LOGO10x40mm_1_1"
+				(text "10mm x 40mm"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 241.3 143.51)
@@ -108,6 +277,18 @@
 		)
 		(uuid 1e685831-af48-4ff4-999b-f723c0c3ef32)
 	)
+	(rectangle
+		(start 243.84 110.49)
+		(end 273.05 133.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a8c3600d-2262-4efd-b40e-f8304a01a857)
+	)
 	(text "Cover Sheet"
 		(exclude_from_sim yes)
 		(at 194.564 189.738 0)
@@ -119,6 +300,16 @@
 		)
 		(uuid "0e68369d-7bb3-4213-8627-fa7ede985254")
 	)
+	(text "MOUNTING HARDWARE"
+		(exclude_from_sim no)
+		(at 257.556 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "42d346e6-083c-40d2-974d-b2f24095f653")
+	)
 	(text "FIDUCIALS"
 		(exclude_from_sim no)
 		(at 261.366 146.05 0)
@@ -128,6 +319,22 @@
 			)
 		)
 		(uuid "e7d12b8d-5687-4307-acec-d8a290879ed5")
+	)
+	(no_connect
+		(at 250.19 120.65)
+		(uuid "0cd6a967-3baa-4f77-a464-fa1f9479cd71")
+	)
+	(no_connect
+		(at 264.16 129.54)
+		(uuid "65b61694-b985-4561-8d11-b2e075fc413c")
+	)
+	(no_connect
+		(at 264.16 120.65)
+		(uuid "a5bb8487-e614-4f30-a74c-762d5661b1eb")
+	)
+	(no_connect
+		(at 250.19 129.54)
+		(uuid "fc1a9afa-4a3d-4b14-8afc-a20b73bc2d14")
 	)
 	(symbol
 		(lib_id "COMPONENTS:FID1.0x1.5mmROUND")
@@ -140,7 +347,7 @@
 		(fields_autoplaced yes)
 		(uuid "24d241a4-e0ac-4e05-97b2-8585e01ca254")
 		(property "Reference" "FID1"
-			(at 248.92 149.8599 0)
+			(at 248.92 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -148,16 +355,15 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 248.92 152.3999 0)
+		(property "Value" ""
+			(at 246.38 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "COMPONENTS:FID1.0x1.5mm Round"
 			(at 246.38 151.13 0)
 			(effects
 				(font
@@ -206,8 +412,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c7460a8-a75c-478f-8210-8bfcbcaf8f53")
-		(property "Reference" "FID2"
-			(at 261.62 149.8599 0)
+		(property "Reference" "FID3"
+			(at 261.62 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -215,16 +421,15 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 261.62 152.3999 0)
+		(property "Value" ""
+			(at 259.08 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "COMPONENTS:FID1.0x1.5mm Round"
 			(at 259.08 151.13 0)
 			(effects
 				(font
@@ -252,12 +457,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "125b3df3-373b-43a5-8abb-89becfc9440e")
+			(uuid "125b3df3-373b-43a5-8abb-89becfc9440f")
 		)
 		(instances
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
-					(reference "FID2")
+					(reference "FID3")
 					(unit 1)
 				)
 			)
@@ -274,7 +479,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ac16647-8657-422c-aec3-f87c7b9e9486")
 		(property "Reference" "FID6"
-			(at 273.05 157.4799 0)
+			(at 273.05 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -282,16 +487,15 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 273.05 160.0199 0)
+		(property "Value" ""
+			(at 270.51 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "COMPONENTS:FID1.0x1.5mm Round"
 			(at 270.51 158.75 0)
 			(effects
 				(font
@@ -319,12 +523,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "125b3df3-373b-43a5-8abb-89becfc9440e")
+			(uuid "125b3df3-373b-43a5-8abb-89becfc94410")
 		)
 		(instances
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
 					(reference "FID6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HARDWARE:M3MountingHole")
+		(at 264.16 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "601bd751-6a68-450b-bf72-b59422591b81")
+		(property "Reference" "MH3"
+			(at 266.7 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 264.16 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HARDWARE:M3MountingHole"
+			(at 264.16 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard Plated Through Hole for M3 sized fasteners. Adheres to ISO 273-1979 standard."
+			(at 264.16 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d3634ae-9771-48a8-8559-0148789d7129")
+		)
+		(instances
+			(project ""
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
+					(reference "MH3")
 					(unit 1)
 				)
 			)
@@ -340,8 +611,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73048711-e975-4bfc-92cf-eeb5f62a4650")
-		(property "Reference" "FID4"
-			(at 248.92 157.4799 0)
+		(property "Reference" "FID2"
+			(at 248.92 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -349,16 +620,15 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 248.92 160.0199 0)
+		(property "Value" ""
+			(at 246.38 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "COMPONENTS:FID1.0x1.5mm Round"
 			(at 246.38 158.75 0)
 			(effects
 				(font
@@ -386,12 +656,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "125b3df3-373b-43a5-8abb-89becfc9440e")
+			(uuid "125b3df3-373b-43a5-8abb-89becfc94411")
 		)
 		(instances
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
-					(reference "FID4")
+					(reference "FID2")
 					(unit 1)
 				)
 			)
@@ -407,8 +677,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90d5d836-1b64-4e18-ba95-4c326a1c8e55")
-		(property "Reference" "FID5"
-			(at 261.62 157.4799 0)
+		(property "Reference" "FID4"
+			(at 261.62 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -416,16 +686,15 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 261.62 160.0199 0)
+		(property "Value" ""
+			(at 259.08 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "COMPONENTS:FID1.0x1.5mm Round"
 			(at 259.08 158.75 0)
 			(effects
 				(font
@@ -453,12 +722,213 @@
 			)
 		)
 		(pin "1"
-			(uuid "125b3df3-373b-43a5-8abb-89becfc9440e")
+			(uuid "125b3df3-373b-43a5-8abb-89becfc94412")
 		)
 		(instances
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
-					(reference "FID5")
+					(reference "FID4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HARDWARE:M3MountingHole")
+		(at 250.19 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0f9d282-38d2-4773-a687-1d4d146e732b")
+		(property "Reference" "MH2"
+			(at 252.73 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 250.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HARDWARE:M3MountingHole"
+			(at 250.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard Plated Through Hole for M3 sized fasteners. Adheres to ISO 273-1979 standard."
+			(at 250.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d3634ae-9771-48a8-8559-0148789d712a")
+		)
+		(instances
+			(project ""
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
+					(reference "MH2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HARDWARE:M3MountingHole")
+		(at 250.19 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afa644d3-ba11-4c1f-9e63-04cef1910a34")
+		(property "Reference" "MH1"
+			(at 252.73 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 250.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HARDWARE:M3MountingHole"
+			(at 250.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard Plated Through Hole for M3 sized fasteners. Adheres to ISO 273-1979 standard."
+			(at 250.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d3634ae-9771-48a8-8559-0148789d712b")
+		)
+		(instances
+			(project ""
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
+					(reference "MH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HARDWARE:M3MountingHole")
+		(at 264.16 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf8fe676-7f63-4330-a542-70f44816bf24")
+		(property "Reference" "MH4"
+			(at 266.7 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 264.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HARDWARE:M3MountingHole"
+			(at 264.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard Plated Through Hole for M3 sized fasteners. Adheres to ISO 273-1979 standard."
+			(at 264.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d3634ae-9771-48a8-8559-0148789d712c")
+		)
+		(instances
+			(project ""
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
+					(reference "MH4")
 					(unit 1)
 				)
 			)
@@ -474,8 +944,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d01415a8-a6f7-4bc1-b5d1-12cd12a2aff9")
-		(property "Reference" "FID3"
-			(at 273.05 149.8599 0)
+		(property "Reference" "FID5"
+			(at 273.05 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -483,16 +953,15 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 273.05 152.3999 0)
+		(property "Value" ""
+			(at 270.51 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "COMPONENTS:FID1.0x1.5mm Round"
 			(at 270.51 151.13 0)
 			(effects
 				(font
@@ -520,12 +989,74 @@
 			)
 		)
 		(pin "1"
-			(uuid "125b3df3-373b-43a5-8abb-89becfc9440e")
+			(uuid "125b3df3-373b-43a5-8abb-89becfc94413")
 		)
 		(instances
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
-					(reference "FID3")
+					(reference "FID5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LOGOS:LOGO10x40mm")
+		(at 261.62 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe80ad22-f1b9-4792-b80f-eec98abf002a")
+		(property "Reference" "LGO1"
+			(at 261.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 261.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LOGOS:Logo10x40mm"
+			(at 261.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
+					(reference "LGO1")
 					(unit 1)
 				)
 			)
@@ -566,7 +1097,7 @@
 			)
 		)
 		(instances
-			(project "P1012202501-Cover Sheet"
+			(project "P1012202501-ESP32_Stepper_Controller"
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
 					(page "8")
 				)
@@ -608,7 +1139,7 @@
 			)
 		)
 		(instances
-			(project "P1012202501-Cover Sheet"
+			(project "P1012202501-ESP32_Stepper_Controller"
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
 					(page "5")
 				)
@@ -650,7 +1181,7 @@
 			)
 		)
 		(instances
-			(project "P1012202501-Cover Sheet"
+			(project "P1012202501-ESP32_Stepper_Controller"
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
 					(page "2")
 				)
@@ -692,7 +1223,7 @@
 			)
 		)
 		(instances
-			(project "P1012202501-Cover Sheet"
+			(project "P1012202501-ESP32_Stepper_Controller"
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
 					(page "3")
 				)
@@ -734,7 +1265,7 @@
 			)
 		)
 		(instances
-			(project "P1012202501-Cover Sheet"
+			(project "P1012202501-ESP32_Stepper_Controller"
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
 					(page "4")
 				)
@@ -776,7 +1307,7 @@
 			)
 		)
 		(instances
-			(project "P1012202501-Cover Sheet"
+			(project "P1012202501-ESP32_Stepper_Controller"
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
 					(page "6")
 				)
@@ -818,7 +1349,7 @@
 			)
 		)
 		(instances
-			(project "P1012202501-Cover Sheet"
+			(project "P1012202501-ESP32_Stepper_Controller"
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
 					(page "7")
 				)
