@@ -3917,16 +3917,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 83.82) (xy 177.8 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26716a4f-bc89-4de8-a103-0e423436e9bd")
-	)
-	(wire
-		(pts
 			(xy 170.18 113.03) (xy 172.72 113.03)
 		)
 		(stroke
@@ -3994,6 +3984,16 @@
 			(type default)
 		)
 		(uuid "33b85f9d-1f7a-497b-8122-be11c14ebe70")
+	)
+	(wire
+		(pts
+			(xy 170.18 91.44) (xy 177.8 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3adcf6bf-49eb-4bb5-9e73-b17ad068b03a")
 	)
 	(wire
 		(pts
@@ -4327,6 +4327,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 83.82) (xy 177.8 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9651029f-a35e-4323-97e9-df134b9175ca")
+	)
+	(wire
+		(pts
 			(xy 91.44 96.52) (xy 83.82 96.52)
 		)
 		(stroke
@@ -4364,16 +4374,6 @@
 			(type default)
 		)
 		(uuid "a40774ce-6ffd-45e9-bf76-055a93236d7b")
-	)
-	(wire
-		(pts
-			(xy 170.18 91.44) (xy 177.8 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4360519-2df7-4dd0-b33b-7de9a9fe7082")
 	)
 	(wire
 		(pts
@@ -4537,16 +4537,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 86.36) (xy 177.8 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfc268d7-e0a4-4065-b223-ffcd80f44696")
-	)
-	(wire
-		(pts
 			(xy 40.64 69.85) (xy 55.88 69.85)
 		)
 		(stroke
@@ -4637,6 +4627,26 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 86.36) (xy 177.8 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0b1e3c8-06d5-4d18-8620-80ae5b0b9ab2")
+	)
+	(wire
+		(pts
+			(xy 170.18 88.9) (xy 177.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1cacd36-44e7-4380-a2d6-e97f36a3dbb9")
+	)
+	(wire
+		(pts
 			(xy 190.5 124.46) (xy 190.5 127)
 		)
 		(stroke
@@ -4654,16 +4664,6 @@
 			(type default)
 		)
 		(uuid "f6673266-fa48-4d93-bd8f-22398c4eec98")
-	)
-	(wire
-		(pts
-			(xy 170.18 88.9) (xy 177.8 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f67c089f-7613-4658-831f-a6457b1ccdd9")
 	)
 	(wire
 		(pts
@@ -5281,8 +5281,7 @@
 	)
 	(symbol
 		(lib_id "CONNECTORS:KPTBP04R1-500-04BE")
-		(at 177.8 91.44 0)
-		(mirror x)
+		(at 177.8 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5290,7 +5289,7 @@
 		(dnp no)
 		(uuid "5d3c04e0-d7b7-475d-8cd9-f23834d4053b")
 		(property "Reference" "CN7"
-			(at 194.31 90.1701 0)
+			(at 194.31 85.0899 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5299,7 +5298,7 @@
 			)
 		)
 		(property "Value" "KPTBP04R1-500-04BE"
-			(at 194.31 87.6301 0)
+			(at 194.31 87.6299 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5308,7 +5307,7 @@
 			)
 		)
 		(property "Footprint" "CONNECTORS:TBP04R1-500-04BE"
-			(at 168.656 98.298 0)
+			(at 168.656 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5318,7 +5317,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 178.054 81.534 0)
+			(at 178.054 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5328,7 +5327,7 @@
 			)
 		)
 		(property "Description" "Connector, Pluggable, 4 Circuit, 1 Row, Right Angle, Through Hole, 5.0mm Pitch, 300V @ 15A, RoHS, Blue"
-			(at 177.8 91.44 0)
+			(at 177.8 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5337,7 +5336,7 @@
 			)
 		)
 		(property "Manufacturer 1" "Same Sky"
-			(at 177.8 91.44 0)
+			(at 177.8 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5346,7 +5345,7 @@
 			)
 		)
 		(property "Manufacturer 1 P/N" "TBP04R1-500-04BE"
-			(at 177.8 91.44 0)
+			(at 177.8 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,7 +5354,7 @@
 			)
 		)
 		(property "Vendor 1a" "Mouser"
-			(at 177.8 91.44 0)
+			(at 177.8 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,7 +5363,7 @@
 			)
 		)
 		(property "Vendor 1a P/N" "179-TBP04R1-500-04BE"
-			(at 177.8 91.44 0)
+			(at 177.8 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,7 +5372,7 @@
 			)
 		)
 		(property "Vendor 1a Cost LV" "0.62"
-			(at 177.8 91.44 0)
+			(at 177.8 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,7 +5381,7 @@
 			)
 		)
 		(property "Vendor 1a Cost HV" "0.246"
-			(at 177.8 91.44 0)
+			(at 177.8 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5391,7 +5390,7 @@
 			)
 		)
 		(property "Mate" "TBP04P1-500-04BE"
-			(at 194.31 85.0901 0)
+			(at 194.31 90.1699 0)
 			(show_name yes)
 			(effects
 				(font
