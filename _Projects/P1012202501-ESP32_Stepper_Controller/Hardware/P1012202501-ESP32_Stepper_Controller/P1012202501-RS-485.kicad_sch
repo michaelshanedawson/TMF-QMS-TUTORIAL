@@ -1989,12 +1989,6 @@
 		(uuid "3b5b61ea-193d-46c1-8023-a6b0f73c2bb4")
 	)
 	(junction
-		(at 184.15 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4905c598-5ace-4030-85bd-7ba9fbcd6b25")
-	)
-	(junction
 		(at 119.38 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2005,12 +1999,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e8c277a-2e6c-4f33-a2b9-b117119b090f")
-	)
-	(junction
-		(at 185.42 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e39f109-0826-4bbb-a92a-67b8f25a1637")
 	)
 	(junction
 		(at 166.37 97.79)
@@ -2062,17 +2050,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 49.53) (xy 184.15 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "094fa561-bd16-4251-a1d6-e8c9292a9de4")
-	)
-	(wire
-		(pts
-			(xy 185.42 97.79) (xy 212.09 97.79)
+			(xy 166.37 97.79) (xy 212.09 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2132,16 +2110,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 58.42) (xy 212.09 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20237276-963d-49e4-9a3c-7b0a7e97139a")
-	)
-	(wire
-		(pts
 			(xy 162.56 97.79) (xy 166.37 97.79)
 		)
 		(stroke
@@ -2159,16 +2127,6 @@
 			(type default)
 		)
 		(uuid "224f78db-bf5b-4209-b76a-47688818be2a")
-	)
-	(wire
-		(pts
-			(xy 166.37 97.79) (xy 185.42 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24934903-e7f7-4978-8165-61b205a709fb")
 	)
 	(wire
 		(pts
@@ -2192,16 +2150,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 49.53) (xy 184.15 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b01e5fc-91f4-48b8-a892-cf4793c9f95e")
-	)
-	(wire
-		(pts
 			(xy 186.69 118.11) (xy 186.69 123.19)
 		)
 		(stroke
@@ -2212,7 +2160,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 58.42) (xy 184.15 58.42)
+			(xy 166.37 58.42) (xy 212.09 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2229,16 +2177,6 @@
 			(type default)
 		)
 		(uuid "2e7a9d84-68be-409b-b378-3650e381a2a1")
-	)
-	(wire
-		(pts
-			(xy 189.23 105.41) (xy 185.42 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3502a2af-c72c-4d00-888b-b79e586fcda7")
 	)
 	(wire
 		(pts
@@ -2349,16 +2287,6 @@
 			(type default)
 		)
 		(uuid "74bbfb12-7cd8-4fb8-b933-89bb42122c97")
-	)
-	(wire
-		(pts
-			(xy 185.42 105.41) (xy 185.42 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7708a6d3-267a-4946-b4dc-d79a2e6cd2d5")
 	)
 	(wire
 		(pts
@@ -3473,129 +3401,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CONNECTORS:TP5010")
-		(at 189.23 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "717fa098-0d27-4298-bda6-8dc6d9b27f04")
-		(property "Reference" "TP9"
-			(at 205.74 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP5010"
-			(at 205.74 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CONNECTORS:5010"
-			(at 205.74 200.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 300.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point, Through Hole"
-			(at 189.23 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 1" "Keystone"
-			(at 189.23 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 1 P/N" "5010"
-			(at 189.23 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor 1a " "Mouser"
-			(at 189.23 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor 1a P/N" "534-5010"
-			(at 189.23 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor 1a Cost LV" "0.33"
-			(at 189.23 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor 1a Cost HV" "0.188"
-			(at 189.23 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "166c670b-5676-4362-9cfe-b32728e3dcec")
-		)
-		(instances
-			(project ""
-				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/f7d1483b-b2e1-4d1b-a579-3453a4da28ca"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 88.9 119.38 0)
 		(unit 1)
@@ -4181,129 +3986,6 @@
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/f7d1483b-b2e1-4d1b-a579-3453a4da28ca"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CONNECTORS:TP5010")
-		(at 189.23 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4584d89-8c0e-4da6-95d2-c0d7b2fa5bf4")
-		(property "Reference" "TP8"
-			(at 205.74 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP5010"
-			(at 205.74 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CONNECTORS:5010"
-			(at 205.74 144.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 244.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point, Through Hole"
-			(at 189.23 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 1" "Keystone"
-			(at 189.23 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 1 P/N" "5010"
-			(at 189.23 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor 1a " "Mouser"
-			(at 189.23 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor 1a P/N" "534-5010"
-			(at 189.23 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor 1a Cost LV" "0.33"
-			(at 189.23 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor 1a Cost HV" "0.188"
-			(at 189.23 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "166c670b-5676-4362-9cfe-b32728e3dced")
-		)
-		(instances
-			(project ""
-				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/f7d1483b-b2e1-4d1b-a579-3453a4da28ca"
-					(reference "TP8")
 					(unit 1)
 				)
 			)
