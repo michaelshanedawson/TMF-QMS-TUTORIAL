@@ -3962,6 +3962,26 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 139.7) (xy 223.52 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4afef4ad-3f60-4f1c-84d7-a7a40b0ac2a6")
+	)
+	(wire
+		(pts
+			(xy 158.75 142.24) (xy 158.75 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c4202cf-5306-4199-8148-3ed9e423e498")
+	)
+	(wire
+		(pts
 			(xy 149.86 151.13) (xy 158.75 151.13)
 		)
 		(stroke
@@ -3979,6 +3999,16 @@
 			(type default)
 		)
 		(uuid "4cee43cf-a335-412b-b264-c334862b11c2")
+	)
+	(wire
+		(pts
+			(xy 200.66 142.24) (xy 158.75 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50985503-2bd1-481c-a069-55d5d26106c4")
 	)
 	(wire
 		(pts
@@ -4099,6 +4129,16 @@
 			(type default)
 		)
 		(uuid "64d431af-116c-44cd-9623-d161c42b87f2")
+	)
+	(wire
+		(pts
+			(xy 195.58 113.03) (xy 158.75 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651993eb-eb21-4e9c-9d1e-6549dbd8c6bb")
 	)
 	(wire
 		(pts
@@ -4249,6 +4289,16 @@
 			(type default)
 		)
 		(uuid "7cd1283f-c682-43f9-ac13-7ac3a9a58f76")
+	)
+	(wire
+		(pts
+			(xy 200.66 137.16) (xy 195.58 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f6d00ff-e59c-4837-b346-8987797ccf0f")
 	)
 	(wire
 		(pts
@@ -4642,6 +4692,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 113.03) (xy 158.75 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7f19438-21f1-418c-ac0e-906a46a69ce2")
+	)
+	(wire
+		(pts
 			(xy 102.87 54.61) (xy 102.87 20.32)
 		)
 		(stroke
@@ -4649,6 +4709,16 @@
 			(type default)
 		)
 		(uuid "d82c0eb4-cc38-4705-a691-f13f7cad70cb")
+	)
+	(wire
+		(pts
+			(xy 220.98 139.7) (xy 223.52 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dce06a04-7b1d-454b-9d73-e717de389fd3")
 	)
 	(wire
 		(pts
@@ -4769,6 +4839,16 @@
 			(type default)
 		)
 		(uuid "f1547b3f-3b2e-4771-9ae8-ae20fe431dd4")
+	)
+	(wire
+		(pts
+			(xy 195.58 137.16) (xy 195.58 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4c895c4-54c0-44c1-88cc-3298acd8451e")
 	)
 	(wire
 		(pts
@@ -6250,6 +6330,133 @@
 		)
 	)
 	(symbol
+		(lib_id "COMPONENTS:TVSCDSOT23-SM712")
+		(at 200.66 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45ebb416-d31f-426c-bd7d-2e66f70aa9eb")
+		(property "Reference" "D7"
+			(at 210.82 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TVSCDSOT23-SM712"
+			(at 210.82 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "COMPONENTS:SOT-23-3"
+			(at 217.17 232.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 332.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS Diode, 30KV Dual Bi-Directional, 400W peak, 26V Clamping, -55°C to 150°C, RoHS"
+			(at 200.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Bourns"
+			(at 200.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "CDSOT23-SM712"
+			(at 200.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 200.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "652-CDSOT23-SM712"
+			(at 200.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "1.11"
+			(at 200.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.343"
+			(at 200.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b7df8ed-7c7a-45c0-9ceb-76d457278d0a")
+		)
+		(pin "1"
+			(uuid "1c538f53-ae6f-46f8-a066-227f237533ee")
+		)
+		(pin "3"
+			(uuid "1808a5c8-7467-46ef-979f-5f4206beedbf")
+		)
+		(instances
+			(project ""
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/feaad8cd-dddc-40a5-8f74-4d288b5af2d8"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "COMPONENTS:CC0603226010AABX5R")
 		(at 73.66 69.85 270)
 		(unit 1)
@@ -6799,7 +7006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 102.87 15.24 0)
 			(effects
 				(font
@@ -8447,6 +8654,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 223.52 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9485a58-fc03-4f0f-8689-07a6aad2c529")
+		(property "Reference" "#PWR074"
+			(at 223.52 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f72a817-669e-469c-8794-584470ad6fb8")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/feaad8cd-dddc-40a5-8f74-4d288b5af2d8"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 172.72 30.48 0)
 		(unit 1)
@@ -8465,7 +8738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 172.72 25.4 0)
 			(effects
 				(font

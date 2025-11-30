@@ -155,9 +155,9 @@
 		(uuid "026f6e7e-8cac-4cd3-b6e1-18b5dd665d8b")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/cloud/Downloads/ERJ_6GEYJ121V (1)/ERJ-6GEYJ121V.STEP"
+	(model "C:/Users/cloud/OneDrive/Documents/_Video Series/_PublicFiles/KiCad/Library/STEP_FILES/0805RESISTOR.stp"
 		(offset
-			(xyz 0 -0.35 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

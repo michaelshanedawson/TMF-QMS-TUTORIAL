@@ -1022,6 +1022,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "COMPONENTS:RC06031K0075AAA"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 5.08 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "RC06031K0075AAA"
+				(at 1.524 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "COMPONENTS:RES-0603"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, Chip, 0603, 1KΩ, 75V, 5%, -55°C to 155°C, RoHS, AEC-Q200"
+				(at 4.064 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1" "Yageo"
+				(at -2.54 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1 P/N" "SR0603JR-071KL"
+				(at 7.112 -13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a" "Mouser"
+				(at -19.812 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a P/N" "603-SR0603JR-071KL"
+				(at -3.81 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost LV" "0.11"
+				(at -18.796 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost HV" "0.031"
+				(at -18.288 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Val" "1KΩ"
+				(at 8.89 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RC06031K0075AAA_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "COMPONENTS:RC06031M0075AAA"
 			(pin_names
 				(hide yes)
@@ -3736,6 +3904,12 @@
 		(uuid "453892ac-d404-44ed-82c6-58b6baf0df3d")
 	)
 	(junction
+		(at 80.01 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5205e8d0-c864-4fbe-9279-ab513a988745")
+	)
+	(junction
 		(at 72.39 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3917,6 +4091,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 146.05) (xy 80.01 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b13b7f-ddbc-48e7-b0c9-b53e650e5209")
+	)
+	(wire
+		(pts
 			(xy 170.18 113.03) (xy 172.72 113.03)
 		)
 		(stroke
@@ -3924,6 +4108,16 @@
 			(type default)
 		)
 		(uuid "28aa0fc9-0db9-474a-98e3-c9eb3b000d87")
+	)
+	(wire
+		(pts
+			(xy 80.01 171.45) (xy 87.63 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c708b50-4f76-4093-acd8-1ea8c5a31e34")
 	)
 	(wire
 		(pts
@@ -4437,7 +4631,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 171.45) (xy 67.31 171.45)
+			(xy 57.15 171.45) (xy 80.01 171.45)
 		)
 		(stroke
 			(width 0)
@@ -4654,6 +4848,16 @@
 			(type default)
 		)
 		(uuid "f4195a10-e8d3-4024-9234-c82d97b0a941")
+	)
+	(wire
+		(pts
+			(xy 80.01 167.64) (xy 80.01 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5c4fd20-580c-4157-96ae-392b5732819a")
 	)
 	(wire
 		(pts
@@ -4925,7 +5129,7 @@
 	)
 	(global_label "FAN_TACH"
 		(shape output)
-		(at 67.31 171.45 0)
+		(at 87.63 171.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4935,7 +5139,7 @@
 		)
 		(uuid "fe9e43f4-aac4-4b51-834d-8c79a95aae39")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.4272 171.45 0)
+			(at 99.7472 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6295,6 +6499,142 @@
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COMPONENTS:RC06031K0075AAA")
+		(at 80.01 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91847b5c-b5a2-4521-988c-21e7fc5102f8")
+		(property "Reference" "R31"
+			(at 82.55 157.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RC06031K0075AAA"
+			(at 73.914 151.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "COMPONENTS:RES-0603"
+			(at -16.18 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -116.18 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, Chip, 0603, 1KΩ, 75V, 5%, -55°C to 155°C, RoHS, AEC-Q200"
+			(at 70.866 153.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Yageo"
+			(at 64.516 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "SR0603JR-071KL"
+			(at 66.802 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 82.296 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "603-SR0603JR-071KL"
+			(at 90.424 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.11"
+			(at 79.756 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.031"
+			(at 86.36 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "1KΩ"
+			(at 82.55 160.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "d66fbdf2-f855-48da-bcc6-857771a0b19f")
+		)
+		(pin "2"
+			(uuid "481bcbf5-e6df-4cfa-8222-034f7ba39ca6")
+		)
+		(instances
+			(project ""
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -7736,6 +8076,72 @@
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
 					(reference "CN6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 80.01 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e74b2914-91a0-440d-a505-3e217f468451")
+		(property "Reference" "#PWR073"
+			(at 80.01 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 80.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 80.01 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d64b094a-0ce6-4ffb-ba2b-1195fbf7b05f")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)

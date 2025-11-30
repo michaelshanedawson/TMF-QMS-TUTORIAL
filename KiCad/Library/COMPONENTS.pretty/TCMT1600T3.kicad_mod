@@ -229,7 +229,7 @@
 		(uuid "5e9dc656-e79d-4060-92e9-e40aba06ea52")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/cloud/Downloads/LIB_TCMT1600T3 (1)/TCMT1600T3/3D/TCMT1600T3.stp"
+	(model "C:/Users/cloud/OneDrive/Documents/_Video Series/_PublicFiles/KiCad/Library/STEP_FILES/TCMT1600T3.stp"
 		(offset
 			(xyz 0 0 1.1)
 		)

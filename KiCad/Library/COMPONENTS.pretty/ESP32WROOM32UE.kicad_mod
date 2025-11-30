@@ -539,7 +539,7 @@
 		(uuid "0fb9b0cf-b5ce-47ce-ab3a-6a66617d6aa5")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/cloud/Downloads/LIB_ESP32-WROOM-32UE-N16 (1)/ESP32-WROOM-32UE-N16/3D/ESP32-WROOM-32UE-N16.stp"
+	(model "C:/Users/cloud/OneDrive/Documents/_Video Series/_PublicFiles/KiCad/Library/STEP_FILES/ESP32-WROOM-32UE-N16.stp"
 		(offset
 			(xyz 0 0 0)
 		)

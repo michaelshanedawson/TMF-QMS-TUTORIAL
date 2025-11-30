@@ -215,7 +215,7 @@
 		(uuid "6b60272a-9afb-440a-9913-58709cadb0fc")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/cloud/Downloads/LIB_CDSOT23-SM712/CDSOT23-SM712/3D/CDSOT23-SM712.stp"
+	(model "C:/Users/cloud/OneDrive/Documents/_Video Series/_PublicFiles/KiCad/Library/STEP_FILES/SOT-23.stp"
 		(offset
 			(xyz 0 0 0)
 		)

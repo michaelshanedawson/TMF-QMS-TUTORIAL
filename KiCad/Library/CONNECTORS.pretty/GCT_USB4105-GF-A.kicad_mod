@@ -480,9 +480,9 @@
 		(uuid "e7ff076e-ffc1-4016-9034-232ac84d29f9")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/cloud/Downloads/USB4105_GF_A (1)/USB4105-GF-A.step"
+	(model "C:/Users/cloud/OneDrive/Documents/_Video Series/_PublicFiles/KiCad/Library/STEP_FILES/USB4105-GF-A.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 -2.5 0)
 		)
 		(scale
 			(xyz 1 1 1)

@@ -211,7 +211,7 @@
 		(uuid "9890cd4c-8b1d-4a81-b81e-2dbf71e99126")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/cloud/Downloads/LIB_A771MS107M1JLAS018/A771MS107M1JLAS018/3D/A771MS107M1JLAS018.stp"
+	(model "C:/Users/cloud/OneDrive/Documents/_Video Series/_PublicFiles/KiCad/Library/STEP_FILES/A771MS107M1JLAS018.stp"
 		(offset
 			(xyz 5.25 5.25 0.125)
 		)

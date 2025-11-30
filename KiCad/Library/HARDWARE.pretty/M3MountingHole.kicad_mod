@@ -75,7 +75,7 @@
 		(uuid "3ca34334-f745-411b-bab7-0b6ae550e35f")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/cloud/Downloads/93475A210_18-8 Stainless Steel Washer.STEP"
+	(model "C:/Users/cloud/OneDrive/Documents/_Video Series/_PublicFiles/KiCad/Library/STEP_FILES/93475A210_18-8 Stainless Steel Washer.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -86,7 +86,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "C:/Users/cloud/Downloads/92000A116_Passivated 18-8 Stainless Steel Pan Head Phillips Screws.STEP"
+	(model "C:/Users/cloud/OneDrive/Documents/_Video Series/_PublicFiles/KiCad/Library/STEP_FILES/92000A116_Passivated 18-8 Stainless Steel Pan Head Phillips Screws.STEP"
 		(offset
 			(xyz 0 0 -1.15)
 		)

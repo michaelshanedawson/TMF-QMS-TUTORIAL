@@ -340,7 +340,7 @@
 		(uuid "fff5c0ab-d9ea-4466-a726-f63e967cfefd")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/cloud/Downloads/LIB_CP2102C-A01-GQFN28/CP2102C-A01-GQFN28/3D/CP2102C-A01-GQFN28.stp"
+	(model "C:/Users/cloud/OneDrive/Documents/_Video Series/_PublicFiles/KiCad/Library/STEP_FILES/QFN-28.stp"
 		(offset
 			(xyz 0 0 0)
 		)
