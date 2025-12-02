@@ -46,3 +46,5 @@ Many others are out there but I would recommend a lot of research before settlin
 
 # General Links #
 * ISO Flat Washer Size Table - https://www.engineersedge.com/iso_flat_washer.htm
+* DigiKey Trace Width Calculator - https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-pcb-trace-width?msockid=0deab893265062b01eddab21272e63e9
+
