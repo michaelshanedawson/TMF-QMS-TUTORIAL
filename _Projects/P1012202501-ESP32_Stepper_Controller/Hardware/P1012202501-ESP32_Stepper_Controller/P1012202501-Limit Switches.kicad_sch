@@ -4430,7 +4430,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fed379fa-07da-427c-9dd7-3dc0f74de5e1")
+			(uuid "fed379fa-07da-427c-9dd7-3dc0f74de5e2")
 		)
 		(instances
 			(project ""
@@ -4635,7 +4635,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fed379fa-07da-427c-9dd7-3dc0f74de5e1")
+			(uuid "fed379fa-07da-427c-9dd7-3dc0f74de5e3")
 		)
 		(instances
 			(project ""

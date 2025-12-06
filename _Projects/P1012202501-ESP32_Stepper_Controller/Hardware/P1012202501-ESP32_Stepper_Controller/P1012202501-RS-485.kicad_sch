@@ -757,7 +757,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "COMPONENTS:USP485REN-L_TR"
+		(symbol "COMPONENTS:USP3485CN-L/TR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -770,7 +770,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "USP485REN-L_TR"
+			(property "Value" "USP3485CN-L/TR"
 				(at 21.59 5.08 0)
 				(effects
 					(font
@@ -799,7 +799,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Interface IC, RS422/RS485 Transceiver, 1 Driver, 1 Receiver, 4.75V to 5.25V Supply, -40°C to 85°C, RoHS"
+			(property "Description" "Interface IC, RS422/RS485 Transceiver, 1 Driver, 1 Receiver, 3.135V to 3.465V Supply, 0°C to 70°C, RoHS"
 				(at 0.254 11.176 0)
 				(effects
 					(font
@@ -817,7 +817,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer 1 P/N" "SP485REN-L/TR"
+			(property "Manufacturer 1 P/N" "SP3485CN-L/TR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -835,7 +835,7 @@
 					(hide yes)
 				)
 			)
-			(property "Vendor 1a P/N" "701-SP485REN-L/TR"
+			(property "Vendor 1a P/N" "701-SP3485CN-L/TR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -844,7 +844,7 @@
 					(hide yes)
 				)
 			)
-			(property "Vendor 1a Cost LV" "1.02"
+			(property "Vendor 1a Cost LV" "0.81"
 				(at 0 0 0)
 				(effects
 					(font
@@ -853,7 +853,43 @@
 					(hide yes)
 				)
 			)
-			(property "Vendor 1a Cost HV" "0.484"
+			(property "Vendor 1a Cost HV" "0.38"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1b" "DigiKey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1b P/N" "1016-1816-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1b Cost LV" "0.81"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1b Cost HV" "0.39507"
 				(at 0 0 0)
 				(effects
 					(font
@@ -871,7 +907,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USP485REN-L_TR_1_1"
+			(symbol "USP3485CN-L/TR_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 20.32 -10.16)
@@ -1738,7 +1774,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1759,7 +1795,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1785,7 +1821,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1803,7 +1839,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1841,7 +1877,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1989,12 +2025,6 @@
 		(uuid "3b5b61ea-193d-46c1-8023-a6b0f73c2bb4")
 	)
 	(junction
-		(at 119.38 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b9e2e36-6369-49dd-907a-eaddf7d3bbc4")
-	)
-	(junction
 		(at 162.56 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2047,6 +2077,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd9e3dee-d7b1-4613-b27b-97b76f9e279d")
+	)
+	(junction
+		(at 119.38 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4c5730d-4ac0-4c92-b504-f3cd21f3a87c")
 	)
 	(wire
 		(pts
@@ -3602,6 +3638,193 @@
 		)
 	)
 	(symbol
+		(lib_id "COMPONENTS:USP3485CN-L/TR")
+		(at 92.71 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86cac404-8bfa-46f4-a0b0-d78f780902da")
+		(property "Reference" "IC4"
+			(at 105.41 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USP3485CN-L/TR"
+			(at 105.41 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "COMPONENTS:SOIC-8"
+			(at 114.3 172.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 272.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Interface IC, RS422/RS485 Transceiver, 1 Driver, 1 Receiver, 3.135V to 3.465V Supply, 0°C to 70°C, RoHS"
+			(at 92.964 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "MaxLinear"
+			(at 92.71 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "SP3485CN-L/TR"
+			(at 92.71 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 92.71 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "701-SP3485CN-L/TR"
+			(at 92.71 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.81"
+			(at 92.71 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.38"
+			(at 92.71 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1b" "DigiKey"
+			(at 92.71 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1b P/N" "1016-1816-1-ND"
+			(at 92.71 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1b Cost LV" "0.81"
+			(at 92.71 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1b Cost HV" "0.39507"
+			(at 92.71 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" ""
+			(at 92.71 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd692983-4392-469d-99fe-c3d27ac665dd")
+		)
+		(pin "4"
+			(uuid "7d5ab8cb-7f28-4cde-8183-234ffa8377df")
+		)
+		(pin "6"
+			(uuid "78fb5eb2-570f-4198-b893-f32e9fcdbfa4")
+		)
+		(pin "3"
+			(uuid "f5b4bfb7-c7e9-4159-9e82-e36183a710a6")
+		)
+		(pin "8"
+			(uuid "c84cc3a8-226f-418e-ae23-a2422f2dfe53")
+		)
+		(pin "2"
+			(uuid "42434d68-86b2-4745-b328-73c056d7930d")
+		)
+		(pin "7"
+			(uuid "bf7f7146-aef8-44db-a338-8012a14350e1")
+		)
+		(pin "5"
+			(uuid "4e0c3902-57f8-4b45-b9f0-21aa27e551ca")
+		)
+		(instances
+			(project ""
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/f7d1483b-b2e1-4d1b-a579-3453a4da28ca"
+					(reference "IC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 186.69 123.19 0)
 		(unit 1)
@@ -3662,6 +3885,72 @@
 			(project "P1012202501-Cover Sheet"
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/f7d1483b-b2e1-4d1b-a579-3453a4da28ca"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 119.38 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab63b8f4-c985-45ed-b750-071a1c48aa05")
+		(property "Reference" "#PWR028"
+			(at 119.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 119.38 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 119.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9205e33a-bc58-4745-a24b-13ffbb57ffa6")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/f7d1483b-b2e1-4d1b-a579-3453a4da28ca"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3784,72 +4073,6 @@
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/f7d1483b-b2e1-4d1b-a579-3453a4da28ca"
 					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 119.38 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7a9153d-2cb8-4b28-ad0c-d58ede6dff54")
-		(property "Reference" "#PWR028"
-			(at 119.38 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 119.38 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 119.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c2b5da66-b735-46bc-a965-e6a7b0a4a5fd")
-		)
-		(instances
-			(project ""
-				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/f7d1483b-b2e1-4d1b-a579-3453a4da28ca"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3986,156 +4209,6 @@
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/f7d1483b-b2e1-4d1b-a579-3453a4da28ca"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "COMPONENTS:USP485REN-L_TR")
-		(at 92.71 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7d36593-dd6d-418b-a058-faa0e3a6e22e")
-		(property "Reference" "IC4"
-			(at 99.568 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USP485REN-L_TR"
-			(at 105.664 89.408 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "COMPONENTS:SOIC-8"
-			(at 114.3 172.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 272.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Interface IC, RS422/RS485 Transceiver, 1 Driver, 1 Receiver, 4.75V to 5.25V Supply, -40°C to 85°C, RoHS"
-			(at 92.964 66.294 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 1" "MaxLinear"
-			(at 92.71 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 1 P/N" "SP485REN-L/TR"
-			(at 92.71 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor 1a" "Mouser"
-			(at 92.71 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor 1a P/N" "701-SP485REN-L/TR"
-			(at 92.71 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor 1a Cost LV" "1.02"
-			(at 92.71 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor 1a Cost HV" "0.484"
-			(at 92.71 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Val" ""
-			(at 92.71 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ab922578-5de0-4b84-944e-a733eedbc99e")
-		)
-		(pin "6"
-			(uuid "f4ed2757-419c-4481-8fa6-1c173ce31a69")
-		)
-		(pin "8"
-			(uuid "3d603308-0d4e-4efd-8ea6-3ee972ff06e2")
-		)
-		(pin "4"
-			(uuid "aadc4845-6150-4e2a-bc71-6f2a574492b3")
-		)
-		(pin "5"
-			(uuid "4c1f06c4-068d-4a86-9119-2d8771ab2103")
-		)
-		(pin "1"
-			(uuid "59cd96fa-79d8-4a85-a5d6-153d327f3e06")
-		)
-		(pin "3"
-			(uuid "5add263e-6a35-45fd-9e3e-715303977d00")
-		)
-		(pin "7"
-			(uuid "16f19886-7371-4cfb-b653-d4ce7fa10dad")
-		)
-		(instances
-			(project ""
-				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/f7d1483b-b2e1-4d1b-a579-3453a4da28ca"
-					(reference "IC4")
 					(unit 1)
 				)
 			)

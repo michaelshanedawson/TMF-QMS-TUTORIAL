@@ -158,6 +158,162 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "KH68001-406HLF"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 16.51 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "KH22-28-5021"
+			(at 16.51 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "CONNECTORS:2x1HDR2.54mm"
+			(at 16.51 -94.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 16.51 -194.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector, Header, 2 Pin, 1 Row, Vertical, Through Hole, 2.54mm Pitch, 8.13mm Post Length, -40°C to 80°C, RoHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Molex"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "22-28-5021"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "538-22-28-5021"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.10"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.071"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "KH68001-406HLF_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 15.24 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "KHS4B-PH-SM4-TB(LF)(SN)"
 		(pin_names
 			(offset 0.254)
@@ -173,7 +329,7 @@
 				)
 			)
 		)
-		(property "Value" "KP39522-0004"
+		(property "Value" "KHS4B-PH-SM4-TB(LF)(SN)"
 			(at 8.382 4.064 0)
 			(effects
 				(font
@@ -181,7 +337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONNECTORS:39522-0003"
+		(property "Footprint" "CONNECTORS:S4B-PH-SM4-TB"
 			(at -9.144 6.858 0)
 			(effects
 				(font
@@ -201,7 +357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector, Pluggable, 3 Circuit, 1 Row, Right Angle, Through Hole, 5.0mm Pitch, 300V @ 15A, RoHS"
+		(property "Description" "Connector, Pluggable, 4 Circuit, 1 Row, Right Angle, SMD, 2.0mm Pitch, 100V @ 2A, -25°C to 85°C, RoHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -210,7 +366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer 1" "Molex"
+		(property "Manufacturer 1" "JST"
 			(at 0 0 0)
 			(effects
 				(font
@@ -219,7 +375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer 1 P/N" "39522-0004"
+		(property "Manufacturer 1 P/N" "S4B-PH-SM4-TB(LF)(SN)"
 			(at 0 0 0)
 			(effects
 				(font
@@ -237,7 +393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor 1a P/N" "538-39522-0004"
+		(property "Vendor 1a P/N" "306-S4BPHSM4TBLFSN"
 			(at 0 0 0)
 			(effects
 				(font
@@ -246,7 +402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor 1a Cost LV" "0.52"
+		(property "Vendor 1a Cost LV" "0.79"
 			(at 0 0 0)
 			(effects
 				(font
@@ -255,7 +411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor 1a Cost HV" "0.471"
+		(property "Vendor 1a Cost HV" "0.369"
 			(at 0 0 0)
 			(effects
 				(font
@@ -264,7 +420,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mate" "39520-0003"
+		(property "Mate" "PHR-4"
+			(at 0 0 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Terminals" "SPH-002T-P0.5L"
 			(at 0 0 0)
 			(show_name)
 			(effects

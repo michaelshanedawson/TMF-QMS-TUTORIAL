@@ -2517,7 +2517,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "19e11740-f7f7-4076-873b-184861bbb18f")
+			(uuid "19e11740-f7f7-4076-873b-184861bbb190")
 		)
 		(instances
 			(project ""
@@ -4037,7 +4037,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "19e11740-f7f7-4076-873b-184861bbb18f")
+			(uuid "19e11740-f7f7-4076-873b-184861bbb191")
 		)
 		(instances
 			(project ""
