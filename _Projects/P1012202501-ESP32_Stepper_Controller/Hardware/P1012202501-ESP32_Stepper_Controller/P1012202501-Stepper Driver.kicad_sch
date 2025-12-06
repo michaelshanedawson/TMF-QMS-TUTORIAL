@@ -415,6 +415,211 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "COMPONENTS:CC0603226010AABX5R"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 4.826 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CC0603226010AABX5R"
+				(at -3.556 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "COMPONENTS:CAP-0603"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor, Chip, 0603, 22µF, 10V, 20%, X5R, -55°C to 85°C, RoHS"
+				(at 0.762 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1" "Murata"
+				(at -15.494 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1 P/N" "GRM188R61A226ME15D"
+				(at -10.922 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a" "Mouser"
+				(at -17.018 -19.812 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a P/N" "81-GRM188R61A226ME5D"
+				(at -7.366 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost LV" "0.10"
+				(at -17.018 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost HV" "0.023"
+				(at -9.652 -18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Val" "22µF, 10V, 0603"
+				(at 4.826 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CC0603226010AABX5R_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "COMPONENTS:CC0603474050AAAX7R"
 			(pin_names
 				(hide yes)
@@ -2518,6 +2723,221 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "COMPONENTS:UTMP36GRTZ-REEL7"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 31.75 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "UTMP36GRTZ-REEL7"
+				(at 31.75 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "COMPONENTS:SOT-23-5"
+				(at 31.75 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 31.75 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Temperature Sensor, 2.7V to 5.5V, SOT-23-5, -40 °C to 125° C Temperature Range, RoHS"
+				(at 6.35 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1" "Analog Devices"
+				(at 31.75 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1 P/N" "TMP36GRTZ-REEL7"
+				(at 31.75 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a" "Mouser"
+				(at 31.75 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a P/N" "584-TMP36GRTZ-R7"
+				(at 31.75 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost LV" "1.89"
+				(at 31.75 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost HV" "1.22"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "UTMP36GRTZ-REEL7_1_1"
+				(rectangle
+					(start 5.08 0)
+					(end 30.48 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "+VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -2.54 180)
+					(length 5.08)
+					(name "~{SHUTDOWN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -6.35 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -10.16 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CONNECTORS:KHS4B-PH-SM4-TB(LF)(SN)"
 			(pin_names
 				(offset 0.254)
@@ -3892,6 +4312,12 @@
 		(uuid "09507591-5c1a-4142-85f6-065e450ad0a3")
 	)
 	(junction
+		(at 208.28 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "107f2e63-f661-4f15-8144-170a332ecaef")
+	)
+	(junction
 		(at 115.57 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3940,6 +4366,18 @@
 		(uuid "8d939d2e-1245-48b6-9728-be789037cd39")
 	)
 	(junction
+		(at 222.25 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bd25675-6394-437c-9844-121298d3c927")
+	)
+	(junction
+		(at 215.9 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aabd165d-9a21-4e58-9f4d-8dcfc5909de0")
+	)
+	(junction
 		(at 190.5 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3976,6 +4414,12 @@
 		(uuid "ec88afee-6b83-4ac7-a093-555c02e7a219")
 	)
 	(junction
+		(at 200.66 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f12354a3-4a44-4aad-a47b-f733fb556ba3")
+	)
+	(junction
 		(at 40.64 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4008,6 +4452,16 @@
 			(type default)
 		)
 		(uuid "025befd6-417e-48d0-8951-e84a4123475d")
+	)
+	(wire
+		(pts
+			(xy 196.85 22.86) (xy 208.28 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b9a828-d4f7-4a1b-a95a-b0541c89b7c8")
 	)
 	(wire
 		(pts
@@ -4091,6 +4545,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 43.18) (xy 196.85 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24203590-d561-4038-8bc1-de639377e417")
+	)
+	(wire
+		(pts
 			(xy 80.01 146.05) (xy 80.01 149.86)
 		)
 		(stroke
@@ -4111,6 +4575,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 22.86) (xy 215.9 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b54f2ec-de26-4379-87c1-34b2c54f66cc")
+	)
+	(wire
+		(pts
 			(xy 80.01 171.45) (xy 87.63 171.45)
 		)
 		(stroke
@@ -4128,6 +4602,16 @@
 			(type default)
 		)
 		(uuid "2c857705-2819-4709-bc3d-2e9e5afda341")
+	)
+	(wire
+		(pts
+			(xy 261.62 48.26) (xy 261.62 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d620e18-868e-483c-99ba-17089247cc2f")
 	)
 	(wire
 		(pts
@@ -4261,6 +4745,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 48.26) (xy 261.62 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f87f860-4f86-414e-939e-38d4e544b4ee")
+	)
+	(wire
+		(pts
 			(xy 170.18 110.49) (xy 172.72 110.49)
 		)
 		(stroke
@@ -4301,6 +4795,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 40.64) (xy 222.25 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5895830d-ef87-4b61-b690-3a084d5a8900")
+	)
+	(wire
+		(pts
 			(xy 57.15 176.53) (xy 67.31 176.53)
 		)
 		(stroke
@@ -4321,6 +4825,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 22.86) (xy 222.25 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62e7e3b9-72e0-4cd3-864b-fc57a86b2f10")
+	)
+	(wire
+		(pts
 			(xy 31.75 139.7) (xy 24.13 139.7)
 		)
 		(stroke
@@ -4328,6 +4842,16 @@
 			(type default)
 		)
 		(uuid "631c3c78-a464-4d23-b57c-e717630eb649")
+	)
+	(wire
+		(pts
+			(xy 208.28 43.18) (xy 208.28 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "635bbf10-387f-4cc4-93d3-76544bb4905a")
 	)
 	(wire
 		(pts
@@ -4358,6 +4882,16 @@
 			(type default)
 		)
 		(uuid "6571a4d5-a09a-45db-a5ab-6ec3f96d143a")
+	)
+	(wire
+		(pts
+			(xy 208.28 22.86) (xy 215.9 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6617e10a-ec5b-4d35-a0b0-eba3914686a5")
 	)
 	(wire
 		(pts
@@ -4471,6 +5005,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 49.53) (xy 200.66 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "827b40e3-e610-4028-acc1-a586066cdc0d")
+	)
+	(wire
+		(pts
 			(xy 105.41 153.67) (xy 180.34 153.67)
 		)
 		(stroke
@@ -4541,6 +5085,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 40.64) (xy 257.81 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c961bc4-7737-409c-8e2a-15a99a8aee46")
+	)
+	(wire
+		(pts
 			(xy 49.53 128.27) (xy 66.04 128.27)
 		)
 		(stroke
@@ -4581,6 +5135,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 30.48) (xy 196.85 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af13fac3-da51-4002-89f7-a7fdbbf7383a")
+	)
+	(wire
+		(pts
 			(xy 113.03 81.28) (xy 134.62 81.28)
 		)
 		(stroke
@@ -4608,6 +5172,16 @@
 			(type default)
 		)
 		(uuid "b4ecd3b4-4dc3-4abe-bcf3-56706b166999")
+	)
+	(wire
+		(pts
+			(xy 196.85 49.53) (xy 200.66 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b728523b-b630-4f76-a2a2-c8fed17e1cc2")
 	)
 	(wire
 		(pts
@@ -4851,6 +5425,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 22.86) (xy 208.28 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4ecff5e-aab2-4b10-a196-41d9b929c473")
+	)
+	(wire
+		(pts
 			(xy 80.01 167.64) (xy 80.01 171.45)
 		)
 		(stroke
@@ -4878,6 +5462,16 @@
 			(type default)
 		)
 		(uuid "fd32556f-6bfb-4531-8577-544045e7e4c8")
+	)
+	(wire
+		(pts
+			(xy 257.81 44.45) (xy 262.89 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5d4a2e-1dec-4bc8-a9a5-05fc2cfac91e")
 	)
 	(wire
 		(pts
@@ -4991,6 +5585,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TEMP_SENSE"
+		(shape output)
+		(at 262.89 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "521764be-21c5-4f41-8d38-8a76383a5130")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.7283 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5146,6 +5762,72 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 215.9 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f5978f1-7c3e-4a0f-832d-79ea3e1571b6")
+		(property "Reference" "#PWR079"
+			(at 215.9 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 215.9 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 215.9 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6327f552-dd8b-4a32-8077-c0ea483b5815")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "#PWR079")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5412,6 +6094,72 @@
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c2386ba-7dc1-4a3c-89e0-8b0c83a4a7fd")
+		(property "Reference" "#PWR080"
+			(at 200.66 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0825884a-d8b5-4b83-8c9b-ed1e45ec2ab5")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -6635,6 +7383,141 @@
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COMPONENTS:CC0603104050AAAX7R")
+		(at 196.85 30.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99b50ffb-67b2-4386-8161-379bef0798da")
+		(property "Reference" "C28"
+			(at 200.66 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CC0603104050AAAX7R"
+			(at 193.294 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "COMPONENTS:CAP-0603"
+			(at 100.66 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0.66 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, Chip, 0603, 10µF, 50V, 10%, X7R, -55°C to 125°C, RoHS"
+			(at 189.992 31.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Yageo"
+			(at 181.61 14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "CC0603KRX7R9BB104"
+			(at 184.15 19.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 177.038 13.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "603-CC603KRX7R9BB104"
+			(at 186.69 23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.10"
+			(at 179.07 13.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.012"
+			(at 178.816 20.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "0.1µF, 50V, 0603"
+			(at 192.786 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "83d9b576-d8ed-4c40-95bd-e1b6cbe688d3")
+		)
+		(pin "2"
+			(uuid "49f119db-d0df-4e1e-848c-e178d452bf08")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -8082,6 +8965,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 261.62 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e67103c6-6deb-4ec2-9114-5edddeb611b1")
+		(property "Reference" "#PWR078"
+			(at 261.62 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50541fd5-5826-46d0-9603-4f612c3e7dd0")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 80.01 146.05 0)
 		(unit 1)
@@ -8276,6 +9225,279 @@
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COMPONENTS:CC0603226010AABX5R")
+		(at 208.28 30.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0e9b683-9f88-410d-a077-7d601abce47a")
+		(property "Reference" "C29"
+			(at 212.09 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CC0603226010AABX5R"
+			(at 204.724 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "COMPONENTS:CAP-0603"
+			(at 112.09 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 12.09 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, Chip, 0603, 22µF, 10V, 20%, X5R, -55°C to 85°C, RoHS"
+			(at 201.422 31.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Murata"
+			(at 193.04 14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "GRM188R61A226ME15D"
+			(at 195.58 19.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 188.468 13.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "81-GRM188R61A226ME5D"
+			(at 198.12 23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.10"
+			(at 190.5 13.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.023"
+			(at 190.246 20.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "22µF, 10V, 0603"
+			(at 204.216 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "adfbebec-2ed0-48ef-b164-d0dda4d8b6a7")
+		)
+		(pin "1"
+			(uuid "eb458d5c-4948-44db-8aba-3c04223eb611")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COMPONENTS:UTMP36GRTZ-REEL7")
+		(at 222.25 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6985794-c7af-4ce1-bc05-5a42128fb55b")
+		(property "Reference" "IC7"
+			(at 240.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UTMP36GRTZ-REEL7"
+			(at 240.03 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "COMPONENTS:SOT-23-5"
+			(at 254 133.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 233.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Temperature Sensor, 2.7V to 5.5V, SOT-23-5, -40 °C to 125° C Temperature Range, RoHS"
+			(at 228.6 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Analog Devices"
+			(at 254 733.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "TMP36GRTZ-REEL7"
+			(at 254 833.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 254 633.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "584-TMP36GRTZ-R7"
+			(at 254 533.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "1.89"
+			(at 254 433.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "1.22"
+			(at 222.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "11f66f4a-805a-496e-a293-8d2ab15774af")
+		)
+		(pin "3"
+			(uuid "32027b3f-b655-44fd-8d00-4e6c167f1be0")
+		)
+		(pin "4"
+			(uuid "0489cad8-cf0f-4a2f-a672-46d30775bb1c")
+		)
+		(pin "5"
+			(uuid "3463b15f-945d-4e86-94f9-a0454e99fb6b")
+		)
+		(pin "1"
+			(uuid "cc2d3122-ae15-4f32-8010-91db56a4d702")
+		)
+		(instances
+			(project ""
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "IC7")
 					(unit 1)
 				)
 			)
