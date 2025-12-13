@@ -206,7 +206,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "COMPONENTS:RC06010K2075AAA"
+		(symbol "COMPONENTS:RC060310K2075AAA"
 			(pin_names
 				(hide yes)
 			)
@@ -222,7 +222,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "RC06010K2075AAA"
+			(property "Value" "RC060310K2075AAA"
 				(at 1.524 -6.096 0)
 				(effects
 					(font
@@ -323,7 +323,7 @@
 					)
 				)
 			)
-			(symbol "RC06010K2075AAA_1_1"
+			(symbol "RC060310K2075AAA_1_1"
 				(rectangle
 					(start 5.08 1.27)
 					(end 12.7 -1.27)
@@ -2802,142 +2802,6 @@
 		)
 	)
 	(symbol
-		(lib_id "COMPONENTS:RC06010K2075AAA")
-		(at 153.67 139.7 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2fccf9eb-a0ba-4a79-b2bf-1e5b0b295b69")
-		(property "Reference" "R17"
-			(at 156.21 147.3199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RC06010K2075AAA"
-			(at 147.574 141.224 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "COMPONENTS:RES-0603"
-			(at 57.48 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -42.52 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, Chip, 0603, 10KΩ, 75V, 0.5%, -55°C to 155°C, RoHS, AEC-Q200"
-			(at 144.526 143.764 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 1" "Yageo"
-			(at 138.176 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 1 P/N" "AC0603DRE0710KL"
-			(at 140.462 146.812 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor 1a" "Mouser"
-			(at 155.956 119.888 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor 1a P/N" "603-AC0603DRE0710KL"
-			(at 164.084 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor 1a Cost LV" "0.11"
-			(at 153.416 120.904 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor 1a Cost HV" "0.031"
-			(at 160.02 121.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Val" "10KΩ"
-			(at 156.21 149.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "9b8700b7-8616-4f47-981e-86eeb467f161")
-		)
-		(pin "1"
-			(uuid "31bdda49-9f1a-41c0-99e4-a654978686da")
-		)
-		(instances
-			(project "P1012202501-Cover Sheet"
-				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/f8e5551b-e31b-452d-9639-b088ef170407"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 151.13 54.61 0)
 		(unit 1)
@@ -3064,142 +2928,6 @@
 			(project "P1012202501-Cover Sheet"
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/f8e5551b-e31b-452d-9639-b088ef170407"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "COMPONENTS:RC06010K2075AAA")
-		(at 152.4 86.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ecd4644-3246-44a8-98a0-0762eaa5b31a")
-		(property "Reference" "R16"
-			(at 154.94 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RC06010K2075AAA"
-			(at 146.304 87.884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "COMPONENTS:RES-0603"
-			(at 56.21 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -43.79 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, Chip, 0603, 10KΩ, 75V, 0.5%, -55°C to 155°C, RoHS, AEC-Q200"
-			(at 143.256 90.424 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 1" "Yageo"
-			(at 136.906 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 1 P/N" "AC0603DRE0710KL"
-			(at 139.192 93.472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor 1a" "Mouser"
-			(at 154.686 66.548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor 1a P/N" "603-AC0603DRE0710KL"
-			(at 162.814 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor 1a Cost LV" "0.11"
-			(at 152.146 67.564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor 1a Cost HV" "0.031"
-			(at 158.75 68.072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Val" "10KΩ"
-			(at 154.94 96.5199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "171cfd25-f5ca-403a-b745-bc33cd03b6e9")
-		)
-		(pin "1"
-			(uuid "2e9ad3ee-5599-47dc-8b59-d9468252bcc4")
-		)
-		(instances
-			(project "P1012202501-Cover Sheet"
-				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/f8e5551b-e31b-452d-9639-b088ef170407"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -3340,6 +3068,142 @@
 			(project "P1012202501-Cover Sheet"
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/f8e5551b-e31b-452d-9639-b088ef170407"
 					(reference "CN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COMPONENTS:RC060310K2075AAA")
+		(at 152.4 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "911ee39d-a9ca-4a93-bdf8-42a51fb6f5ea")
+		(property "Reference" "R16"
+			(at 154.94 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RC060310K2075AAA"
+			(at 146.304 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "COMPONENTS:RES-0603"
+			(at 56.21 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -43.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, Chip, 0603, 10KΩ, 75V, 0.5%, -55°C to 155°C, RoHS, AEC-Q200"
+			(at 143.256 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Yageo"
+			(at 136.906 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "AC0603DRE0710KL"
+			(at 139.192 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 154.686 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "603-AC0603DRE0710KL"
+			(at 162.814 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.11"
+			(at 152.146 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.031"
+			(at 158.75 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "10KΩ"
+			(at 154.94 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "d021ec22-e653-401f-8b19-2e00d034a60d")
+		)
+		(pin "2"
+			(uuid "47a01826-ab1c-43b5-a6a1-3bc19b435146")
+		)
+		(instances
+			(project ""
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/f8e5551b-e31b-452d-9639-b088ef170407"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4115,6 +3979,142 @@
 		)
 	)
 	(symbol
+		(lib_id "COMPONENTS:RC060310K2075AAA")
+		(at 153.67 139.7 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbea30db-93f6-407a-9e5b-b884bb00759e")
+		(property "Reference" "R17"
+			(at 156.21 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RC060310K2075AAA"
+			(at 147.574 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "COMPONENTS:RES-0603"
+			(at 57.48 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -42.52 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, Chip, 0603, 10KΩ, 75V, 0.5%, -55°C to 155°C, RoHS, AEC-Q200"
+			(at 144.526 143.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Yageo"
+			(at 138.176 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "AC0603DRE0710KL"
+			(at 140.462 146.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 155.956 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "603-AC0603DRE0710KL"
+			(at 164.084 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.11"
+			(at 153.416 120.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.031"
+			(at 160.02 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "10KΩ"
+			(at 156.21 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "d021ec22-e653-401f-8b19-2e00d034a60d")
+		)
+		(pin "2"
+			(uuid "47a01826-ab1c-43b5-a6a1-3bc19b435146")
+		)
+		(instances
+			(project ""
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/f8e5551b-e31b-452d-9639-b088ef170407"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CONNECTORS:TP5010")
 		(at 191.77 153.67 0)
 		(unit 1)
@@ -4377,6 +4377,142 @@
 		)
 	)
 	(symbol
+		(lib_id "COMPONENTS:RC060310K2075AAA")
+		(at 151.13 33.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1c35fd5-c3fe-4686-b415-4268d831f275")
+		(property "Reference" "R15"
+			(at 153.67 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RC060310K2075AAA"
+			(at 145.034 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "COMPONENTS:RES-0603"
+			(at 54.94 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -45.06 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, Chip, 0603, 10KΩ, 75V, 0.5%, -55°C to 155°C, RoHS, AEC-Q200"
+			(at 141.986 37.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Yageo"
+			(at 135.636 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "AC0603DRE0710KL"
+			(at 137.922 40.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 153.416 13.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "603-AC0603DRE0710KL"
+			(at 161.544 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.11"
+			(at 150.876 14.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.031"
+			(at 157.48 14.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "10KΩ"
+			(at 153.67 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "d021ec22-e653-401f-8b19-2e00d034a60d")
+		)
+		(pin "2"
+			(uuid "47a01826-ab1c-43b5-a6a1-3bc19b435146")
+		)
+		(instances
+			(project ""
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/f8e5551b-e31b-452d-9639-b088ef170407"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "COMPONENTS:RC12101K2200AAC")
 		(at 99.06 26.67 0)
 		(unit 1)
@@ -4505,142 +4641,6 @@
 			(project "P1012202501-Cover Sheet"
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/f8e5551b-e31b-452d-9639-b088ef170407"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "COMPONENTS:RC06010K2075AAA")
-		(at 151.13 33.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2f2cab4-e104-43b3-b550-f26b04d758b7")
-		(property "Reference" "R15"
-			(at 153.67 40.6399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RC06010K2075AAA"
-			(at 145.034 34.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "COMPONENTS:RES-0603"
-			(at 54.94 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -45.06 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, Chip, 0603, 10KΩ, 75V, 0.5%, -55°C to 155°C, RoHS, AEC-Q200"
-			(at 141.986 37.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 1" "Yageo"
-			(at 135.636 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 1 P/N" "AC0603DRE0710KL"
-			(at 137.922 40.132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor 1a" "Mouser"
-			(at 153.416 13.208 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor 1a P/N" "603-AC0603DRE0710KL"
-			(at 161.544 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor 1a Cost LV" "0.11"
-			(at 150.876 14.224 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor 1a Cost HV" "0.031"
-			(at 157.48 14.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Val" "10KΩ"
-			(at 153.67 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "9f0a37e2-e862-4ab8-a67c-d2c5704247f5")
-		)
-		(pin "1"
-			(uuid "71027475-5e3a-461a-81a0-e8b68b67977a")
-		)
-		(instances
-			(project "P1012202501-Cover Sheet"
-				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/f8e5551b-e31b-452d-9639-b088ef170407"
-					(reference "R15")
 					(unit 1)
 				)
 			)
