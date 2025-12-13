@@ -1,4 +1,4 @@
-### MDL-014 — Master Supplier List (Framework)
+### MDL-014 — Approved Supplier List (Framework)
 
 | Supplier ID | Supplier Name | Country | Contact | Parts Supplied (MPN list) | Approval Status | Approval Date | Qualification Notes | Lead Time (days) | MOQ | Risk Level | Owner | Documents Path |
 | --- | --- | --- | --- | --- | --- | --- | --- | ---: | ---: | --- | --- | --- |
