@@ -63,7 +63,7 @@ Applies to all incoming components, PCBs, assemblies, mechanical parts, and cons
 
 5. **Electrical Inspection (if applicable)**  
    - Spot‑check resistance, continuity, or voltage rating.  
-   - For modules (ESP32, DRV8825): verify correct labeling and revision.
+   - For modules: verify correct labeling and revision.
 
 6. **Quantity Verification**  
    - Count or weigh components to confirm quantity matches PO.
@@ -71,12 +71,12 @@ Applies to all incoming components, PCBs, assemblies, mechanical parts, and cons
 7. **Record Results**  
    - Log findings in the Incoming Inspection Log.  
    - Attach photos for any anomalies.  
-   - Store results in `/docs/MDL-004_Incoming_Inspection_FAI.md` or `/test/test-logs/`.
+   - Store results in `/logs/Incoming Inspection Logs/MDL-004_Incoming_Inspection.xlxs`.
 
 8. **Disposition**  
    - **Accept:** Meets all requirements → move to “Approved Inventory.”  
    - **Conditional Accept:** Minor issues; requires QA approval.  
-   - **Reject:** Nonconforming → quarantine and log NCM in MDL‑006.
+   - **Reject:** Nonconforming → quarantine and log NCM in `/logs/Non Conforming/MDL‑006_NCM_Log.xlxs`.
 
 ---
 
@@ -130,4 +130,4 @@ Applies to all incoming components, PCBs, assemblies, mechanical parts, and cons
 
 | Version | Date | Author | Summary |
 | --- | --- | --- | --- |
-| 1.0 | 2025-11-06 | Manufacturing Lead | Initial SOP for incoming inspection |
+| 1.0 | 2025-12-13 | Manufacturing Lead | Initial SOP for incoming inspection |
