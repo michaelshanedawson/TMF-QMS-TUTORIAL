@@ -46,12 +46,10 @@
 | FR-001 | ESP32 module with Wi‑Fi and BLE support | User need; platform standard |
 | FR-002 | DRV8825 driver with step/dir/enable interface | Motor control standard |
 | FR-003 | 12-24 V input with onboard 3.3 V and 5.0 V regulation | Power flexibility |
-| FR-004 | Pluggable headers for RS-485, stepper signals, GPIO | Prototyping usability |
-| FR-005 | BLE provisioning and OTA firmware update | Modern embedded workflow |
-| FR-006 | USB programming interface | Developer convenience |
-| FR-007 | KiCAD project with annotated schematic and PCB | Open design; reproducibility |
-| FR-008 | Test points for motor signals and power rails | Debugging and validation |
-| FR-009 | LEDs as visual indicators | Debugging and validation
+| FR-004 | Pluggable headers for RS-485, motor outputs, and control inputs | Prototyping usability |
+| FR-005 | USB programming interface | Developer convenience |
+| FR-006 | Test points for motor signals and power rails | Debugging and validation |
+| FR-007 | LEDs as visual indicators | Debugging and validation
 
 ---
 

@@ -75,8 +75,11 @@ Applies to all incoming components, PCBs, assemblies, mechanical parts, and cons
 
 8. **Disposition**  
    - **Accept:** Meets all requirements → move to “Approved Inventory.”  
-   - **Conditional Accept:** Minor issues; requires QA approval.  
-   - **Reject:** Nonconforming → quarantine and log NCM in `/logs/Non Conforming/MDL‑006_NCM_Log.xlxs`.
+   - **Conditional Accept:** Minor issues; requires QA approval. Upon QA approval to accept the deviation, a physical note must remain with the approved inventory indicating the approval date, the NCM number, and who it was approved by until the final quantity is consumed. Approved materials should take priority over FIFO where possible.
+   - **Reject:** Nonconforming → quarantine. NCM number follows the unit until final disposition.
+
+* All NCM and their dispositions are logged in `/logs/Non Conforming/MDL‑006_NCM_Log.xlxs`.
+* To create the NCM number, use the current MMDDYY-XXXX where XXXX is the sequence the entry was made in. Example, 121525-0001 would be for an NCM generated on December 15th 2025 and is the first one generated on that date.
 
 ---
 
