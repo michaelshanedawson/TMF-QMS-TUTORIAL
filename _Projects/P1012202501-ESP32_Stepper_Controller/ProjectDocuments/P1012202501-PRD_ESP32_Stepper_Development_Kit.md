@@ -48,7 +48,7 @@
 | FR-003 | 12-24 V input with onboard 3.3 V and 5.0 V regulation | Power flexibility |
 | FR-004 | Pluggable headers for RS-485, motor outputs, and control inputs | Prototyping usability |
 | FR-005 | USB programming interface | Developer convenience |
-| FR-006 | Test points for motor signals and power rails | Debugging and validation |
+| FR-006 | Test points for power rails | Debugging and validation |
 | FR-007 | LEDs as visual indicators | Debugging and validation
 
 ---
@@ -77,12 +77,7 @@
 ---
 
 ### Verification and Validation Plan
-
-| Requirement ID | Verification Method | Validation Owner | Record Location |
-| --- | --- | --- | --- |
-| FR-001 to FR-008 | Schematic review; bench test | Design Lead | /test/test-logs |
-| PR-001 to PR-005 | Bench test; firmware logs | QA Lead | /docs/test-plan.md |
-| SR-001 to SR-004 | Safety checklist; FAI | QA + Manufacturing | /docs/MDL-004_FAI.md |
+#### Refer to document `P1012202501-Test_Plan.md` for detailed test plan to validate the outlined requirements.
 
 ---
 
