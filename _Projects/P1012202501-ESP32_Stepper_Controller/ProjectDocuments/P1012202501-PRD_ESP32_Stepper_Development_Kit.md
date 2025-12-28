@@ -57,11 +57,10 @@
 
 | ID | Metric | Target Value | Test Method |
 | --- | --- | --- | --- |
-| PR-001 | Motor current output | Up to 2.5 A | Bench test; thermal log |
-| PR-002 | BLE provisioning time | < 10 s | BLE test script |
-| PR-003 | PCB temperature rise | < 40 °C above ambient | Thermal camera + log |
-| PR-004 | Firmware OTA success rate | > 95% | OTA test suite |
-| PR-005 | Voltage regulation ripple | < 50 mV | Oscilloscope |
+| PR-001 | Motor current output | Up to 2.5 A | Bench test; thermal measurement |
+| PR-002 | PCB temperature rise | < 40 °C above ambient | Thermal measurement device(s) |
+| PR-003 | 3.3V Voltage regulation ripple | < 50 mV | Oscilloscope |
+| PR-004 | 5.0V Voltage regulation ripple | < 50 mV | Oscilloscope |
 
 ---
 
@@ -72,12 +71,11 @@
 | SR-001 | Reverse polarity protection on input | IEC 60664; ISO 9001:8.3 |
 | SR-002 | Thermal protection for DRV8825 | IEC 60730; ISO 9001:8.5 |
 | SR-003 | Isolation between motor power and logic | IEC 61010; ISO 9001:8.3 |
-| SR-004 | EMC pre‑cert test readiness | ISO 9001:8.3; 9.1 |
 
 ---
 
 ### Verification and Validation Plan
-#### Refer to document `P1012202501-Test_Plan.md` for detailed test plan to validate the outlined requirements.
+#### Refer to document `P1012202501-Test_Plan.md` and `P1012202501-Deep_Test_Plan.md` for detailed test plan to validate the outlined requirements.
 
 ---
 
