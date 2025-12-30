@@ -59,7 +59,7 @@ Applies to all incoming components, PCBs, assemblies, mechanical parts, and cons
 
 4. **Dimensional Inspection**  
    - Measure critical dimensions using calipers or microscope.  
-   - Compare against datasheet or drawing tolerances.
+   - Compare against data sheet or drawing tolerances.
 
 5. **Electrical Inspection (if applicable)**  
    - Spot‑check resistance, continuity, or voltage rating.  
