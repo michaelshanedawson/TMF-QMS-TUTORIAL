@@ -36,6 +36,7 @@
 * Desktop thermometer capable of reading °C ambient temperature values.
 * Hot air gun with temperature control.
 * Oscilloscope with at least 2 channels.
+* Proper functioning PPE.
 
 ---
 
@@ -50,5 +51,7 @@
 
 ### Performance Requirements
 * PR-001: With the bench top power supply output disabled, set the output voltage to 24VDC and the current limit to 3.5A. Connect the red positive output to CN1 Terminal 1 and the black negative output to CN1 Terminal 2 on the PCB assembly. `Connect the pre-wired motor driver loading assembly` to CN7. Enable the power supply output and flash the ESP32 with the `STEPPERCURRENT` firmware. Connect the USB to FTDI cable to J4 observing proper polarity. Load up PuTTY and open the appropriate COM port with the following settings, 115200 baud, 8 data bits, 1 stop bit, and no parity. Reset the PCB assembly by pressing and releasing the `ENABLE` button and the terminal console should display the following message: `P1012202501 Stepper Current Testing`. Place the multi-meter into current measuring mode and attach the probes to the correct input ports then connect the red positive lead to the #1 connection on the motor driver loading assembly and the black negative lead to the #2 connection on the motor driver loading assembly. In the terminal window, type in the command `start` and press enter. This will start the testing process and load down the motor driver IC. Observe the multi-meter for current measured. The driver IC should be able to deliver 2.5A of current to a motor. `Possibly observe for fault conditions?`. Once this test is completed, disable the power supply output and disconnect the `Connect the pre-wired motor driver loading assembly` from CN7.
-* PR-002: Enable the power supply output and flash the ESP32 with the `PCBTESTRISE` firmware. Connect the `stepper motor test rig` to CN7 and CN3 as indicated by labels on the test rig.
+* PR-002: Enable the power supply output and flash the ESP32 with the `PCBTESTRISE` firmware. Connect the `stepper motor test rig` to CN7 and CN3 as indicated by labels on the test rig. `add more here` Disable the power supply output and then disconnect the `stepper motor test rig` from the PCB assembly.
+* PR-003: 3.3V loading and ripple test. With the power supply output disabled, connect the `3v power supply test unit` negative (black) lead to TP3 (GND) and the positive (red) lead to TP1 (3.3V). Connect the oscilloscope probe to the 3.3V connection and the probe ground clip to the GND connection on the test unit. Set the volts/division to 20mV and verify that it is configured for a 1x probe and DC coupling.
+* PR-004: 5.0V loading and ripple test.
 
