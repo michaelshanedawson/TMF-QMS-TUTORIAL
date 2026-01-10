@@ -1744,7 +1744,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "COMPONENTS:UCP2102C-A01-GQFN28"
+		(symbol "COMPONENTS:UCP2102N-A02-GQFN28R"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1757,7 +1757,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "UCP2102C-A01-GQFN28"
+			(property "Value" "UCP2102N-A02-GQFN28R"
 				(at 5.842 2.794 0)
 				(effects
 					(font
@@ -1786,7 +1786,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Interface IC, USB to UART Bridge, QFN28, -40°C to +85°C, RoHS"
+			(property "Description" "Interface IC, USB to UART Bridge, USB 2.0, Full Speed, QFN28, -40°C to +85°C, RoHS"
 				(at -31.496 18.796 0)
 				(effects
 					(font
@@ -1804,7 +1804,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer 1 P/N" "CP2102C-A01-GQFN28"
+			(property "Manufacturer 1 P/N" "CP2102N-A02-GQFN28R"
 				(at -34.544 23.622 0)
 				(effects
 					(font
@@ -1822,7 +1822,7 @@
 					(hide yes)
 				)
 			)
-			(property "Vendor 1a P/N" "634-P2102CA01GQFN28"
+			(property "Vendor 1a P/N" "634-CP2102NA02QFN28R"
 				(at -34.29 16.002 0)
 				(effects
 					(font
@@ -1831,7 +1831,7 @@
 					(hide yes)
 				)
 			)
-			(property "Vendor 1a Cost LV" "3.55"
+			(property "Vendor 1a Cost LV" "3.52"
 				(at -16.51 30.734 0)
 				(effects
 					(font
@@ -1840,7 +1840,7 @@
 					(hide yes)
 				)
 			)
-			(property "Vendor 1a Cost HV" "1.31"
+			(property "Vendor 1a Cost HV" "2.13"
 				(at -23.622 39.624 0)
 				(effects
 					(font
@@ -1858,7 +1858,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "UCP2102C-A01-GQFN28_1_1"
+			(symbol "UCP2102N-A02-GQFN28R_1_1"
 				(rectangle
 					(start 5.08 0)
 					(end 38.1 -43.18)
@@ -2176,10 +2176,10 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -12.7 180)
 					(length 5.08)
-					(name "NC_2"
+					(name "CHREN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2194,10 +2194,10 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -15.24 180)
 					(length 5.08)
-					(name "NC_3"
+					(name "CHR1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2212,10 +2212,10 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -17.78 180)
 					(length 5.08)
-					(name "NC_4"
+					(name "CHR0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2230,10 +2230,10 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -20.32 180)
 					(length 5.08)
-					(name "NC_5"
+					(name "GPIO3/WAKEUP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2248,10 +2248,10 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -22.86 180)
 					(length 5.08)
-					(name "NC_6"
+					(name "GPIO2/RS485"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2266,10 +2266,10 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -25.4 180)
 					(length 5.08)
-					(name "NC_7"
+					(name "GPIO1/RXT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2284,10 +2284,10 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -27.94 180)
 					(length 5.08)
-					(name "NC_8"
+					(name "GPIO0/TXT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2302,10 +2302,10 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -30.48 180)
 					(length 5.08)
-					(name "NC_9"
+					(name "GPIO6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2320,10 +2320,10 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -33.02 180)
 					(length 5.08)
-					(name "NC_10"
+					(name "GPIO5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2338,10 +2338,10 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -35.56 180)
 					(length 5.08)
-					(name "NC_11"
+					(name "GPIO4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3305,6 +3305,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 268.986 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7cc1a8ea-7a0b-4a74-b913-641b3a93bc4e")
+	)
 	(text "USB UART"
 		(exclude_from_sim yes)
 		(at 192.532 189.738 0)
@@ -3517,6 +3527,10 @@
 		(uuid "fe47b7cb-09ee-43f3-8086-1ff64d59f0e4")
 	)
 	(no_connect
+		(at 160.02 64.77)
+		(uuid "0b18872a-b546-42ad-b2dc-b3e845db294f")
+	)
+	(no_connect
 		(at 228.6 62.23)
 		(uuid "0f508bd7-4602-452f-bd5f-47572c1e46a4")
 	)
@@ -3525,20 +3539,52 @@
 		(uuid "34c58f39-a01b-41a8-9234-aae1ed2c3346")
 	)
 	(no_connect
+		(at 160.02 82.55)
+		(uuid "3f7b7951-5838-4da0-b39d-bf51b30e61a7")
+	)
+	(no_connect
+		(at 160.02 74.93)
+		(uuid "431c4cb6-f02c-4a7b-afe2-66f853f39cf9")
+	)
+	(no_connect
+		(at 160.02 77.47)
+		(uuid "4bc21f9d-4518-47bb-b257-34601faeb588")
+	)
+	(no_connect
+		(at 160.02 85.09)
+		(uuid "570038eb-22bc-4f9f-97b6-c5bc4453e119")
+	)
+	(no_connect
 		(at 116.84 82.55)
 		(uuid "65770cea-c405-48db-be7c-3d4d20be9d38")
+	)
+	(no_connect
+		(at 160.02 67.31)
+		(uuid "6d49f5f8-135d-4f51-9fdc-027af5ebe348")
 	)
 	(no_connect
 		(at 116.84 87.63)
 		(uuid "7d342843-1209-452d-9998-28c65945c42b")
 	)
 	(no_connect
+		(at 160.02 72.39)
+		(uuid "8de84a42-65fd-404f-99e5-77a5e1ef9e7c")
+	)
+	(no_connect
 		(at 116.84 90.17)
 		(uuid "9b525071-3477-4612-b5e0-4d07c17af823")
 	)
 	(no_connect
+		(at 160.02 87.63)
+		(uuid "9cfc4a3b-f82f-40c5-a8c9-93c82250f358")
+	)
+	(no_connect
 		(at 116.84 72.39)
 		(uuid "a59e1ac4-faec-4c09-95ec-d872096ed7a4")
+	)
+	(no_connect
+		(at 160.02 69.85)
+		(uuid "aab6b274-8133-4e44-a8b1-47e2ae0774c8")
 	)
 	(no_connect
 		(at 116.84 92.71)
@@ -3559,6 +3605,10 @@
 	(no_connect
 		(at 228.6 57.15)
 		(uuid "d7aa79a9-7a8e-4bc6-a500-61814b7964e8")
+	)
+	(no_connect
+		(at 160.02 80.01)
+		(uuid "f47f2a62-8041-494f-a1d4-5b35148a40fe")
 	)
 	(wire
 		(pts
@@ -8320,7 +8370,7 @@
 		)
 	)
 	(symbol
-		(lib_id "COMPONENTS:UCP2102C-A01-GQFN28")
+		(lib_id "COMPONENTS:UCP2102N-A02-GQFN28R")
 		(at 116.84 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8364,7 +8414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Interface IC, USB to UART Bridge, QFN28, -40°C to +85°C, RoHS"
+		(property "Description" "Interface IC, USB to UART Bridge, USB 2.0, Full Speed, QFN28, -40°C to +85°C, RoHS"
 			(at 85.344 33.274 0)
 			(effects
 				(font
@@ -8382,7 +8432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer 1 P/N" "CP2102C-A01-GQFN28"
+		(property "Manufacturer 1 P/N" "CP2102N-A02-GQFN28R"
 			(at 82.296 28.448 0)
 			(effects
 				(font
@@ -8400,7 +8450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor 1a P/N" "634-P2102CA01GQFN28"
+		(property "Vendor 1a P/N" "634-CP2102NA02QFN28R"
 			(at 82.55 36.068 0)
 			(effects
 				(font
@@ -8409,7 +8459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor 1a Cost LV" "3.55"
+		(property "Vendor 1a Cost LV" "3.52"
 			(at 100.33 21.336 0)
 			(effects
 				(font
@@ -8418,7 +8468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor 1a Cost HV" "1.31"
+		(property "Vendor 1a Cost HV" "2.13"
 			(at 93.218 12.446 0)
 			(effects
 				(font

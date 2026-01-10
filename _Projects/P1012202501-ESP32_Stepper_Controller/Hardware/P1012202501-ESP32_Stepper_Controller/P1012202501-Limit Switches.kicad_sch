@@ -1506,6 +1506,16 @@
 		)
 		(uuid "9cab51f9-681e-4645-af7d-2b07e4c0e6e2")
 	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 268.986 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c5c52d5b-48d6-48c0-aa6b-2dd2bec231bb")
+	)
 	(junction
 		(at 180.34 85.09)
 		(diameter 0)
@@ -2663,10 +2673,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5ef0da66-69c2-4e0a-9fce-ae9d0d911bdf")
+			(uuid "5ef0da66-69c2-4e0a-9fce-ae9d0d911be0")
 		)
 		(pin "2"
-			(uuid "242c1c5d-d576-4843-b931-b16636a8b397")
+			(uuid "242c1c5d-d576-4843-b931-b16636a8b398")
 		)
 		(instances
 			(project ""
@@ -2865,10 +2875,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5ef0da66-69c2-4e0a-9fce-ae9d0d911bdf")
+			(uuid "5ef0da66-69c2-4e0a-9fce-ae9d0d911be1")
 		)
 		(pin "2"
-			(uuid "242c1c5d-d576-4843-b931-b16636a8b397")
+			(uuid "242c1c5d-d576-4843-b931-b16636a8b399")
 		)
 		(instances
 			(project ""

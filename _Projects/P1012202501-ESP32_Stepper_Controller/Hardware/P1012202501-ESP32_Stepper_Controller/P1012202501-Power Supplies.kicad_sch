@@ -3148,6 +3148,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 268.986 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7164f620-7583-4b35-bce7-e35171a4a3ff")
+	)
 	(text "Power Supplies"
 		(exclude_from_sim yes)
 		(at 195.326 189.738 0)

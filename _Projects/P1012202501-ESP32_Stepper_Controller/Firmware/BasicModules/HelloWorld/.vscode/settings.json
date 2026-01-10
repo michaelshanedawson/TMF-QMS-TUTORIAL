@@ -5,7 +5,7 @@
     "interface/ftdi/esp32_devkitj_v1.cfg",
     "target/esp32.cfg"
   ],
-  "idf.portWin": "COM22",
+  "idf.portWin": "COM23",
   "files.associations": {
     "spi_master.h": "c"
   },

@@ -2767,6 +2767,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 268.986 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "26c04193-8ba4-46bb-8ccf-15d1d1e15882")
+	)
 	(text "ESP32"
 		(exclude_from_sim yes)
 		(at 194.056 189.992 0)

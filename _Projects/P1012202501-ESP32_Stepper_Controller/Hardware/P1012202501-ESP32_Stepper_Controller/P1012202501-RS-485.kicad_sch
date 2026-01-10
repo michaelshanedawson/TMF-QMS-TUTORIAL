@@ -2001,6 +2001,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 268.986 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "12c4c0a6-8d4a-4e75-b311-adc7f6ac2f4f")
+	)
 	(text "RS-485"
 		(exclude_from_sim yes)
 		(at 190.5 189.992 0)

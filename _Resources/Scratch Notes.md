@@ -19,3 +19,17 @@ R=V/I
 R=5.0/2
 R=2.5Ω - Factor in tolerance of test resistor = +/- 20%
 
+P=V*I
+P=5.0*2
+P=10W
+
+2.5A on the Stepper Motor Driver IC
+
+R=V/I
+R=24/2.5
+R=9.6Ω - Factor in tolerance of test resistor = +/- 20%
+
+P=V*I
+P=24*2.5
+P=60W
+

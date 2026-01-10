@@ -320,6 +320,16 @@
 		)
 		(uuid "e7d12b8d-5687-4307-acec-d8a290879ed5")
 	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 269.24 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f4e02298-a2af-41f6-a5e1-6e93afd35f5e")
+	)
 	(no_connect
 		(at 250.19 120.65)
 		(uuid "0cd6a967-3baa-4f77-a464-fa1f9479cd71")

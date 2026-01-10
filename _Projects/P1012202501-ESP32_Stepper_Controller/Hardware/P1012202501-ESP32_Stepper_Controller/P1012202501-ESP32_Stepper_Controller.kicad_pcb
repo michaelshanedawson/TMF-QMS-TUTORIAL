@@ -44367,7 +44367,7 @@
 		(layer "Edge.Cuts")
 		(uuid "de7f3c4d-6c0f-4d3a-8808-eb5a716e8b34")
 	)
-	(gr_text "P1012202501-PCB-01"
+	(gr_text "P1012202501-PCB-02"
 		(at 147 54.5 0)
 		(layer "B.Cu")
 		(uuid "8686b174-7531-4380-9e39-283c78bf0d16")

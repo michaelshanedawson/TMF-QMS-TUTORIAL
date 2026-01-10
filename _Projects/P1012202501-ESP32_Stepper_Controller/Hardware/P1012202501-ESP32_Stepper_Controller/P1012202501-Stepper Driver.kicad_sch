@@ -4299,6 +4299,16 @@
 		)
 		(uuid "1072792e-3122-492f-8889-92d5255e1716")
 	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 268.986 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1d1269ef-ef91-4db2-af4e-454b93c7305a")
+	)
 	(junction
 		(at 55.88 69.85)
 		(diameter 0)
