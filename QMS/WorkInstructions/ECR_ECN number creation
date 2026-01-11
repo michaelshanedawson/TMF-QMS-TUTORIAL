@@ -1,0 +1,11 @@
+To generate an ECR number for a project, follow this example:
+
+P1012202501-01-11-26-01
+
+XXXXXXXXXXXX-XX-XX-XX-XX
+Project ID   MM DD YY Sequence
+
+To generate the ECN number, follow the following example:
+ECN-P1012202501-01-11-26-01
+
+ECN- Add the ECR number to it
