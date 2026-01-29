@@ -513,7 +513,7 @@
       "plot": "Project Outputs for P1012202501-01/",
       "pos_files": "Project Outputs for P1012202501-01/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "P1012202501-ESP32_Stepper_Controller.step",
       "svg": "",
       "vrml": ""
     },

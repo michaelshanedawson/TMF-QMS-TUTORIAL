@@ -3811,6 +3811,144 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CONNECTORS:TP5010"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TP5010"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CONNECTORS:5010"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Test Point, Through Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1" "Keystone"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1 P/N" "5010"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a " "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a P/N" "534-5010"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost LV" "0.33"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost HV" "0.188"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TP5010_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+24V"
 			(power)
 			(pin_numbers
@@ -4322,7 +4460,7 @@
 		(uuid "09507591-5c1a-4142-85f6-065e450ad0a3")
 	)
 	(junction
-		(at 208.28 22.86)
+		(at 200.66 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "107f2e63-f661-4f15-8144-170a332ecaef")
@@ -4376,13 +4514,13 @@
 		(uuid "8d939d2e-1245-48b6-9728-be789037cd39")
 	)
 	(junction
-		(at 222.25 22.86)
+		(at 214.63 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bd25675-6394-437c-9844-121298d3c927")
 	)
 	(junction
-		(at 215.9 22.86)
+		(at 208.28 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aabd165d-9a21-4e58-9f4d-8dcfc5909de0")
@@ -4412,6 +4550,12 @@
 		(uuid "e8889f37-26ed-4936-a748-1c0fb69b67a4")
 	)
 	(junction
+		(at 265.43 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec333819-0ee6-4b6e-8478-6763d3c3a45a")
+	)
+	(junction
 		(at 172.72 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4424,7 +4568,7 @@
 		(uuid "ec88afee-6b83-4ac7-a093-555c02e7a219")
 	)
 	(junction
-		(at 200.66 49.53)
+		(at 193.04 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f12354a3-4a44-4aad-a47b-f733fb556ba3")
@@ -4465,7 +4609,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 22.86) (xy 208.28 22.86)
+			(xy 189.23 20.32) (xy 200.66 20.32)
 		)
 		(stroke
 			(width 0)
@@ -4555,7 +4699,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 43.18) (xy 196.85 49.53)
+			(xy 189.23 40.64) (xy 189.23 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4585,7 +4729,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 22.86) (xy 215.9 22.86)
+			(xy 214.63 20.32) (xy 208.28 20.32)
 		)
 		(stroke
 			(width 0)
@@ -4615,7 +4759,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 48.26) (xy 261.62 50.8)
+			(xy 254 45.72) (xy 254 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4632,6 +4776,16 @@
 			(type default)
 		)
 		(uuid "2e5f79f7-6cdd-4c12-8910-0d26100b5c62")
+	)
+	(wire
+		(pts
+			(xy 113.03 185.42) (xy 130.81 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31596b4c-88c6-41a4-bfc0-23ec79076eae")
 	)
 	(wire
 		(pts
@@ -4655,7 +4809,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 99.06) (xy 134.62 99.06)
+			(xy 113.03 99.06) (xy 134.62 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4672,6 +4826,16 @@
 			(type default)
 		)
 		(uuid "33b85f9d-1f7a-497b-8122-be11c14ebe70")
+	)
+	(wire
+		(pts
+			(xy 33.02 19.05) (xy 50.8 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a93a18e-ae44-4345-905e-a76feb0bc1b0")
 	)
 	(wire
 		(pts
@@ -4715,7 +4879,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 88.9) (xy 134.62 88.9)
+			(xy 265.43 41.91) (xy 265.43 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45fd5f5c-3607-428a-b3f6-378fad31c764")
+	)
+	(wire
+		(pts
+			(xy 113.03 88.9) (xy 134.62 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4755,7 +4929,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 48.26) (xy 261.62 48.26)
+			(xy 250.19 45.72) (xy 254 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4785,7 +4959,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 173.99) (xy 67.31 173.99)
+			(xy 57.15 173.99) (xy 87.63 173.99)
 		)
 		(stroke
 			(width 0)
@@ -4795,7 +4969,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 91.44) (xy 134.62 91.44)
+			(xy 113.03 91.44) (xy 134.62 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4805,7 +4979,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 40.64) (xy 222.25 22.86)
+			(xy 214.63 38.1) (xy 214.63 20.32)
 		)
 		(stroke
 			(width 0)
@@ -4835,7 +5009,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 22.86) (xy 222.25 22.86)
+			(xy 250.19 20.32) (xy 214.63 20.32)
 		)
 		(stroke
 			(width 0)
@@ -4855,13 +5029,23 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 43.18) (xy 208.28 49.53)
+			(xy 200.66 40.64) (xy 200.66 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "635bbf10-387f-4cc4-93d3-76544bb4905a")
+	)
+	(wire
+		(pts
+			(xy 265.43 41.91) (xy 269.24 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ac43e2-7ad5-4fcc-81ec-3ef2d0220f40")
 	)
 	(wire
 		(pts
@@ -4875,7 +5059,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 96.52) (xy 134.62 96.52)
+			(xy 113.03 96.52) (xy 134.62 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4895,7 +5079,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 22.86) (xy 215.9 22.86)
+			(xy 200.66 20.32) (xy 208.28 20.32)
 		)
 		(stroke
 			(width 0)
@@ -4945,7 +5129,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 101.6) (xy 134.62 101.6)
+			(xy 113.03 101.6) (xy 134.62 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4975,6 +5159,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 49.53) (xy 111.76 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1013fc-aa2e-437d-82d1-056a75478b35")
+	)
+	(wire
+		(pts
 			(xy 190.5 127) (xy 190.5 129.54)
 		)
 		(stroke
@@ -4995,6 +5189,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 38.1) (xy 50.8 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72691927-f0d2-41a9-977b-6757c53bf6b6")
+	)
+	(wire
+		(pts
 			(xy 118.11 133.35) (xy 123.19 133.35)
 		)
 		(stroke
@@ -5002,6 +5206,16 @@
 			(type default)
 		)
 		(uuid "7519423e-0758-46e9-8a9d-abe3b531045c")
+	)
+	(wire
+		(pts
+			(xy 33.02 27.94) (xy 50.8 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "782f89f7-2c16-4877-9d65-c84b9c1d03ea")
 	)
 	(wire
 		(pts
@@ -5015,7 +5229,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 49.53) (xy 200.66 49.53)
+			(xy 200.66 46.99) (xy 193.04 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5095,7 +5309,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 40.64) (xy 257.81 22.86)
+			(xy 250.19 38.1) (xy 250.19 20.32)
 		)
 		(stroke
 			(width 0)
@@ -5145,7 +5359,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 30.48) (xy 196.85 22.86)
+			(xy 189.23 27.94) (xy 189.23 20.32)
 		)
 		(stroke
 			(width 0)
@@ -5185,7 +5399,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 49.53) (xy 200.66 49.53)
+			(xy 189.23 46.99) (xy 193.04 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5215,6 +5429,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 26.67) (xy 111.76 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d4793e-cea1-4ee6-bfbb-37af673f9014")
+	)
+	(wire
+		(pts
 			(xy 57.15 171.45) (xy 80.01 171.45)
 		)
 		(stroke
@@ -5232,6 +5456,16 @@
 			(type default)
 		)
 		(uuid "be9d3dd1-c68a-47a0-a2d8-d8f251d467c6")
+	)
+	(wire
+		(pts
+			(xy 113.03 176.53) (xy 130.81 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfeaf59c-b27d-4c7e-a4d1-e58ea747c71d")
 	)
 	(wire
 		(pts
@@ -5305,6 +5539,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 34.29) (xy 111.76 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4cf3ae4-12d3-45a7-965b-61b894c0d727")
+	)
+	(wire
+		(pts
 			(xy 107.95 69.85) (xy 134.62 69.85)
 		)
 		(stroke
@@ -5365,6 +5609,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 19.05) (xy 111.76 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e9b7bb-86d0-47bf-9463-1068b7911eb9")
+	)
+	(wire
+		(pts
 			(xy 25.4 69.85) (xy 25.4 74.93)
 		)
 		(stroke
@@ -5382,6 +5636,16 @@
 			(type default)
 		)
 		(uuid "e7fced5c-24f4-4a34-9e79-8c0214713bd3")
+	)
+	(wire
+		(pts
+			(xy 91.44 41.91) (xy 111.76 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee74df81-0665-4ab0-a55c-4b0d57c366c0")
 	)
 	(wire
 		(pts
@@ -5435,7 +5699,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 22.86) (xy 208.28 30.48)
+			(xy 200.66 20.32) (xy 200.66 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5475,7 +5739,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 44.45) (xy 262.89 44.45)
+			(xy 250.19 41.91) (xy 265.43 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5492,6 +5756,96 @@
 			(type default)
 		)
 		(uuid "fdd3ef75-6252-4f1a-a9fb-2ae7b41fcca1")
+	)
+	(label "STP_MS1"
+		(at 115.57 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05fe9754-0367-457e-b275-d6d5ed062e5a")
+	)
+	(label "FAN_TACH"
+		(at 113.03 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07ed7cc6-bbd2-45d0-af52-6625a3ad4758")
+	)
+	(label "STP_STEP"
+		(at 91.44 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31fd960f-782f-423b-b183-d08ac7cc689d")
+	)
+	(label "STP_FLT"
+		(at 220.98 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "351d394f-9630-44d7-890b-c69c99e801b3")
+	)
+	(label "STP_MS0"
+		(at 115.57 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3abf0bde-acaf-42c2-a1bf-e76ed60f2998")
+	)
+	(label "FAN_PWM"
+		(at 66.04 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e2ead18-827a-434b-a037-76a7b348c2c2")
+	)
+	(label "STP_ENABLE"
+		(at 33.02 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53561796-bb9c-4027-8b46-04478a057eba")
+	)
+	(label "STP_FLT"
+		(at 91.44 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5450e50b-95f1-4be4-8c32-16884c4c4d98")
+	)
+	(label "FAN_PWM"
+		(at 113.03 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5496e4d8-4a12-4375-9897-c65c5fe3670b")
 	)
 	(label "STP_ENABLE"
 		(at 50.8 128.27 0)
@@ -5513,6 +5867,46 @@
 		)
 		(uuid "88bc4ff4-0864-4511-9fa3-9307b51ccecd")
 	)
+	(label "FAN_TACH"
+		(at 66.04 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8be57a08-ac19-4a85-8b4d-6fbbd4688988")
+	)
+	(label "STP_MS0"
+		(at 91.44 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad4219b8-d9f2-4df7-b97d-f550f81f62c6")
+	)
+	(label "STP_DIR"
+		(at 33.02 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9991908-18d6-43da-90a0-40bf55836199")
+	)
+	(label "STP_MS1"
+		(at 91.44 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c36a9820-d770-49bf-b9c3-d6420d29fa19")
+	)
 	(label "STP_RESET"
 		(at 50.8 139.7 0)
 		(effects
@@ -5524,6 +5918,16 @@
 		(uuid "d524c831-8d99-4bee-b901-ed267c12b6d5")
 	)
 	(label "STP_RESET"
+		(at 33.02 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8467781-b404-4ad4-8c28-3254cca8e95e")
+	)
+	(label "STP_RESET"
 		(at 114.3 81.28 0)
 		(effects
 			(font
@@ -5532,6 +5936,46 @@
 			(justify left bottom)
 		)
 		(uuid "df9a4cac-4507-4daa-8b83-3f3180c20f44")
+	)
+	(label "STP_MS2"
+		(at 91.44 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1c39256-4a21-47b6-a7a1-04364e89b55e")
+	)
+	(label "STP_STEP"
+		(at 115.57 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8162e50-9d75-4ec8-9895-875ffaadf6b6")
+	)
+	(label "STP_MS2"
+		(at 115.57 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f54f4b84-9921-4fad-8d60-ce489cade837")
+	)
+	(label "STP_DIR"
+		(at 115.57 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7272be8-5601-4be6-81d5-6ee6a84b85f5")
 	)
 	(global_label "STP_RESET"
 		(shape input)
@@ -5557,7 +6001,7 @@
 	)
 	(global_label "STP_STEP"
 		(shape input)
-		(at 124.46 91.44 180)
+		(at 113.03 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5567,7 +6011,7 @@
 		)
 		(uuid "2a1f46a2-f70e-4dd0-ae9c-653fe8c9abfc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.464 91.44 0)
+			(at 101.034 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5601,7 +6045,7 @@
 	)
 	(global_label "TEMP_SENSE"
 		(shape output)
-		(at 262.89 44.45 0)
+		(at 269.24 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5611,7 +6055,7 @@
 		)
 		(uuid "521764be-21c5-4f41-8d38-8a76383a5130")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 277.7283 44.45 0)
+			(at 284.0783 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5623,7 +6067,7 @@
 	)
 	(global_label "FAN_PWM"
 		(shape input)
-		(at 67.31 173.99 0)
+		(at 87.63 173.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5633,7 +6077,7 @@
 		)
 		(uuid "62ab0466-9363-4d0b-9293-78ae6b5e51c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.9433 173.99 0)
+			(at 99.2633 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5645,7 +6089,7 @@
 	)
 	(global_label "STP_MS1"
 		(shape input)
-		(at 123.19 99.06 180)
+		(at 113.03 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5655,7 +6099,7 @@
 		)
 		(uuid "ca855d47-617c-4cfc-971b-917833eaea88")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.9197 99.06 0)
+			(at 101.7597 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5667,7 +6111,7 @@
 	)
 	(global_label "STP_MS0"
 		(shape input)
-		(at 123.19 96.52 180)
+		(at 113.03 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5677,7 +6121,7 @@
 		)
 		(uuid "cd69091b-5018-4b87-8f3a-9d7fed7f7269")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.9197 96.52 0)
+			(at 101.7597 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5689,7 +6133,7 @@
 	)
 	(global_label "STP_DIR"
 		(shape input)
-		(at 124.46 88.9 180)
+		(at 113.03 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5699,7 +6143,7 @@
 		)
 		(uuid "d29bc039-bb7b-4626-9e2d-fa73ec6d90e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.9153 88.9 0)
+			(at 102.4853 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5733,7 +6177,7 @@
 	)
 	(global_label "STP_MS2"
 		(shape input)
-		(at 123.19 101.6 180)
+		(at 113.03 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5743,7 +6187,7 @@
 		)
 		(uuid "fe7055e9-a2ac-4f0d-95ac-65847263f635")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.9197 101.6 0)
+			(at 101.7597 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5776,8 +6220,254 @@
 		)
 	)
 	(symbol
+		(lib_id "CONNECTORS:TP5010")
+		(at 50.8 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e7049bd-0c16-44a4-baf4-c3391b2102ba")
+		(property "Reference" "TP29"
+			(at 67.31 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP5010"
+			(at 67.31 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONNECTORS:5010"
+			(at 67.31 133.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 233.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point, Through Hole"
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Keystone"
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "5010"
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a " "Mouser"
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "534-5010"
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.33"
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.188"
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75eda2f9-5166-438a-935e-df174941a5d2")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "TP29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS:TP5010")
+		(at 130.81 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f130250-4f4b-47ab-80cc-2846ee34b436")
+		(property "Reference" "TP36"
+			(at 147.32 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP5010"
+			(at 147.32 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONNECTORS:5010"
+			(at 147.32 280.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 380.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point, Through Hole"
+			(at 130.81 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Keystone"
+			(at 130.81 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "5010"
+			(at 130.81 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a " "Mouser"
+			(at 130.81 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "534-5010"
+			(at 130.81 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.33"
+			(at 130.81 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.188"
+			(at 130.81 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d067806-aefd-4a2c-8539-200bd1dfd9b6")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "TP36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
-		(at 215.9 22.86 0)
+		(at 208.28 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5786,7 +6476,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f5978f1-7c3e-4a0f-832d-79ea3e1571b6")
 		(property "Reference" "#PWR079"
-			(at 215.9 26.67 0)
+			(at 208.28 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5795,7 +6485,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 215.9 17.78 0)
+			(at 208.28 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5803,7 +6493,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 22.86 0)
+			(at 208.28 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5812,7 +6502,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 22.86 0)
+			(at 208.28 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +6511,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 215.9 22.86 0)
+			(at 208.28 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6111,7 +6801,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 49.53 0)
+		(at 193.04 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6120,7 +6810,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c2386ba-7dc1-4a3c-89e0-8b0c83a4a7fd")
 		(property "Reference" "#PWR080"
-			(at 200.66 55.88 0)
+			(at 193.04 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6129,7 +6819,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 54.61 0)
+			(at 193.04 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6137,7 +6827,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 49.53 0)
+			(at 193.04 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6146,7 +6836,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 49.53 0)
+			(at 193.04 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6155,7 +6845,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 49.53 0)
+			(at 193.04 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6170,6 +6860,498 @@
 			(project "P1012202501-ESP32_Stepper_Controller"
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
 					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS:TP5010")
+		(at 50.8 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e8f9077-3270-4147-a103-0f4e427baece")
+		(property "Reference" "TP28"
+			(at 67.31 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP5010"
+			(at 67.31 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONNECTORS:5010"
+			(at 67.31 122.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 222.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point, Through Hole"
+			(at 50.8 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Keystone"
+			(at 50.8 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "5010"
+			(at 50.8 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a " "Mouser"
+			(at 50.8 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "534-5010"
+			(at 50.8 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.33"
+			(at 50.8 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.188"
+			(at 50.8 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a817984b-7fba-4c40-a89a-d4c34bbf4082")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "TP28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS:TP5010")
+		(at 111.76 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f92e5f3-4fee-45f4-b838-e2a8f10cdf43")
+		(property "Reference" "TP32"
+			(at 128.27 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP5010"
+			(at 128.27 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONNECTORS:5010"
+			(at 128.27 129.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 229.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point, Through Hole"
+			(at 111.76 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Keystone"
+			(at 111.76 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "5010"
+			(at 111.76 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a " "Mouser"
+			(at 111.76 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "534-5010"
+			(at 111.76 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.33"
+			(at 111.76 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.188"
+			(at 111.76 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a386f88-c4f1-44e4-9f3a-9a8b214c6920")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "TP32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS:TP5010")
+		(at 111.76 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43058dd0-b998-46c0-bac8-0fe4d7cc05a9")
+		(property "Reference" "TP30"
+			(at 128.27 17.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP5010"
+			(at 128.27 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONNECTORS:5010"
+			(at 128.27 113.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 213.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point, Through Hole"
+			(at 111.76 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Keystone"
+			(at 111.76 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "5010"
+			(at 111.76 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a " "Mouser"
+			(at 111.76 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "534-5010"
+			(at 111.76 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.33"
+			(at 111.76 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.188"
+			(at 111.76 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "160d5c3e-8d62-4c5a-9626-9e24f043d5b1")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "TP30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS:TP5010")
+		(at 111.76 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dd4a53e-3556-44a1-b566-b4e47c73fdc7")
+		(property "Reference" "TP34"
+			(at 128.27 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP5010"
+			(at 128.27 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONNECTORS:5010"
+			(at 128.27 144.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 244.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point, Through Hole"
+			(at 111.76 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Keystone"
+			(at 111.76 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "5010"
+			(at 111.76 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a " "Mouser"
+			(at 111.76 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "534-5010"
+			(at 111.76 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.33"
+			(at 111.76 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.188"
+			(at 111.76 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6e8eb77-ce6c-4e68-87e2-19e66c102910")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "TP34")
 					(unit 1)
 				)
 			)
@@ -7131,6 +8313,129 @@
 		)
 	)
 	(symbol
+		(lib_id "CONNECTORS:TP5010")
+		(at 265.43 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80806ed9-62a5-464b-907b-c58628c1bad5")
+		(property "Reference" "TP26"
+			(at 269.24 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP5010"
+			(at 269.24 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONNECTORS:5010"
+			(at 170.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 70.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point, Through Hole"
+			(at 265.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Keystone"
+			(at 265.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "5010"
+			(at 265.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a " "Mouser"
+			(at 265.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "534-5010"
+			(at 265.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.33"
+			(at 265.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.188"
+			(at 265.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63d4bb86-875b-475f-99cd-5104754b77c5")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "TP26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 25.4 60.96 0)
 		(unit 1)
@@ -7400,7 +8705,7 @@
 	)
 	(symbol
 		(lib_id "COMPONENTS:CC0603104050AAAX7R")
-		(at 196.85 30.48 270)
+		(at 189.23 27.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7408,7 +8713,7 @@
 		(dnp no)
 		(uuid "99b50ffb-67b2-4386-8161-379bef0798da")
 		(property "Reference" "C28"
-			(at 200.66 35.5599 90)
+			(at 193.04 33.0199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7417,7 +8722,7 @@
 			)
 		)
 		(property "Value" "CC0603104050AAAX7R"
-			(at 193.294 26.924 0)
+			(at 185.674 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7427,7 +8732,7 @@
 			)
 		)
 		(property "Footprint" "COMPONENTS:CAP-0603"
-			(at 100.66 39.37 0)
+			(at 93.04 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7437,7 +8742,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0.66 39.37 0)
+			(at -6.96 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7447,7 +8752,7 @@
 			)
 		)
 		(property "Description" "Capacitor, Chip, 0603, 10µF, 50V, 10%, X7R, -55°C to 125°C, RoHS"
-			(at 189.992 31.242 0)
+			(at 182.372 28.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7456,7 +8761,7 @@
 			)
 		)
 		(property "Manufacturer 1" "Yageo"
-			(at 181.61 14.986 0)
+			(at 173.99 12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7465,7 +8770,7 @@
 			)
 		)
 		(property "Manufacturer 1 P/N" "CC0603KRX7R9BB104"
-			(at 184.15 19.558 0)
+			(at 176.53 17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7474,7 +8779,7 @@
 			)
 		)
 		(property "Vendor 1a" "Mouser"
-			(at 177.038 13.462 0)
+			(at 169.418 10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7483,7 +8788,7 @@
 			)
 		)
 		(property "Vendor 1a P/N" "603-CC603KRX7R9BB104"
-			(at 186.69 23.114 0)
+			(at 179.07 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7492,7 +8797,7 @@
 			)
 		)
 		(property "Vendor 1a Cost LV" "0.10"
-			(at 179.07 13.462 0)
+			(at 171.45 10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7501,7 +8806,7 @@
 			)
 		)
 		(property "Vendor 1a Cost HV" "0.012"
-			(at 178.816 20.828 0)
+			(at 171.196 18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7510,7 +8815,7 @@
 			)
 		)
 		(property "Val" "0.1µF, 50V, 0603"
-			(at 192.786 29.718 0)
+			(at 185.166 27.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7663,6 +8968,129 @@
 			(project ""
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS:TP5010")
+		(at 111.76 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b06f6d99-c6e1-42ee-8a49-aa160b35801c")
+		(property "Reference" "TP33"
+			(at 128.27 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP5010"
+			(at 128.27 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONNECTORS:5010"
+			(at 128.27 136.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 236.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point, Through Hole"
+			(at 111.76 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Keystone"
+			(at 111.76 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "5010"
+			(at 111.76 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a " "Mouser"
+			(at 111.76 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "534-5010"
+			(at 111.76 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.33"
+			(at 111.76 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.188"
+			(at 111.76 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98aacbf0-84b3-4bf7-9b03-498bac4a1393")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "TP33")
 					(unit 1)
 				)
 			)
@@ -8293,6 +9721,129 @@
 		)
 	)
 	(symbol
+		(lib_id "CONNECTORS:TP5010")
+		(at 50.8 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf039db8-5960-4133-b18c-0cfad90abdb6")
+		(property "Reference" "TP27"
+			(at 67.31 17.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP5010"
+			(at 67.31 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONNECTORS:5010"
+			(at 67.31 113.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 213.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point, Through Hole"
+			(at 50.8 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Keystone"
+			(at 50.8 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "5010"
+			(at 50.8 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a " "Mouser"
+			(at 50.8 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "534-5010"
+			(at 50.8 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.33"
+			(at 50.8 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.188"
+			(at 50.8 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d86b76f5-61fb-454a-9b33-71738bc62bb8")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "TP27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "COMPONENTS:CC0603104050AAAX7R")
 		(at 72.39 74.93 270)
 		(unit 1)
@@ -8827,6 +10378,129 @@
 		)
 	)
 	(symbol
+		(lib_id "CONNECTORS:TP5010")
+		(at 130.81 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de9d359a-c7d5-4c0a-9107-762daa532c83")
+		(property "Reference" "TP35"
+			(at 147.32 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP5010"
+			(at 147.32 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONNECTORS:5010"
+			(at 147.32 271.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 371.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point, Through Hole"
+			(at 130.81 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Keystone"
+			(at 130.81 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "5010"
+			(at 130.81 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a " "Mouser"
+			(at 130.81 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "534-5010"
+			(at 130.81 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.33"
+			(at 130.81 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.188"
+			(at 130.81 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f05cb821-91b6-41cf-8ec6-31b833bf0a30")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "TP35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CONNECTORS:KHS4B-PH-SM4-TB(LF)(SN)")
 		(at 57.15 168.91 0)
 		(mirror y)
@@ -8975,8 +10649,131 @@
 		)
 	)
 	(symbol
+		(lib_id "CONNECTORS:TP5010")
+		(at 111.76 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6028e61-74bf-44a6-8046-08e0d3978fa9")
+		(property "Reference" "TP31"
+			(at 128.27 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP5010"
+			(at 128.27 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONNECTORS:5010"
+			(at 128.27 121.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 221.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point, Through Hole"
+			(at 111.76 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Keystone"
+			(at 111.76 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "5010"
+			(at 111.76 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a " "Mouser"
+			(at 111.76 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "534-5010"
+			(at 111.76 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.33"
+			(at 111.76 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.188"
+			(at 111.76 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02e2d1b9-a877-43d8-b4c0-d48e2579e7c5")
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a/2932f4ee-8c5b-459c-9bd5-5a172fd29c3b"
+					(reference "TP31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 261.62 50.8 0)
+		(at 254 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8985,7 +10782,7 @@
 		(fields_autoplaced yes)
 		(uuid "e67103c6-6deb-4ec2-9114-5edddeb611b1")
 		(property "Reference" "#PWR078"
-			(at 261.62 57.15 0)
+			(at 254 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8994,7 +10791,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 261.62 55.88 0)
+			(at 254 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9002,7 +10799,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 50.8 0)
+			(at 254 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9011,7 +10808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 50.8 0)
+			(at 254 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9020,7 +10817,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 50.8 0)
+			(at 254 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9242,7 +11039,7 @@
 	)
 	(symbol
 		(lib_id "COMPONENTS:CC0603226010AABX5R")
-		(at 208.28 30.48 270)
+		(at 200.66 27.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9250,7 +11047,7 @@
 		(dnp no)
 		(uuid "f0e9b683-9f88-410d-a077-7d601abce47a")
 		(property "Reference" "C29"
-			(at 212.09 35.5599 90)
+			(at 204.47 33.0199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9259,7 +11056,7 @@
 			)
 		)
 		(property "Value" "CC0603226010AABX5R"
-			(at 204.724 26.924 0)
+			(at 197.104 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9269,7 +11066,7 @@
 			)
 		)
 		(property "Footprint" "COMPONENTS:CAP-0603"
-			(at 112.09 39.37 0)
+			(at 104.47 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9279,7 +11076,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 12.09 39.37 0)
+			(at 4.47 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9289,7 +11086,7 @@
 			)
 		)
 		(property "Description" "Capacitor, Chip, 0603, 22µF, 10V, 20%, X5R, -55°C to 85°C, RoHS"
-			(at 201.422 31.242 0)
+			(at 193.802 28.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9298,7 +11095,7 @@
 			)
 		)
 		(property "Manufacturer 1" "Murata"
-			(at 193.04 14.986 0)
+			(at 185.42 12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9307,7 +11104,7 @@
 			)
 		)
 		(property "Manufacturer 1 P/N" "GRM188R61A226ME15D"
-			(at 195.58 19.558 0)
+			(at 187.96 17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9316,7 +11113,7 @@
 			)
 		)
 		(property "Vendor 1a" "Mouser"
-			(at 188.468 13.462 0)
+			(at 180.848 10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9325,7 +11122,7 @@
 			)
 		)
 		(property "Vendor 1a P/N" "81-GRM188R61A226ME5D"
-			(at 198.12 23.114 0)
+			(at 190.5 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9334,7 +11131,7 @@
 			)
 		)
 		(property "Vendor 1a Cost LV" "0.10"
-			(at 190.5 13.462 0)
+			(at 182.88 10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9343,7 +11140,7 @@
 			)
 		)
 		(property "Vendor 1a Cost HV" "0.023"
-			(at 190.246 20.828 0)
+			(at 182.626 18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9352,7 +11149,7 @@
 			)
 		)
 		(property "Val" "22µF, 10V, 0603"
-			(at 204.216 29.21 0)
+			(at 196.596 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9377,7 +11174,7 @@
 	)
 	(symbol
 		(lib_id "COMPONENTS:UTMP36GRTZ-REEL7")
-		(at 222.25 38.1 0)
+		(at 214.63 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9386,7 +11183,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6985794-c7af-4ce1-bc05-5a42128fb55b")
 		(property "Reference" "IC7"
-			(at 240.03 33.02 0)
+			(at 232.41 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9394,7 +11191,7 @@
 			)
 		)
 		(property "Value" "UTMP36GRTZ-REEL7"
-			(at 240.03 35.56 0)
+			(at 232.41 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9402,7 +11199,7 @@
 			)
 		)
 		(property "Footprint" "COMPONENTS:SOT-23-5"
-			(at 254 133.02 0)
+			(at 246.38 130.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9412,7 +11209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 233.02 0)
+			(at 246.38 230.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9422,7 +11219,7 @@
 			)
 		)
 		(property "Description" "Temperature Sensor, 2.7V to 5.5V, SOT-23-5, -40 °C to 125° C Temperature Range, RoHS"
-			(at 228.6 24.13 0)
+			(at 220.98 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9431,7 +11228,7 @@
 			)
 		)
 		(property "Manufacturer 1" "Analog Devices"
-			(at 254 733.02 0)
+			(at 246.38 730.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9441,7 +11238,7 @@
 			)
 		)
 		(property "Manufacturer 1 P/N" "TMP36GRTZ-REEL7"
-			(at 254 833.02 0)
+			(at 246.38 830.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9451,7 +11248,7 @@
 			)
 		)
 		(property "Vendor 1a" "Mouser"
-			(at 254 633.02 0)
+			(at 246.38 630.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9461,7 +11258,7 @@
 			)
 		)
 		(property "Vendor 1a P/N" "584-TMP36GRTZ-R7"
-			(at 254 533.02 0)
+			(at 246.38 530.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9471,7 +11268,7 @@
 			)
 		)
 		(property "Vendor 1a Cost LV" "1.89"
-			(at 254 433.02 0)
+			(at 246.38 430.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9481,7 +11278,7 @@
 			)
 		)
 		(property "Vendor 1a Cost HV" "1.22"
-			(at 222.25 38.1 0)
+			(at 214.63 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
