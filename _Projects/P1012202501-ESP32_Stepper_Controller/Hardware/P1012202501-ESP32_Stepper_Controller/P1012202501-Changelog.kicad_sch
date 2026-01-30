@@ -1,0 +1,2988 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "38625230-bae1-4b9d-b638-8b50182fe352")
+	(paper "A4")
+	(lib_symbols)
+	(text "2"
+		(exclude_from_sim no)
+		(at 269.24 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1e8c8bfa-a654-4867-8edf-7d2b52cab9cd")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 59.69 100.33 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "02d60d84-8037-41c6-9bec-d0df12a5e4db")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 116.84 115.57 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "04fdf879-5dca-452d-8585-6ddf4f9f3003")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 125.73 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "0591d584-69fb-4ad6-9d94-5e39d09cc0d4")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 12.7 95.25 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "0bbb60b0-ceac-4819-bf9e-a9f0e7b61afb")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 59.69 69.85 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "0d349464-51d3-426a-8369-1aaee300fd92")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 21.59 59.69 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "0f4564d6-d9f2-423f-912f-df66bb56d5f4")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 110.49 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "0f78f5ea-985c-4a73-a67d-d19fcba33ced")
+	)
+	(text_box "ECN"
+		(exclude_from_sim no)
+		(at 59.69 13.97 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "1221fb97-078e-4f7d-be08-096cb382778d")
+	)
+	(text_box "ECN-P1012202501-01-11-26-01"
+		(exclude_from_sim no)
+		(at 59.69 24.13 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "124c6d30-51ca-4bad-9843-aef27f2ecfdb")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 54.61 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "12d1ac06-03f5-4fdd-8f7d-fc9651dc5bde")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 21.59 39.37 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "14a436e6-7424-41c6-962b-e64b24558db7")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 116.84 135.89 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "1a29994d-b6b7-49b8-923b-76d0694f2847")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 59.69 90.17 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "1cb4d03b-b197-48eb-a754-4bb4f48dbcf3")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 116.84 54.61 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "1e4dfb5e-b70a-4e0c-b165-126fc5d763b6")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 116.84 85.09 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "20cf0715-557a-47eb-94b9-95da1bb65148")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 74.93 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "247d74f8-f383-4d0d-9273-8325b869a055")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 12.7 140.97 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "24c214ac-3abb-45a6-b4cc-5f1a5f80f1e5")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 12.7 135.89 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "24e5e98f-6af9-446a-8f19-d7cfc51d43f6")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 21.59 90.17 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "2588f805-fbd0-4487-bd4d-0d2acb4e2b64")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 12.7 69.85 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "2632e2e6-03e0-4f25-8f18-daf47d5b3f32")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 146.05 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "2948d3d2-9220-4efd-829b-a40af23438a8")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 116.84 90.17 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "2b3ef552-95ea-4cfb-b976-902009ec6244")
+	)
+	(text_box "SHEET"
+		(exclude_from_sim no)
+		(at 21.59 13.97 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "2bd64def-4d31-4f40-b505-82454e52f720")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 116.84 49.53 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "2c26a43f-51c5-4540-8519-fb728d9257f7")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 59.69 120.65 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "2cb35183-2a75-4663-a70c-d93dc4720577")
+	)
+	(text_box "DESCRIPTION"
+		(exclude_from_sim no)
+		(at 116.84 13.97 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "2ccfcb0f-a43b-45a9-af7b-626d15c6dee7")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 21.59 69.85 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "30125c79-a92f-44f6-b524-254177ab29c8")
+	)
+	(text_box "3,8"
+		(exclude_from_sim no)
+		(at 21.59 34.29 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "339f92a7-9638-4f97-832b-eec9cb16361d")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 12.7 105.41 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "389d92bc-b028-4e74-ad57-0cb11c6465d5")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 12.7 80.01 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "3b04d78f-1414-43e9-8c07-ef48dfbdca3c")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 39.37 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "3c731ff8-4ff0-4aea-a9e1-5aeeddf5cc36")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 116.84 130.81 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "3f6251e4-1cc4-49ea-a1d2-7ee833cc613b")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 21.59 64.77 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "421e409e-c446-4f92-b87e-bfea680bd7a3")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 12.7 90.17 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "42702daf-9b62-4645-bf78-a2eba9f70533")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 116.84 146.05 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "4d10e8ac-29ec-4ac7-b0ee-e3d68f8edea3")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 116.84 39.37 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "52b5d794-0d7d-47de-9a54-c5e2816757f1")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 12.7 54.61 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "541b687e-9337-4ad8-81cc-4928fb421c44")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 21.59 135.89 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "54aca745-8348-4876-bbb8-ead712e590b1")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 12.7 100.33 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "54c7a7d3-31ba-424a-b9a4-cf60bf5f24b8")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 59.69 110.49 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "55d3fb97-43eb-4986-8c19-17334c2fb9f4")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 90.17 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "5670fd7f-18ab-49fe-acc2-1346f5018250")
+	)
+	(text_box "2"
+		(exclude_from_sim no)
+		(at 12.7 29.21 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "5a8688be-1f11-4cae-b78a-e764aa8d3f54")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 12.7 120.65 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "5a8c59b7-85db-4a8a-bab8-e69acdc713f0")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 116.84 64.77 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "5b2e2dcc-052f-4993-8003-36ee9da7c627")
+	)
+	(text_box "Mike Dawson"
+		(exclude_from_sim no)
+		(at 35.56 19.05 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "5ca82051-9c4e-4885-9607-44ca05afeef7")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 21.59 95.25 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "5d3192a8-9aaa-43d1-950a-ebee371191ba")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 116.84 100.33 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "5d4fc960-2360-429e-8d29-36ad1a5bd0cf")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 21.59 49.53 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "5e367874-0e64-4471-9503-eedf02793a2b")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 116.84 105.41 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "5ee7646b-1fc8-4ce4-a415-ffb592c0c32b")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 59.69 39.37 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "5feb2617-65d1-46b6-a706-1478470cf9bd")
+	)
+	(text_box "Mike Dawson"
+		(exclude_from_sim no)
+		(at 35.56 34.29 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "60a5cd0f-a66b-4e84-83af-ad11b0d666bf")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 116.84 140.97 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "63a63791-9cc4-4af0-9e45-38fd5d900cd1")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 49.53 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "660a5ab7-6ac2-4f08-b7a8-eed16217ea84")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 59.69 49.53 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "6632df99-490e-4f04-bde9-00cc6c2a8173")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 21.59 115.57 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "68d9659a-2bdf-4421-a72e-469294089f0f")
+	)
+	(text_box "ECN-P1012202501-01-26-26-01"
+		(exclude_from_sim no)
+		(at 59.69 34.29 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "6a4cf607-9ff2-448d-95c7-90f631fc9403")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 12.7 146.05 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "6b886cc4-c368-4542-b403-7fa499ab42cc")
+	)
+	(text_box "ECN-P1012202501-01-17-26-01"
+		(exclude_from_sim no)
+		(at 59.69 29.21 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "6c2cde79-ffb9-4e5b-8167-d887ccad9178")
+	)
+	(text_box "N/A"
+		(exclude_from_sim no)
+		(at 59.69 19.05 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "6dd24b55-2ca4-4fb8-87be-01bbf2c109ef")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 12.7 130.81 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "74f77fdb-b28f-46cf-b6d6-f87d067c39ef")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 59.69 80.01 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "75639079-d81e-420c-a3f1-e71ac9f0743e")
+	)
+	(text_box "Replace the USB-UART with the CP2102N-A02-GQFN28R."
+		(exclude_from_sim no)
+		(at 116.84 24.13 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "7607e621-20a2-4839-b89a-07e879537b6f")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 85.09 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "77b3ca75-f803-4fbe-a196-20e5f9b67a0e")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 80.01 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "78833343-e8e2-4ee6-a2c8-015d151a6007")
+	)
+	(text_box "Mike Dawson"
+		(exclude_from_sim no)
+		(at 35.56 24.13 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "79388620-cab2-469e-bd1e-b7d705e88337")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 12.7 125.73 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "79755aff-bc39-4231-9a47-65f79164d4f4")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 69.85 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "7b3c65a6-7a06-450c-8005-ba3886934e51")
+	)
+	(text_box "2"
+		(exclude_from_sim no)
+		(at 12.7 34.29 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "7b9f6392-682b-47d8-b610-f33149892897")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 59.69 95.25 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "7c2c249d-049d-4b9d-9931-4fdc7b97bdce")
+	)
+	(text_box "Initial Design."
+		(exclude_from_sim no)
+		(at 116.84 19.05 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "7c6e67c4-53f5-4efb-897d-4a18acc28a5b")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 21.59 130.81 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "7caa514b-9b8e-43aa-9e91-6d32a5d20fff")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 12.7 39.37 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "7f4d16a5-7d57-4853-87b8-428ba4da2ba9")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 59.69 74.93 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "8005336a-8112-43e9-84ad-55bb8f15335b")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 59.69 140.97 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "804e91ad-7f48-49fd-b5ef-05ba0bf77628")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 95.25 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "827fb82d-e083-4c23-9c97-2e8b5a3a58d3")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 21.59 110.49 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "8367ebb4-0c14-45ac-92a8-70fa419c4b63")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 21.59 146.05 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "83927316-8d6c-4a8a-a2e3-c96ce9fd2a12")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 116.84 59.69 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "84042d24-c9a9-4b72-b8ea-1c27ab35d653")
+	)
+	(text_box "REV"
+		(exclude_from_sim no)
+		(at 12.7 13.97 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "8a61ad72-8628-47aa-a217-afe3d56f7ed1")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 120.65 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "8c5f42aa-a73d-4f47-a677-81dbeb24e207")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 21.59 85.09 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "921821cf-e352-4bf3-9fb3-11e6afec1acd")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 59.69 44.45 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "96068de6-202c-4cad-b495-411dd6b2c9a7")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 59.69 105.41 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "96518744-d0a1-4294-9ff3-58f2ebed27d9")
+	)
+	(text_box "Mike Dawson"
+		(exclude_from_sim no)
+		(at 35.56 29.21 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "97f47da2-8698-4d70-b4ae-cf345956b320")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 21.59 140.97 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "998a92b5-8b3b-40f2-a847-6b23fe45785a")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 12.7 49.53 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "9ac51d46-e1a8-4682-8b5b-9900eb664cd8")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 12.7 74.93 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "9d7edf3f-c96e-4a85-a093-75b33785b9ea")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 135.89 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "a0cb37ed-488c-4542-8c8d-aece4f3e5193")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 59.69 59.69 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "a5ae6250-9331-468c-8944-2f813581106a")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 12.7 115.57 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "a961f5ca-ed0e-42f5-828d-416e0057e348")
+	)
+	(text_box "ENGINEER"
+		(exclude_from_sim no)
+		(at 35.56 13.97 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "aabb9ea3-3de1-4de6-90d4-b3764530576f")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 59.69 146.05 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "ab7cc0aa-81a2-44f7-91d0-b6af365b4831")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 105.41 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "acb99eef-af05-44b1-9d43-c33b94e2a263")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 21.59 105.41 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "adf04f8b-2175-4682-aff4-24fd628d69fe")
+	)
+	(text_box "3"
+		(exclude_from_sim no)
+		(at 21.59 24.13 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "afd404c5-af44-4803-ac11-05f888c1e630")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 21.59 74.93 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "b1bc5fc5-8f8b-4403-9d8c-1ccf816468d0")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 59.69 135.89 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "b2df0a23-b963-4e01-af31-957254c0c5c9")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 21.59 80.01 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "b6e4dcbb-c9ee-49bb-95d9-b08188110bb1")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 12.7 59.69 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "b795a963-5547-4f55-95fc-4698a71d03e4")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 59.69 125.73 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "b83757d6-cd84-43e7-b491-7100201be488")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 12.7 110.49 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "b884ebc8-4524-4c47-badd-f08d95d9da45")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 116.84 44.45 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "b8c31261-4826-436d-b779-2e947889b1aa")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 116.84 80.01 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "ba89b142-e8c1-4eaa-8cdd-5db582a16a64")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 21.59 100.33 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "bb066560-077f-4844-aa13-d315762e1de2")
+	)
+	(text_box "Add a 100nF capacitor to the temp sense line on the ESP32 for noise reduction."
+		(exclude_from_sim no)
+		(at 116.84 29.21 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "bb437644-1136-4130-a41b-6bcca112caa7")
+	)
+	(text_box "Added many new test points, moved connectors outward and extended copper pours under PS ICs."
+		(exclude_from_sim no)
+		(at 116.84 34.29 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "bc246e73-5766-4c0c-8039-2ef803b9880f")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 130.81 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "bde2c428-49f9-400e-94fd-9fde26d6c0da")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 116.84 125.73 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "bedf1259-4446-48ab-8d0f-5f996bab3c70")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 59.69 54.61 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "c55464d0-7f70-41e0-8ce3-88f287ca44f9")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 116.84 74.93 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "c675cbf1-f602-42d4-8b97-8d4b58fbcfaf")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 21.59 44.45 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "c7917dff-ac91-4726-b77f-25fe2891c736")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 59.69 130.81 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "c7fce803-1a5c-4571-bb61-860e53bddfba")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 140.97 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "c877c590-324d-4e6c-b3dc-db49d65276f8")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 21.59 54.61 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "c8f2f0ab-dd18-44e2-8c3c-fef69e374c17")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 12.7 85.09 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "cb4452a8-3076-4d69-a8db-4b6d7542914e")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 44.45 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "cd26cfdf-9045-4ea1-8f4f-fc467885c4b0")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 116.84 110.49 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "ce2dcace-5cef-4702-922c-e2e46d08d323")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 59.69 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "ce300f8c-bb48-493d-af5e-6463937e01e3")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 115.57 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "ce4a4ba8-a634-492c-850c-8201cb24f126")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 59.69 115.57 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "d1822cea-1a6b-4770-8a4e-d3be05459427")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 12.7 44.45 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "d1c38c67-5653-4685-95cc-6763f0f3f11b")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 59.69 64.77 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "d28e1500-8975-4711-9c79-430d491ae805")
+	)
+	(text_box "1"
+		(exclude_from_sim no)
+		(at 12.7 19.05 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "d4dc8188-980e-4610-817e-2fa6caafd3d6")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 100.33 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "dc1f1988-2def-4f62-92da-e7c14ab2029e")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 12.7 64.77 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "e32b0bcd-2117-4f81-b12f-a90644cb6c19")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 116.84 69.85 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "eba12d15-7976-4634-b1e7-6e2db4143596")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 59.69 85.09 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "ec6f85fd-e1a0-4895-b7d1-0c2058c372f2")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 21.59 120.65 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "ec7cc369-7375-43fd-bee0-b846d227e6d1")
+	)
+	(text_box "N/A"
+		(exclude_from_sim no)
+		(at 21.59 19.05 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "f04e8d0b-e809-4cc6-b05e-bcdec5855bc4")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 21.59 125.73 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "f1d42b49-dba0-4f77-a913-3f8888cfb5ae")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 116.84 95.25 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "f208ed0f-fb7c-4909-88ab-e54b3156975f")
+	)
+	(text_box "7"
+		(exclude_from_sim no)
+		(at 21.59 29.21 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "f6f891ce-c3e2-4930-b8b3-b6f3fd8357f4")
+	)
+	(text_box "2"
+		(exclude_from_sim no)
+		(at 12.7 24.13 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "fba919db-cf3f-48e1-9b77-e980bbd94e40")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 64.77 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "fed6498d-f161-4ab8-94a1-1719486f83ba")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 116.84 120.65 0)
+		(size 165.1 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "ffe53134-b833-4794-891a-dfa962a4ab7b")
+	)
+)

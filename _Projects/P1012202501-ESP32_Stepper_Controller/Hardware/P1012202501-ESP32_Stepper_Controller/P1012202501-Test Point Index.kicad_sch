@@ -1,0 +1,73 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "04840cf7-8221-4574-909a-d00abe4934cd")
+	(paper "A4")
+	(lib_symbols)
+	(text "2"
+		(exclude_from_sim no)
+		(at 268.986 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2b71c132-416f-442b-8d74-996bf4c1bfc4")
+	)
+	(text "Test Point Index"
+		(exclude_from_sim yes)
+		(at 194.056 189.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "3b169585-b783-41f6-86e2-3643a2ec79e0")
+	)
+	(text_box "TP30 - STP_STEP\nTP31 - STP_MS0\nTP32 - STP_MS1\nTP33 - STP_MS2\nTP34 - STP_FLT\nTP35 - FAN_TACH\nTP36 - FAN_PWM\n"
+		(exclude_from_sim no)
+		(at 83.82 13.97 0)
+		(size 66.04 182.88)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "2435eb1e-2703-4306-bf19-fe573dfafdca")
+	)
+	(text_box "TP1  - 3.3v\nTP2  - 5v\nTP3  - GND\nTP4  - 485_RX\nTP5  - 485_DIR\nTP6  - 485_TX\nTP7  - GND\nTP8  - ESP_RX\nTP9  - ESP_TX\nTP10 - LIMIT_1\nTP11 - LIMIT_2\nTP12 - LIMIT_3\nTP13 - GND\nTP14 - INPUT_1\nTP15 - INPUT_2\nTP16 - INPUT_3\nTP17 - GND\nTP18 - RTS\nTP19 - DTR\nTP20 - BOOT_MODE\nTP21 - ESP_EN\nTP22 - USB_D_P\nTP23 - USB_D_N\nTP24 - VBUS\nTP25 - GND\nTP26 - TEMP_SENSE\nTP27 - STP_ENABLE\nTP28 - STP_RESET\nTP29 - STP_DIR"
+		(exclude_from_sim no)
+		(at 13.97 13.97 0)
+		(size 66.04 182.88)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "82e07499-99df-43ad-8895-fb7b30f32b3e")
+	)
+)

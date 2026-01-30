@@ -1157,6 +1157,48 @@
 		)
 	)
 	(sheet
+		(at 97.79 45.72)
+		(size 12.7 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8f8292d6-e0a8-4cae-9db9-9bab9b3c31ab")
+		(property "Sheetname" "Changelog"
+			(at 97.79 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "P1012202501-Changelog.kicad_sch"
+			(at 97.79 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 38.1 25.4)
 		(size 13.97 13.97)
 		(exclude_from_sim no)
@@ -1320,6 +1362,48 @@
 			(project "P1012202501-ESP32_Stepper_Controller"
 				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 25.4)
+		(size 12.7 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fac013c3-3adc-45f6-a545-c8b6dd50e540")
+		(property "Sheetname" "Test Point Index"
+			(at 97.79 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "P1012202501-Test Point Index.kicad_sch"
+			(at 97.79 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P1012202501-ESP32_Stepper_Controller"
+				(path "/27f0531a-0a2b-4c68-af50-4332bf165b5a"
+					(page "9")
 				)
 			)
 		)

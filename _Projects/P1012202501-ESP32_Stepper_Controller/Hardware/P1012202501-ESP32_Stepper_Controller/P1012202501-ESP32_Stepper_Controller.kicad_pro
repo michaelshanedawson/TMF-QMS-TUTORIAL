@@ -766,6 +766,14 @@
     [
       "2932f4ee-8c5b-459c-9bd5-5a172fd29c3b",
       "Stepper Driver"
+    ],
+    [
+      "fac013c3-3adc-45f6-a545-c8b6dd50e540",
+      "Test Point Index"
+    ],
+    [
+      "8f8292d6-e0a8-4cae-9db9-9bab9b3c31ab",
+      "Changelog"
     ]
   ],
   "text_variables": {}
