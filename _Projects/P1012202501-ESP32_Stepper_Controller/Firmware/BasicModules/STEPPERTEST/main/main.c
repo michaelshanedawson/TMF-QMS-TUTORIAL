@@ -1,5 +1,5 @@
 /*
-*   Data Driven Research Conveyor Drive System
+*   
 *   
 *   main.c
 *   Author: Mike Dawson
@@ -38,7 +38,7 @@ int GPIO_OUTPUTS_DEFAULT_LEVEL[] = {1, 0, 1, 1, 1, 1}; //Default is Counter-Cloc
 
 /* Stepper drive definitions */
 uint8_t STEPPER_STEP = 12;
-uint32_t PWM_DUTY = (30); // 2,4,6,8,10 @ 40000Hz
+uint32_t PWM_DUTY = (50); // 2,4,6,8,10 @ 40000Hz
 
 
 void app_main(void)
