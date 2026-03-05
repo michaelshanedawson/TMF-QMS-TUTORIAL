@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram name="Page-1" id="pq5_Mm1klNbfJzLQN-aY">
+    <mxGraphModel dx="1426" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SWEEzKVBR3bzgI3BfPDj-7" edge="1" parent="1" source="SWEEzKVBR3bzgI3BfPDj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="SWEEzKVBR3bzgI3BfPDj-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SWEEzKVBR3bzgI3BfPDj-11" edge="1" parent="1" source="SWEEzKVBR3bzgI3BfPDj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="SWEEzKVBR3bzgI3BfPDj-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SWEEzKVBR3bzgI3BfPDj-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="ESP32&lt;div&gt;External Antenna&lt;/div&gt;&lt;div&gt;ESP32-WROOM-32UE-N16&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="130" x="360" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="SWEEzKVBR3bzgI3BfPDj-3" edge="1" parent="1" source="SWEEzKVBR3bzgI3BfPDj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="SWEEzKVBR3bzgI3BfPDj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SWEEzKVBR3bzgI3BfPDj-9" edge="1" parent="1" source="SWEEzKVBR3bzgI3BfPDj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="SWEEzKVBR3bzgI3BfPDj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SWEEzKVBR3bzgI3BfPDj-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Power Supply:&lt;div&gt;12VDC IN&lt;/div&gt;&lt;div&gt;3.3V for ESP32&lt;/div&gt;&lt;div&gt;3.3V Fan&lt;/div&gt;&lt;div&gt;5V Fan&lt;/div&gt;&lt;div&gt;12V Fan&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="145" x="353" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="SWEEzKVBR3bzgI3BfPDj-5" edge="1" parent="1" source="SWEEzKVBR3bzgI3BfPDj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="SWEEzKVBR3bzgI3BfPDj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SWEEzKVBR3bzgI3BfPDj-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="INPUTS:&lt;div&gt;Start/Stop Button&lt;/div&gt;&lt;div&gt;Speed Control for PWM fans, either pushbutton fixed increment or potentiometer ADC based.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="115" width="220" x="60" y="367.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SWEEzKVBR3bzgI3BfPDj-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="OUTPUTS:&lt;div&gt;OLED screen, 2.4&quot;&lt;/div&gt;&lt;div&gt;Couple of indicator LEDs?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="112.5" width="250" x="550" y="368.75" as="geometry" />
+        </mxCell>
+        <mxCell id="SWEEzKVBR3bzgI3BfPDj-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FAN Connections&lt;div&gt;2 are fixed voltage&lt;/div&gt;&lt;div&gt;1 is selectable through jumper selection&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="170" x="600" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="SWEEzKVBR3bzgI3BfPDj-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ANCILLARY:&lt;div&gt;Test Points&lt;/div&gt;&lt;div&gt;No USB-UART chip, just FTDI interface for programming with buttons for BOOT and EN.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="205" x="323" y="600" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

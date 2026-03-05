@@ -253,7 +253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor, Chip, 0603, 10µF, 50V, 10%, X7R, -55°C to 125°C, RoHS"
+		(property "Description" "Capacitor, Chip, 0603, 0.1µF, 50V, 10%, X7R, -55°C to 125°C, RoHS"
 			(at 0.762 -6.858 0)
 			(effects
 				(font
@@ -8286,10 +8286,10 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 43.18 -12.7 180)
 				(length 5.08)
-				(name "NC_2"
+				(name "CHREN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8304,10 +8304,10 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 43.18 -15.24 180)
 				(length 5.08)
-				(name "NC_3"
+				(name "CHR1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8322,10 +8322,10 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 43.18 -17.78 180)
 				(length 5.08)
-				(name "NC_4"
+				(name "CHR0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8340,10 +8340,10 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 43.18 -20.32 180)
 				(length 5.08)
-				(name "NC_5"
+				(name "GPIO3/WAKEUP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8358,10 +8358,10 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 43.18 -22.86 180)
 				(length 5.08)
-				(name "NC_6"
+				(name "GPIO2/RS485"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8376,10 +8376,10 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 43.18 -25.4 180)
 				(length 5.08)
-				(name "NC_7"
+				(name "GPIO1/RXT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8394,10 +8394,10 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 43.18 -27.94 180)
 				(length 5.08)
-				(name "NC_8"
+				(name "GPIO0/TXT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8412,10 +8412,10 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 43.18 -30.48 180)
 				(length 5.08)
-				(name "NC_9"
+				(name "GPIO6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8430,10 +8430,10 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 43.18 -33.02 180)
 				(length 5.08)
-				(name "NC_10"
+				(name "GPIO5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8448,10 +8448,10 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 43.18 -35.56 180)
 				(length 5.08)
-				(name "NC_11"
+				(name "GPIO4"
 					(effects
 						(font
 							(size 1.27 1.27)
