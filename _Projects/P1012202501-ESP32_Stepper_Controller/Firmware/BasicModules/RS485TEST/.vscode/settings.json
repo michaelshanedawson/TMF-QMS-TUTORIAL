@@ -4,9 +4,10 @@
   "idf.openOcdConfigs": [
     "board/esp32-bridge.cfg"
   ],
-  "idf.portWin": "COM23",
+  "idf.portWin": "COM5",
   "files.associations": {
     "spi_master.h": "c"
   },
-  "idf.flashType": "UART"
+  "idf.flashType": "UART",
+  "idf.currentSetup": "C:\\Users\\Mike\\esp\\v5.3\\esp-idf"
 }

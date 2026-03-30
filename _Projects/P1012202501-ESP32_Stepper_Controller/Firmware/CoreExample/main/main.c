@@ -40,7 +40,7 @@ uint8_t STATUS_LED_PIN = 4; //GPIO pin of the integrated red LED on the PCB
 int32_t CYCLE_COUNT = 0;
 
 /*Varaibles for the temperature sensor, tmp3x*/
-uint8_t TMP3X_PIN = 2; //This is the analog pin the sensor is tied to for readings
+uint8_t TMP3X_PIN = 32; //This is the analog pin the sensor is tied to for readings
 
 /*System Operating Variables*/
 const int LIMIT_1 = 35; //GPIO pin of LIMIT SWITCH 1 - INPUT ONLY, Right Hand Side
@@ -50,7 +50,7 @@ uint8_t LIMIT_2_STATUS = 0;
 const int LIMIT_3 = 39; //GPIO pin of LIMIT SWITCH 3 - INPUT ONLY, Not used in this example here for reference only
 uint8_t LIMIT_3_STATUS = 0;
 
-const int CONTROL_1 = 32; //GPIO pin of CONTROL INPUT 1 - INPUT ONLY
+const int CONTROL_1 = 2; //GPIO pin of CONTROL INPUT 1 - INPUT ONLY
 uint8_t CONTROL_1_STATUS = 0;
 const int CONTROL_2 = 33; //GPIO pin of CONTROL INPUT 2 - INPUT ONLY, Not used in this example here for reference only
 uint8_t CONTROL_2_STATUS = 0;
@@ -81,16 +81,16 @@ void app_main(void)
     fan_init(FAN_PWM_PIN, FAN_TACH_PIN, FAN_PULSE_PER_REV, 0); //Start the fan PWM driver on the proper pin and the initial default PWM value
 
     /*Initialize the UART Interface Driver for Debugging*/
-    //uartconsole_init(UART_RX_PIN, UART_TX_PIN, BAUD_RATE, delimiter);
-    //uartconsole_send("\033[H\033[J");
-    //uartconsole_send("UART Interface Online!\n");
-    //uartconsole_send("-------------------\n\n");
+    uartconsole_init(UART_RX_PIN, UART_TX_PIN, BAUD_RATE, delimiter);
+    uartconsole_send("\033[H\033[J");
+    uartconsole_send("UART Interface Online!\n");
+    uartconsole_send("-------------------\n\n");
 
     /*Initialize the RS485 Interface*/
-    //RS485_init(RS485_RX_PIN, RS485_TX_PIN, RS485_BAUD_RATE, RS485_DIR_CONTROL, RS485_delimiter);
-    //RS485_send("\033[H\033[J");
-    //RS485_send("RS485 Interface Online\n");
-    //RS485_send("-------------------\n\n");
+    RS485_init(RS485_RX_PIN, RS485_TX_PIN, RS485_BAUD_RATE, RS485_DIR_CONTROL, RS485_delimiter);
+    RS485_send("\033[H\033[J");
+    RS485_send("RS485 Interface Online\n");
+    RS485_send("-------------------\n\n");
 
     /*Initialize the NVS system*/
     nvs_init();

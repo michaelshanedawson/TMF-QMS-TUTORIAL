@@ -5,6 +5,960 @@
 	(uuid "e7a969b0-df72-4e76-baf0-8520c69bf94d")
 	(paper "A4")
 	(lib_symbols
+		(symbol "COMPONENTS:DLQ62702P5179"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "DLQ62702P5179"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "COMPONENTS:LED-0805"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED, Green 572nm, 0805, 2.2V, 20mA, Diffused, Top View, -30°C to 85°C, RoHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1" "OSRAM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1 P/N" "Q62702P5179"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a" "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a P/N" "720-Q62702P5179"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost LV" "0.27"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost HV" "0.049"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Color" "Green"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DLQ62702P5179_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "COMPONENTS:QSSM3K2615R,LF"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SSM3K2615R,LF"
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "COMPONENTS:SOT-23F-3"
+				(at 11.43 -98.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 11.43 -198.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "MOSFET, N-Channel, Single, 60V, 2A, 2W, -55°C to 150°C, RoHS, Q101"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1" "Toshiba"
+				(at 11.43 -698.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1 P/N" "SSM3K2615R,LF"
+				(at 11.43 -798.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a" "Mouser"
+				(at 11.43 -398.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a P/N" "757-SSM3K2615RLF"
+				(at 11.43 -498.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost LV" "0.70"
+				(at 11.43 -598.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost HV" "0.19"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Val" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Population Option" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "QSSM3K2615R,LF_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 5.588) (xy 5.842 4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.032) (xy 5.842 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -0.508) (xy 5.842 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 2.54)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.842 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "G"
+					(at 1.27 -1.524 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "D"
+					(at 8.636 8.382 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "S"
+					(at 8.636 -3.302 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "COMPONENTS:RC0603100RAAD07500"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 5.08 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "100Ω"
+				(at 1.524 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "COMPONENTS:RES-0603"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, Chip, 0603, 100Ω, 75V, 5%, -55°C to 155°C, RoHS"
+				(at 4.064 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1" "VISHAY"
+				(at -2.54 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1 P/N" "CRCW0603100RJNEBC"
+				(at 7.112 -13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a" "Mouser"
+				(at -19.812 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a P/N" "71-CRCW0603100RJNEBC"
+				(at -3.81 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost LV" "0.19"
+				(at -18.796 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost HV" "0.013"
+				(at -18.288 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Val" "*"
+				(at 8.89 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Population Option" "*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RC0603100RAAD07500_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "COMPONENTS:RC060310K2075AAA"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 5.08 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "RC060310K2075AAA"
+				(at 1.524 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "COMPONENTS:RES-0603"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, Chip, 0603, 10KΩ, 75V, 0.5%, -55°C to 155°C, RoHS, AEC-Q200"
+				(at 4.064 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1" "Yageo"
+				(at -2.54 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1 P/N" "AC0603DRE0710KL"
+				(at 7.112 -13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a" "Mouser"
+				(at -19.812 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a P/N" "603-AC0603DRE0710KL"
+				(at -3.81 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost LV" "0.11"
+				(at -18.796 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost HV" "0.031"
+				(at -18.288 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Val" "10KΩ"
+				(at 8.89 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RC060310K2075AAA_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "COMPONENTS:RC06031K0075AAA"
 			(pin_names
 				(hide yes)
@@ -123,6 +1077,342 @@
 				)
 			)
 			(symbol "RC06031K0075AAA_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "COMPONENTS:RC0603330075AAA"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 5.08 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "RC0603330075AAA"
+				(at 1.524 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "COMPONENTS:RES-0603"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, Chip, 0603, 330Ω, 75V, 1%, -55°C to 155°C, RoHS"
+				(at 4.064 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1" "Yageo"
+				(at -2.54 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1 P/N" "RT0603FRE13330RL"
+				(at 7.112 -13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a" "Mouser"
+				(at -19.812 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a P/N" "603-RT0603FRE13330RL"
+				(at -3.81 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost LV" "0.19"
+				(at -18.796 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost HV" "0.015"
+				(at -18.288 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Val" "330Ω"
+				(at 8.89 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RC0603330075AAA_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "COMPONENTS:RC0603510075AAA"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 5.08 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "RC0603510075AAA"
+				(at 1.524 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "COMPONENTS:RES-0603"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, Chip, 0603, 510Ω, 75V, 1%, -55°C to 155°C, RoHS"
+				(at 4.064 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1" "Yageo"
+				(at -2.54 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1 P/N" "SR0603FR-7W510RL"
+				(at 7.112 -13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a" "Mouser"
+				(at -19.812 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a P/N" "603-SR0603FR-7W510RL"
+				(at -3.81 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost LV" "0.10"
+				(at -18.796 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost HV" "0.021"
+				(at -18.288 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Val" "510Ω"
+				(at 8.89 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RC0603510075AAA_1_1"
 				(rectangle
 					(start 5.08 1.27)
 					(end 12.7 -1.27)
@@ -1150,6 +2440,144 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CONNECTORS:TP5010"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TP5010"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CONNECTORS:5010"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Test Point, Through Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1" "Keystone"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1 P/N" "5010"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a " "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a P/N" "534-5010"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost LV" "0.33"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor 1a Cost HV" "0.188"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TP5010_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers
@@ -1627,9 +3055,29 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "Fan Connector for our custom fan assembly for testing. Typically 5VDC."
+		(exclude_from_sim no)
+		(at 20.32 129.54 0)
+		(size 31.75 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2bd3bbc9-6302-44f5-88ec-1b497e72db5a")
+	)
 	(text_box "3 or 4 Pin PC Style Fan Connection, Typically 12VDC"
 		(exclude_from_sim no)
-		(at 96.52 17.78 0)
+		(at 184.15 130.81 0)
 		(size 31.75 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1647,9 +3095,219 @@
 		)
 		(uuid "4222b87b-02b8-4605-85e0-3c2716e7e49c")
 	)
+	(text_box "Fan tach pull-up."
+		(exclude_from_sim no)
+		(at 251.46 15.24 0)
+		(size 31.75 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "52f88f54-9b7f-456e-9c68-a39dc50f5615")
+	)
+	(text_box "Fan connections, only use one at a time for testing.\n"
+		(exclude_from_sim no)
+		(at 25.4 118.11 0)
+		(size 204.47 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "537b837b-c1e1-4e5f-94a9-7ab6709b1312")
+	)
+	(text_box "Push-in terminal block for any 3.3V, 5V, or 12V DC fan with or without a tach or PWM control."
+		(exclude_from_sim no)
+		(at 95.25 129.54 0)
+		(size 31.75 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7bdb1746-0ab2-4418-b0d1-08ba798a03a5")
+	)
+	(text_box "Fan voltage selection, enable only 1 at a time."
+		(exclude_from_sim no)
+		(at 25.4 12.7 0)
+		(size 191.77 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "96efe73c-e0ce-4ea3-baf9-00d4c98fc314")
+	)
+	(junction
+		(at 252.73 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ad311fb-aad3-48f1-99bd-3846666670fb")
+	)
+	(junction
+		(at 168.91 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ed14083-bfdf-4236-9864-b49d93f05bd2")
+	)
+	(junction
+		(at 232.41 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "997e5830-78f4-46f2-8be6-296f92668092")
+	)
+	(junction
+		(at 102.87 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba0e6b6e-80a2-4f41-9151-dd467b705042")
+	)
+	(junction
+		(at 45.72 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddc92997-1f2e-45ef-9019-0786f6ffd9db")
+	)
 	(wire
 		(pts
-			(xy 87.63 34.29) (xy 118.11 34.29)
+			(xy 168.91 68.58) (xy 176.53 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0003638e-02fa-4057-be07-8987405d0cb8")
+	)
+	(wire
+		(pts
+			(xy 27.94 154.94) (xy 27.94 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0220d5bf-a8f4-40d9-a782-4e110ae20021")
+	)
+	(wire
+		(pts
+			(xy 20.32 147.32) (xy 30.48 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b7f042-43b4-47f5-b77a-bdf11ec071fa")
+	)
+	(wire
+		(pts
+			(xy 92.71 68.58) (xy 102.87 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c1ae699-cc84-4b5c-83d2-017fe4ffea89")
+	)
+	(wire
+		(pts
+			(xy 168.91 90.17) (xy 168.91 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d320997-652c-46dd-bf34-b3c34e62aec3")
+	)
+	(wire
+		(pts
+			(xy 45.72 68.58) (xy 53.34 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "240fc7cc-8aa3-4503-8c67-be1ecaa0514a")
+	)
+	(wire
+		(pts
+			(xy 34.29 68.58) (xy 45.72 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "255ec017-0398-464f-b1c5-f4e625f194c5")
+	)
+	(wire
+		(pts
+			(xy 86.36 54.61) (xy 100.33 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "264db592-3dd4-42f1-8ef6-c193521198f2")
+	)
+	(wire
+		(pts
+			(xy 173.99 59.69) (xy 173.99 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ca730a5-3feb-461d-a09e-5dacb502e96a")
+	)
+	(wire
+		(pts
+			(xy 252.73 80.01) (xy 257.81 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e9e5d1-1f11-44ad-a457-ea2e2063166b")
+	)
+	(wire
+		(pts
+			(xy 175.26 147.32) (xy 205.74 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1659,7 +3317,47 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 41.91) (xy 115.57 41.91)
+			(xy 102.87 106.68) (xy 102.87 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "346a3853-cf79-48e0-8161-20d1f0dcc384")
+	)
+	(wire
+		(pts
+			(xy 101.6 147.32) (xy 110.49 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "351b4167-1dbe-47da-b19a-ada0a4114ff7")
+	)
+	(wire
+		(pts
+			(xy 45.72 106.68) (xy 45.72 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37eb4ff4-4af3-4116-ae70-de0bb1d20c8e")
+	)
+	(wire
+		(pts
+			(xy 168.91 107.95) (xy 168.91 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3819c3e6-3b7f-4793-bbc1-a76d560b11f1")
+	)
+	(wire
+		(pts
+			(xy 205.74 154.94) (xy 203.2 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1669,17 +3367,227 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 48.26) (xy 25.4 57.15)
+			(xy 45.72 68.58) (xy 45.72 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e9b7e6c-ed5b-4570-ac02-daa59351bab1")
+		(uuid "3e5217a0-134b-4093-adfd-accfd8243dbf")
 	)
 	(wire
 		(pts
-			(xy 115.57 41.91) (xy 115.57 45.72)
+			(xy 226.06 80.01) (xy 232.41 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f77e906-2808-41a9-bb09-7b726c9545db")
+	)
+	(wire
+		(pts
+			(xy 49.53 40.64) (xy 49.53 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48123e42-d27c-4f92-b3b6-7e95f2b3108f")
+	)
+	(wire
+		(pts
+			(xy 27.94 54.61) (xy 41.91 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "576b5994-5748-4e47-888d-d208ae18d23f")
+	)
+	(wire
+		(pts
+			(xy 20.32 149.86) (xy 30.48 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e7df501-cb7b-4083-8af4-3665aac238c0")
+	)
+	(wire
+		(pts
+			(xy 257.81 60.96) (xy 267.97 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f565275-f6ef-43f2-9c9c-2a7a3dcba71d")
+	)
+	(wire
+		(pts
+			(xy 232.41 80.01) (xy 252.73 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "614f884b-e84a-4d21-9d18-53fe6f8db025")
+	)
+	(wire
+		(pts
+			(xy 252.73 104.14) (xy 252.73 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "779962cc-56ba-468d-a3a5-46eadcafcd41")
+	)
+	(wire
+		(pts
+			(xy 101.6 149.86) (xy 110.49 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb3bd2f-03f0-4a0b-b786-b67ada863a43")
+	)
+	(wire
+		(pts
+			(xy 110.49 152.4) (xy 109.22 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "859fa540-150f-4808-aed0-96c9fd31da8d")
+	)
+	(wire
+		(pts
+			(xy 45.72 88.9) (xy 45.72 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e49823e-bbb6-434e-a800-6d3c21218d55")
+	)
+	(wire
+		(pts
+			(xy 109.22 152.4) (xy 109.22 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e69705f-4c43-42d5-b8c0-d591fd9a98ab")
+	)
+	(wire
+		(pts
+			(xy 107.95 40.64) (xy 107.95 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91b1712a-61d5-4624-89e9-701271794e2d")
+	)
+	(wire
+		(pts
+			(xy 157.48 68.58) (xy 168.91 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94cde613-20bd-4bed-b0ac-11970e6961c9")
+	)
+	(wire
+		(pts
+			(xy 101.6 144.78) (xy 110.49 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97428690-0682-4d18-bb49-f7fa700682b0")
+	)
+	(wire
+		(pts
+			(xy 152.4 54.61) (xy 166.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8bf1365-95b9-474b-a9f7-8c290d411937")
+	)
+	(wire
+		(pts
+			(xy 275.59 134.62) (xy 278.13 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aae9e59c-5ae8-4d43-81ae-bcafbfaeb394")
+	)
+	(wire
+		(pts
+			(xy 232.41 80.01) (xy 232.41 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b2e5ef-050a-4d72-8feb-297675e493f3")
+	)
+	(wire
+		(pts
+			(xy 173.99 66.04) (xy 176.53 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5eac721-3fcf-4a43-b7a6-42d9b5531b4b")
+	)
+	(wire
+		(pts
+			(xy 252.73 80.01) (xy 252.73 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc94af80-92bf-43ca-9637-f6fa2e78adc3")
+	)
+	(wire
+		(pts
+			(xy 173.99 40.64) (xy 173.99 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c28425af-918d-468a-9eb9-126fbcc46809")
+	)
+	(wire
+		(pts
+			(xy 168.91 68.58) (xy 168.91 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c56d10d9-383b-4d0a-a6ae-e979789df385")
+	)
+	(wire
+		(pts
+			(xy 203.2 154.94) (xy 203.2 158.75)
 		)
 		(stroke
 			(width 0)
@@ -1689,7 +3597,17 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 39.37) (xy 118.11 39.37)
+			(xy 49.53 59.69) (xy 49.53 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8446d94-b946-4713-a923-06f5ffbacd8a")
+	)
+	(wire
+		(pts
+			(xy 190.5 152.4) (xy 205.74 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1699,7 +3617,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 36.83) (xy 118.11 36.83)
+			(xy 187.96 149.86) (xy 205.74 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1709,7 +3627,87 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 25.4) (xy 25.4 30.48)
+			(xy 102.87 68.58) (xy 111.76 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d5ed8a-3508-4dd2-8d2b-154391547a07")
+	)
+	(wire
+		(pts
+			(xy 49.53 66.04) (xy 53.34 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ef1737-e03f-4433-883a-8c825370e887")
+	)
+	(wire
+		(pts
+			(xy 107.95 66.04) (xy 111.76 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dccec998-ce44-4d10-b3de-0d845c8fd033")
+	)
+	(wire
+		(pts
+			(xy 20.32 144.78) (xy 30.48 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd4c9768-f9ff-4c5f-b75b-5ff1fbd973c3")
+	)
+	(wire
+		(pts
+			(xy 232.41 104.14) (xy 232.41 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def05aac-4cb6-440c-b116-a9b95435a65d")
+	)
+	(wire
+		(pts
+			(xy 102.87 88.9) (xy 102.87 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f32eb2-b4cd-4085-bb60-d0be674ebdec")
+	)
+	(wire
+		(pts
+			(xy 267.97 49.53) (xy 267.97 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e15c2aba-f0ef-48c6-9586-9231bd1c1141")
+	)
+	(wire
+		(pts
+			(xy 27.94 152.4) (xy 30.48 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5262bd7-2c1e-48c1-a253-82c7dc4369ac")
+	)
+	(wire
+		(pts
+			(xy 267.97 26.67) (xy 267.97 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1717,8 +3715,88 @@
 		)
 		(uuid "e6197973-da37-4558-ad1b-17bada4cafeb")
 	)
+	(wire
+		(pts
+			(xy 102.87 68.58) (xy 102.87 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e738d49a-76e4-40c7-bc97-6f7006e1bb05")
+	)
+	(wire
+		(pts
+			(xy 107.95 59.69) (xy 107.95 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e792b6aa-c71d-4f4d-8237-c899b4b4277d")
+	)
+	(wire
+		(pts
+			(xy 278.13 134.62) (xy 278.13 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb79a17a-9525-4384-a2c5-c02081579a15")
+	)
+	(wire
+		(pts
+			(xy 240.03 149.86) (xy 255.27 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef4a64de-3fc7-4755-96be-7afdd13270e4")
+	)
+	(label "PWR_CNTRL"
+		(at 27.94 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "044d94b3-9df5-497b-b199-fe65f53b54d3")
+	)
+	(label "PWR_CNTRL"
+		(at 152.4 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "101105b0-3fc4-4226-bfd2-b9eeeeee45f5")
+	)
+	(label "FAN_VCC"
+		(at 101.6 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25a875e7-f8a2-40ea-a07d-40c60a860ea5")
+	)
+	(label "FAN_VCC"
+		(at 92.71 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f24bd14-1795-4720-9fa8-55b244bfd5c5")
+	)
 	(label "FAN_PWM"
-		(at 102.87 34.29 0)
+		(at 190.5 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1728,7 +3806,17 @@
 		(uuid "4371ceb1-480c-44ae-9baa-4e959aec65b2")
 	)
 	(label "FAN_VCC"
-		(at 102.87 39.37 0)
+		(at 20.32 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5833adfe-1ef9-4b20-8ec4-3e74fdb6b1bf")
+	)
+	(label "FAN_VCC"
+		(at 190.5 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1737,8 +3825,48 @@
 		)
 		(uuid "5a55f352-0e32-4420-95cf-2cc3b8e105af")
 	)
+	(label "FAN_PWM"
+		(at 240.03 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87967bf1-7e8a-4523-9086-70206322d0a0")
+	)
+	(label "FAN_PWM"
+		(at 101.6 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9773c606-36ee-41fe-b9d8-b85f1d6b9c1d")
+	)
+	(label "FAN_VCC"
+		(at 157.48 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a1cc69d-3a90-4b72-8ce0-3303e5d6aecd")
+	)
 	(label "FAN_TACH"
-		(at 102.87 36.83 0)
+		(at 20.32 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb65b34b-5070-477d-b768-d4b53b9b8705")
+	)
+	(label "FAN_TACH"
+		(at 190.5 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1748,7 +3876,7 @@
 		(uuid "bbe6c17f-1bfd-4f51-a117-5c5b99c30e20")
 	)
 	(label "FAN_TACH"
-		(at 25.4 57.15 90)
+		(at 267.97 58.42 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1757,9 +3885,59 @@
 		)
 		(uuid "c951857c-5c1b-4845-8240-0ef6150cb739")
 	)
+	(label "PWR_CNTRL"
+		(at 252.73 115.57 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc6b0505-df0f-4612-88a0-2bf197745478")
+	)
+	(label "FAN_PWM"
+		(at 20.32 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d684afc9-b2b2-40f8-857d-7e23d14fa149")
+	)
+	(label "PWR_CNTRL"
+		(at 86.36 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc986739-ba0a-49e1-8e8c-2afd09956027")
+	)
+	(label "FAN_TACH"
+		(at 101.6 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e91ac8f4-dd9d-4c7c-9092-1f5c6301db46")
+	)
+	(label "FAN_VCC"
+		(at 34.29 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f288ff83-768f-4b42-9846-6d63f8c0cd48")
+	)
 	(global_label "FAN_TACH"
 		(shape output)
-		(at 100.33 36.83 180)
+		(at 187.96 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1769,7 +3947,29 @@
 		)
 		(uuid "16a9649c-cab8-4f81-8ab0-0e054bd0db2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.2128 36.83 0)
+			(at 175.8428 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_PWR_CNTROL"
+		(shape input)
+		(at 226.06 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "38eda87c-0ef6-4d82-8b59-73aaa85ab582")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.4438 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1781,7 +3981,7 @@
 	)
 	(global_label "FAN_PWM"
 		(shape input)
-		(at 87.63 34.29 180)
+		(at 175.26 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1791,7 +3991,7 @@
 		)
 		(uuid "acb9e09a-a630-40c1-bbdd-80f604737447")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.9967 34.29 0)
+			(at 163.6267 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,17 +4002,17 @@
 		)
 	)
 	(symbol
-		(lib_id "CONNECTORS:KH22-28-5021")
-		(at 57.15 138.43 0)
+		(lib_id "COMPONENTS:RC0603100RAAD07500")
+		(at 252.73 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "12f3c820-1dc5-4f1f-b707-e41289c47957")
-		(property "Reference" "J2"
-			(at 73.66 138.4299 0)
+		(uuid "00e4054e-9a24-4181-a617-c3f380d70ad0")
+		(property "Reference" "R11"
+			(at 255.27 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1820,8 +4020,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "KH22-28-5021"
-			(at 73.66 140.9699 0)
+		(property "Value" "100Ω"
+			(at 255.27 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1829,8 +4029,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONNECTORS:2x1HDR2.54mm"
-			(at 73.66 233.35 0)
+		(property "Footprint" "COMPONENTS:RES-0603"
+			(at 156.54 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1840,7 +4040,681 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 333.35 0)
+			(at 56.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, Chip, 0603, 100Ω, 75V, 5%, -55°C to 155°C, RoHS"
+			(at 243.586 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "VISHAY"
+			(at 237.236 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "CRCW0603100RJNEBC"
+			(at 239.522 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 255.016 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "71-CRCW0603100RJNEBC"
+			(at 263.144 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.19"
+			(at 252.476 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.013"
+			(at 259.08 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "*"
+			(at 250.19 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Population Option" "*"
+			(at 252.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a585ac77-d4b7-4380-ac74-c589cc3b5601")
+		)
+		(pin "1"
+			(uuid "70fc0c57-5088-4780-b51b-e719ca89d52c")
+		)
+		(instances
+			(project ""
+				(path "/da4b17a0-c783-4eac-be85-8eec7b7dd8dd/729e9d85-dd77-4127-ac85-6a69a54dacc9"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS:TP5010")
+		(at 275.59 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03a958fe-7912-4752-b9dd-d16c2cca56d0")
+		(property "Reference" "TP5"
+			(at 265.43 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TP5010"
+			(at 265.43 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CONNECTORS:5010"
+			(at 259.08 39.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 -60.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point, Through Hole"
+			(at 275.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Keystone"
+			(at 275.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "5010"
+			(at 275.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a " "Mouser"
+			(at 275.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "534-5010"
+			(at 275.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.33"
+			(at 275.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.188"
+			(at 275.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d76d4e52-a1ec-4e3a-a235-d435927c4b83")
+		)
+		(instances
+			(project ""
+				(path "/da4b17a0-c783-4eac-be85-8eec7b7dd8dd/729e9d85-dd77-4127-ac85-6a69a54dacc9"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COMPONENTS:QSSM3K2615R,LF")
+		(at 100.33 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0653ac9f-a04c-409c-9cef-148fce684884")
+		(property "Reference" "Q2"
+			(at 111.76 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SSM3K2615R,LF"
+			(at 111.76 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "COMPONENTS:SOT-23F-3"
+			(at 111.76 153.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 253.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET, N-Channel, Single, 60V, 2A, 2W, -55°C to 150°C, RoHS, Q101"
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Toshiba"
+			(at 111.76 753.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "SSM3K2615R,LF"
+			(at 111.76 853.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 111.76 453.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "757-SSM3K2615RLF"
+			(at 111.76 553.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.70"
+			(at 111.76 653.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.19"
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" ""
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Population Option" ""
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "538eaf0f-3808-4065-b96f-1f79949605e4")
+		)
+		(pin "2"
+			(uuid "4c2f28ed-a5cf-47cf-927b-ab785d655f90")
+		)
+		(pin "1"
+			(uuid "5a48468a-ccdf-4073-bbac-b06097300231")
+		)
+		(instances
+			(project ""
+				(path "/da4b17a0-c783-4eac-be85-8eec7b7dd8dd/729e9d85-dd77-4127-ac85-6a69a54dacc9"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS:TP5010")
+		(at 257.81 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f0865ec-63f7-44ce-806c-5de9870cb7d4")
+		(property "Reference" "TP3"
+			(at 247.65 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TP5010"
+			(at 247.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CONNECTORS:5010"
+			(at 241.3 -33.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 -133.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point, Through Hole"
+			(at 257.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Keystone"
+			(at 257.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "5010"
+			(at 257.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a " "Mouser"
+			(at 257.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "534-5010"
+			(at 257.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.33"
+			(at 257.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.188"
+			(at 257.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90821efd-3321-47bb-948e-6485014a3d6c")
+		)
+		(instances
+			(project ""
+				(path "/da4b17a0-c783-4eac-be85-8eec7b7dd8dd/729e9d85-dd77-4127-ac85-6a69a54dacc9"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COMPONENTS:RC06031K0075AAA")
+		(at 168.91 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12acd74e-65a8-4ee4-a585-da07fb36c10b")
+		(property "Reference" "R6"
+			(at 171.45 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RC06031K0075AAA"
+			(at 162.814 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "COMPONENTS:RES-0603"
+			(at 72.72 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -27.28 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, Chip, 0603, 1KΩ, 75V, 5%, -55°C to 155°C, RoHS, AEC-Q200"
+			(at 159.766 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Yageo"
+			(at 153.416 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "SR0603JR-071KL"
+			(at 155.702 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 171.196 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "603-SR0603JR-071KL"
+			(at 179.324 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.11"
+			(at 168.656 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.031"
+			(at 175.26 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "1KΩ"
+			(at 171.45 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "4795e4c3-5c3e-4132-b9b8-d89558c61745")
+		)
+		(pin "2"
+			(uuid "38d9e330-7050-4f73-867a-8731103cec59")
+		)
+		(instances
+			(project ""
+				(path "/da4b17a0-c783-4eac-be85-8eec7b7dd8dd/729e9d85-dd77-4127-ac85-6a69a54dacc9"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS:KH22-28-5021")
+		(at 111.76 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12f3c820-1dc5-4f1f-b707-e41289c47957")
+		(property "Reference" "J2"
+			(at 128.27 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KH22-28-5021"
+			(at 128.27 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONNECTORS:2x1HDR2.54mm"
+			(at 128.27 160.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 260.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1850,7 +4724,7 @@
 			)
 		)
 		(property "Description" "Connector, Header, 2 Pin, 1 Row, Vertical, Through Hole, 2.54mm Pitch, 8.13mm Post Length, -40°C to 80°C, RoHS"
-			(at 57.15 138.43 0)
+			(at 111.76 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,7 +4733,7 @@
 			)
 		)
 		(property "Manufacturer 1" "Molex"
-			(at 57.15 138.43 0)
+			(at 111.76 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1868,7 +4742,7 @@
 			)
 		)
 		(property "Manufacturer 1 P/N" "22-28-5021"
-			(at 57.15 138.43 0)
+			(at 111.76 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1877,7 +4751,7 @@
 			)
 		)
 		(property "Vendor 1a" "Mouser"
-			(at 57.15 138.43 0)
+			(at 111.76 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1886,7 +4760,7 @@
 			)
 		)
 		(property "Vendor 1a P/N" "538-22-28-5021"
-			(at 57.15 138.43 0)
+			(at 111.76 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1895,7 +4769,7 @@
 			)
 		)
 		(property "Vendor 1a Cost LV" "0.10"
-			(at 57.15 138.43 0)
+			(at 111.76 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1904,7 +4778,7 @@
 			)
 		)
 		(property "Vendor 1a Cost HV" "0.071"
-			(at 57.15 138.43 0)
+			(at 111.76 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1929,7 +4803,7 @@
 	)
 	(symbol
 		(lib_id "CONNECTORS:KH22-28-5021")
-		(at 59.69 167.64 0)
+		(at 176.53 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1938,7 +4812,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f941f49-85b4-4842-95af-0aa5137f3e4b")
 		(property "Reference" "J3"
-			(at 76.2 167.6399 0)
+			(at 193.04 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,7 +4821,7 @@
 			)
 		)
 		(property "Value" "KH22-28-5021"
-			(at 76.2 170.1799 0)
+			(at 193.04 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,7 +4830,7 @@
 			)
 		)
 		(property "Footprint" "CONNECTORS:2x1HDR2.54mm"
-			(at 76.2 262.56 0)
+			(at 193.04 160.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,7 +4840,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 362.56 0)
+			(at 193.04 260.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1976,7 +4850,7 @@
 			)
 		)
 		(property "Description" "Connector, Header, 2 Pin, 1 Row, Vertical, Through Hole, 2.54mm Pitch, 8.13mm Post Length, -40°C to 80°C, RoHS"
-			(at 59.69 167.64 0)
+			(at 176.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1985,7 +4859,7 @@
 			)
 		)
 		(property "Manufacturer 1" "Molex"
-			(at 59.69 167.64 0)
+			(at 176.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1994,7 +4868,7 @@
 			)
 		)
 		(property "Manufacturer 1 P/N" "22-28-5021"
-			(at 59.69 167.64 0)
+			(at 176.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2003,7 +4877,7 @@
 			)
 		)
 		(property "Vendor 1a" "Mouser"
-			(at 59.69 167.64 0)
+			(at 176.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2012,7 +4886,7 @@
 			)
 		)
 		(property "Vendor 1a P/N" "538-22-28-5021"
-			(at 59.69 167.64 0)
+			(at 176.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2021,7 +4895,7 @@
 			)
 		)
 		(property "Vendor 1a Cost LV" "0.10"
-			(at 59.69 167.64 0)
+			(at 176.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,7 +4904,7 @@
 			)
 		)
 		(property "Vendor 1a Cost HV" "0.071"
-			(at 59.69 167.64 0)
+			(at 176.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2039,10 +4913,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8346f548-9031-4908-9ff2-f0ba010a7d0e")
+			(uuid "8346f548-9031-4908-9ff2-f0ba010a7d0f")
 		)
 		(pin "2"
-			(uuid "26b86ede-d1d9-4fe6-bec1-47c2dd405a0c")
+			(uuid "26b86ede-d1d9-4fe6-bec1-47c2dd405a0d")
 		)
 		(instances
 			(project ""
@@ -2054,17 +4928,55 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 88.9 107.95 0)
+		(lib_id "COMPONENTS:DLQ62702P5179")
+		(at 45.72 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "31492c87-4def-46c5-a1a0-5122f8c2800c")
-		(property "Reference" "#PWR09"
-			(at 88.9 111.76 0)
+		(uuid "20fcdea5-7096-4c22-8a83-3c550cf4754f")
+		(property "Reference" "D3"
+			(at 49.53 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DLQ62702P5179"
+			(at 49.53 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "COMPONENTS:LED-0805"
+			(at 139.37 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 239.37 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED, Green 572nm, 0805, 2.2V, 20mA, Diffused, Top View, -30°C to 85°C, RoHS"
+			(at 45.72 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2072,8 +4984,106 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 88.9 102.87 0)
+		(property "Manufacturer 1" "OSRAM"
+			(at 45.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "Q62702P5179"
+			(at 45.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 45.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "720-Q62702P5179"
+			(at 45.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.27"
+			(at 45.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.049"
+			(at 45.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" "Green"
+			(at 49.53 101.5999 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "0e7ee075-51ec-45b3-9d78-0dd7e3d10b00")
+		)
+		(pin "2"
+			(uuid "bc63f0f1-ca28-46f4-a6e7-07a699e6073e")
+		)
+		(instances
+			(project ""
+				(path "/da4b17a0-c783-4eac-be85-8eec7b7dd8dd/729e9d85-dd77-4127-ac85-6a69a54dacc9"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e7b72f4-3bb9-47f3-afd7-26bdc2c8598a")
+		(property "Reference" "#PWR032"
+			(at 102.87 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2081,7 +5091,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 107.95 0)
+			(at 102.87 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2090,7 +5100,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 107.95 0)
+			(at 102.87 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c7147fc-552a-4cb3-9c9c-66f178d65b85")
+		)
+		(instances
+			(project "P0304202601-ESP32_Multi_Fan_Tester"
+				(path "/da4b17a0-c783-4eac-be85-8eec7b7dd8dd/729e9d85-dd77-4127-ac85-6a69a54dacc9"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 107.95 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31492c87-4def-46c5-a1a0-5122f8c2800c")
+		(property "Reference" "#PWR09"
+			(at 107.95 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 107.95 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,7 +5175,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 88.9 107.95 0)
+			(at 107.95 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,17 +5196,17 @@
 		)
 	)
 	(symbol
-		(lib_id "CONNECTORS:KTBL002B-350-04GR-2OR")
-		(at 118.11 106.68 0)
+		(lib_id "COMPONENTS:QSSM3K2615R,LF")
+		(at 41.91 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4751c8b1-4b2d-4dd7-9846-ba6781c792e3")
-		(property "Reference" "CN4"
-			(at 125.73 110.4899 0)
+		(uuid "3a8495ab-4130-4fbb-abf3-874e1685629f")
+		(property "Reference" "Q1"
+			(at 53.34 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2138,8 +5214,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "KTBL002B-350-04GR-2OR"
-			(at 125.73 113.0299 0)
+		(property "Value" "SSM3K2615R,LF"
+			(at 53.34 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2147,8 +5223,159 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONNECTORS:KTBTBL002B35004GR2OR"
-			(at 118.11 106.68 0)
+		(property "Footprint" "COMPONENTS:SOT-23F-3"
+			(at 53.34 153.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 253.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET, N-Channel, Single, 60V, 2A, 2W, -55°C to 150°C, RoHS, Q101"
+			(at 41.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Toshiba"
+			(at 53.34 753.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "SSM3K2615R,LF"
+			(at 53.34 853.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 53.34 453.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "757-SSM3K2615RLF"
+			(at 53.34 553.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.70"
+			(at 53.34 653.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.19"
+			(at 41.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" ""
+			(at 41.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Population Option" ""
+			(at 41.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "538eaf0f-3808-4065-b96f-1f79949605e5")
+		)
+		(pin "2"
+			(uuid "4c2f28ed-a5cf-47cf-927b-ab785d655f91")
+		)
+		(pin "1"
+			(uuid "5a48468a-ccdf-4073-bbac-b06097300232")
+		)
+		(instances
+			(project ""
+				(path "/da4b17a0-c783-4eac-be85-8eec7b7dd8dd/729e9d85-dd77-4127-ac85-6a69a54dacc9"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.13 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ed04d78-8580-45dc-8ecf-4a95bc6ab6ac")
+		(property "Reference" "#PWR050"
+			(at 278.13 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.13 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,7 +5384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 106.68 0)
+			(at 278.13 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2165,8 +5392,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector, Terminal Block, Push-In, 45°, 4 Circuit, 300V, 5A, 18-24AWG, 3.5mm Pitch, Through Hole, RoHS"
-			(at 118.11 106.68 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 278.13 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2174,8 +5401,69 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer 1" "Same Sky"
-			(at 118.11 106.68 0)
+		(pin "1"
+			(uuid "fa016687-a640-44f9-8d21-a2948f7db3ae")
+		)
+		(instances
+			(project "P0304202601-ESP32_Multi_Fan_Tester"
+				(path "/da4b17a0-c783-4eac-be85-8eec7b7dd8dd/729e9d85-dd77-4127-ac85-6a69a54dacc9"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COMPONENTS:RC0603330075AAA")
+		(at 45.72 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "413608c2-78ba-4ca4-acdd-e6aa5670a956")
+		(property "Reference" "R4"
+			(at 48.26 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RC0603330075AAA"
+			(at 39.624 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "COMPONENTS:RES-0603"
+			(at -50.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -150.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, Chip, 0603, 330Ω, 75V, 1%, -55°C to 155°C, RoHS"
+			(at 36.576 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2183,8 +5471,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer 1 P/N" "TBL002B-350-04GR-2OR"
-			(at 118.11 106.68 0)
+		(property "Manufacturer 1" "Yageo"
+			(at 30.226 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "RT0603FRE13330RL"
+			(at 32.512 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2193,7 +5490,140 @@
 			)
 		)
 		(property "Vendor 1a" "Mouser"
-			(at 118.11 106.68 0)
+			(at 48.006 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "603-RT0603FRE13330RL"
+			(at 56.134 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.19"
+			(at 45.466 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.015"
+			(at 52.07 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "330Ω"
+			(at 48.26 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "56efb8bc-c1c8-4102-b21c-ccd0dfd1caa2")
+		)
+		(pin "2"
+			(uuid "e2eb1e77-a646-4d17-a44d-796f7505f871")
+		)
+		(instances
+			(project ""
+				(path "/da4b17a0-c783-4eac-be85-8eec7b7dd8dd/729e9d85-dd77-4127-ac85-6a69a54dacc9"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS:KTBL002B-350-04GR-2OR")
+		(at 110.49 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4751c8b1-4b2d-4dd7-9846-ba6781c792e3")
+		(property "Reference" "CN4"
+			(at 118.11 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KTBL002B-350-04GR-2OR"
+			(at 118.11 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONNECTORS:KTBTBL002B35004GR2OR"
+			(at 110.49 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector, Terminal Block, Push-In, 45°, 4 Circuit, 300V, 5A, 18-24AWG, 3.5mm Pitch, Through Hole, RoHS"
+			(at 110.49 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Same Sky"
+			(at 110.49 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "TBL002B-350-04GR-2OR"
+			(at 110.49 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 110.49 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2202,7 +5632,7 @@
 			)
 		)
 		(property "Vendor 1a P/N" "179-BL002B35004GR2OR"
-			(at 118.11 106.68 0)
+			(at 110.49 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +5641,7 @@
 			)
 		)
 		(property "Vendor 1a Cost LV" "1.01"
-			(at 118.11 106.68 0)
+			(at 110.49 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2220,7 +5650,7 @@
 			)
 		)
 		(property "Vendor 1a Cost HV" "0.343"
-			(at 118.11 106.68 0)
+			(at 110.49 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2251,7 +5681,7 @@
 	)
 	(symbol
 		(lib_id "CONNECTORS:KH22-28-5021")
-		(at 48.26 115.57 0)
+		(at 53.34 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2260,7 +5690,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ba64130-5781-4b00-938e-5041a7102067")
 		(property "Reference" "J1"
-			(at 64.77 115.5699 0)
+			(at 69.85 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2269,7 +5699,7 @@
 			)
 		)
 		(property "Value" "KH22-28-5021"
-			(at 64.77 118.1099 0)
+			(at 69.85 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2278,7 +5708,7 @@
 			)
 		)
 		(property "Footprint" "CONNECTORS:2x1HDR2.54mm"
-			(at 64.77 210.49 0)
+			(at 69.85 160.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2288,7 +5718,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 310.49 0)
+			(at 69.85 260.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2298,7 +5728,7 @@
 			)
 		)
 		(property "Description" "Connector, Header, 2 Pin, 1 Row, Vertical, Through Hole, 2.54mm Pitch, 8.13mm Post Length, -40°C to 80°C, RoHS"
-			(at 48.26 115.57 0)
+			(at 53.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,7 +5737,7 @@
 			)
 		)
 		(property "Manufacturer 1" "Molex"
-			(at 48.26 115.57 0)
+			(at 53.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2316,7 +5746,7 @@
 			)
 		)
 		(property "Manufacturer 1 P/N" "22-28-5021"
-			(at 48.26 115.57 0)
+			(at 53.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2325,7 +5755,7 @@
 			)
 		)
 		(property "Vendor 1a" "Mouser"
-			(at 48.26 115.57 0)
+			(at 53.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,7 +5764,7 @@
 			)
 		)
 		(property "Vendor 1a P/N" "538-22-28-5021"
-			(at 48.26 115.57 0)
+			(at 53.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,7 +5773,7 @@
 			)
 		)
 		(property "Vendor 1a Cost LV" "0.10"
-			(at 48.26 115.57 0)
+			(at 53.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,7 +5782,7 @@
 			)
 		)
 		(property "Vendor 1a Cost HV" "0.071"
-			(at 48.26 115.57 0)
+			(at 53.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,10 +5791,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8346f548-9031-4908-9ff2-f0ba010a7d0e")
+			(uuid "8346f548-9031-4908-9ff2-f0ba010a7d10")
 		)
 		(pin "2"
-			(uuid "26b86ede-d1d9-4fe6-bec1-47c2dd405a0c")
+			(uuid "26b86ede-d1d9-4fe6-bec1-47c2dd405a0e")
 		)
 		(instances
 			(project ""
@@ -2377,7 +5807,7 @@
 	)
 	(symbol
 		(lib_id "COMPONENTS:RC06031K0075AAA")
-		(at 25.4 30.48 270)
+		(at 267.97 31.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2386,7 +5816,7 @@
 		(fields_autoplaced yes)
 		(uuid "55d87a6c-65a2-4fb5-9bda-ccd6b3002392")
 		(property "Reference" "R2"
-			(at 27.94 38.0999 90)
+			(at 270.51 39.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2395,7 +5825,7 @@
 			)
 		)
 		(property "Value" "RC06031K0075AAA"
-			(at 19.304 32.004 0)
+			(at 261.874 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,7 +5835,7 @@
 			)
 		)
 		(property "Footprint" "COMPONENTS:RES-0603"
-			(at -70.79 44.45 0)
+			(at 171.78 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2415,7 +5845,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -170.79 44.45 0)
+			(at 71.78 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +5855,7 @@
 			)
 		)
 		(property "Description" "Resistor, Chip, 0603, 1KΩ, 75V, 5%, -55°C to 155°C, RoHS, AEC-Q200"
-			(at 16.256 34.544 0)
+			(at 258.826 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +5864,7 @@
 			)
 		)
 		(property "Manufacturer 1" "Yageo"
-			(at 9.906 27.94 0)
+			(at 252.476 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,7 +5873,7 @@
 			)
 		)
 		(property "Manufacturer 1 P/N" "SR0603JR-071KL"
-			(at 12.192 37.592 0)
+			(at 254.762 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +5882,7 @@
 			)
 		)
 		(property "Vendor 1a" "Mouser"
-			(at 27.686 10.668 0)
+			(at 270.256 11.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,7 +5891,7 @@
 			)
 		)
 		(property "Vendor 1a P/N" "603-SR0603JR-071KL"
-			(at 35.814 26.67 0)
+			(at 278.384 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2470,7 +5900,7 @@
 			)
 		)
 		(property "Vendor 1a Cost LV" "0.11"
-			(at 25.146 11.684 0)
+			(at 267.716 12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2479,7 +5909,7 @@
 			)
 		)
 		(property "Vendor 1a Cost HV" "0.031"
-			(at 31.75 12.192 0)
+			(at 274.32 13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2488,7 +5918,7 @@
 			)
 		)
 		(property "Val" "1KΩ"
-			(at 27.94 40.6399 90)
+			(at 270.51 41.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2512,44 +5942,55 @@
 		)
 	)
 	(symbol
-		(lib_id "CONNECTORS:KH470533000")
-		(at 120.65 43.18 0)
-		(mirror x)
+		(lib_id "COMPONENTS:DLQ62702P5179")
+		(at 168.91 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8c38b5e1-0a97-4609-9e94-b0016a3c2cc5")
-		(property "Reference" "CN5"
-			(at 127 39.3701 0)
+		(fields_autoplaced yes)
+		(uuid "6e28ea32-e3b0-45e8-8bd7-5ef6a696b57d")
+		(property "Reference" "D5"
+			(at 172.72 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "KH470533000"
-			(at 127 36.8301 0)
+		(property "Value" "DLQ62702P5179"
+			(at 172.72 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "CONNECTORS:KH470533000"
-			(at 120.65 43.18 0)
+		(property "Footprint" "COMPONENTS:LED-0805"
+			(at 262.56 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 43.18 0)
+			(at 362.56 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED, Green 572nm, 0805, 2.2V, 20mA, Diffused, Top View, -30°C to 85°C, RoHS"
+			(at 168.91 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,8 +5998,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector, Header, 4 Circuit, Vertical, Through Hole, Friction Lock, 2.54mm Pitch, RoHS"
-			(at 120.65 43.18 0)
+		(property "Manufacturer 1" "OSRAM"
+			(at 168.91 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2566,17 +6007,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer 1" "Molex"
-			(at 120.65 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 1 P/N" "47053-3000"
-			(at 120.65 43.18 0)
+		(property "Manufacturer 1 P/N" "Q62702P5179"
+			(at 168.91 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2585,7 +6017,277 @@
 			)
 		)
 		(property "Vendor 1a" "Mouser"
-			(at 120.65 43.18 0)
+			(at 168.91 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "720-Q62702P5179"
+			(at 168.91 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.27"
+			(at 168.91 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.049"
+			(at 168.91 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" "Green"
+			(at 172.72 102.8699 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "0e7ee075-51ec-45b3-9d78-0dd7e3d10b01")
+		)
+		(pin "2"
+			(uuid "bc63f0f1-ca28-46f4-a6e7-07a699e6073f")
+		)
+		(instances
+			(project ""
+				(path "/da4b17a0-c783-4eac-be85-8eec7b7dd8dd/729e9d85-dd77-4127-ac85-6a69a54dacc9"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COMPONENTS:RC060310K2075AAA")
+		(at 232.41 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a6a4a0f-c58f-4639-8032-c2b964e4e043")
+		(property "Reference" "R12"
+			(at 234.95 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RC060310K2075AAA"
+			(at 226.314 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "COMPONENTS:RES-0603"
+			(at 136.22 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.22 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, Chip, 0603, 10KΩ, 75V, 0.5%, -55°C to 155°C, RoHS, AEC-Q200"
+			(at 223.266 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Yageo"
+			(at 216.916 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "AC0603DRE0710KL"
+			(at 219.202 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 234.696 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "603-AC0603DRE0710KL"
+			(at 242.824 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.11"
+			(at 232.156 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.031"
+			(at 238.76 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "10KΩ"
+			(at 234.95 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "1fcfa4f9-5217-43f3-8ee4-4cc69d414e50")
+		)
+		(pin "2"
+			(uuid "d7771115-12e4-49bd-a150-327337c33f29")
+		)
+		(instances
+			(project ""
+				(path "/da4b17a0-c783-4eac-be85-8eec7b7dd8dd/729e9d85-dd77-4127-ac85-6a69a54dacc9"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS:KH470533000")
+		(at 208.28 156.21 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c38b5e1-0a97-4609-9e94-b0016a3c2cc5")
+		(property "Reference" "CN5"
+			(at 214.63 152.4001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KH470533000"
+			(at 214.63 149.8601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONNECTORS:KH470533000"
+			(at 208.28 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector, Header, 4 Circuit, Vertical, Through Hole, Friction Lock, 2.54mm Pitch, RoHS"
+			(at 208.28 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Molex"
+			(at 208.28 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "47053-3000"
+			(at 208.28 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 208.28 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2594,7 +6296,7 @@
 			)
 		)
 		(property "Vendor 1a P/N" "538-47053-3000"
-			(at 120.65 43.18 0)
+			(at 208.28 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,7 +6305,7 @@
 			)
 		)
 		(property "Vendor 1a Cost LV" "0.42"
-			(at 120.65 43.18 0)
+			(at 208.28 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2612,7 +6314,7 @@
 			)
 		)
 		(property "Vendor 1a Cost HV" "0.268"
-			(at 120.65 43.18 0)
+			(at 208.28 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2642,43 +6344,55 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 30.48 139.7 0)
+		(lib_id "CONNECTORS:TP5010")
+		(at 255.27 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a9a22f7a-3ee9-4670-ae1c-fb009a9e1ca6")
-		(property "Reference" "#PWR08"
-			(at 30.48 146.05 0)
+		(uuid "8d771325-4e19-417d-93cc-f9898a2087c7")
+		(property "Reference" "TP6"
+			(at 271.78 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 30.48 144.78 0)
+		(property "Value" "TP5010"
+			(at 271.78 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 30.48 139.7 0)
+		(property "Footprint" "CONNECTORS:5010"
+			(at 271.78 244.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 139.7 0)
+			(at 271.78 344.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point, Through Hole"
+			(at 255.27 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2686,8 +6400,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 139.7 0)
+		(property "Manufacturer 1" "Keystone"
+			(at 255.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "5010"
+			(at 255.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a " "Mouser"
+			(at 255.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "534-5010"
+			(at 255.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.33"
+			(at 255.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.188"
+			(at 255.27 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2696,7 +6455,73 @@
 			)
 		)
 		(pin "1"
-			(uuid "8c906fa3-bb2e-432f-9ea8-19a251c04a08")
+			(uuid "bd217d60-a079-40ed-bda6-80f85801a072")
+		)
+		(instances
+			(project ""
+				(path "/da4b17a0-c783-4eac-be85-8eec7b7dd8dd/729e9d85-dd77-4127-ac85-6a69a54dacc9"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8daf082d-bbb1-47be-aaa2-91a4d0fb19d4")
+		(property "Reference" "#PWR08"
+			(at 45.72 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "289a84e9-5c03-4ae1-9aa2-c0d888d46c5b")
 		)
 		(instances
 			(project "P0304202601-ESP32_Multi_Fan_Tester"
@@ -2708,8 +6533,283 @@
 		)
 	)
 	(symbol
+		(lib_id "COMPONENTS:QSSM3K2615R,LF")
+		(at 166.37 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a69963ae-4534-4b65-9b07-b382891ceb28")
+		(property "Reference" "Q3"
+			(at 177.8 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SSM3K2615R,LF"
+			(at 177.8 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "COMPONENTS:SOT-23F-3"
+			(at 177.8 153.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 253.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET, N-Channel, Single, 60V, 2A, 2W, -55°C to 150°C, RoHS, Q101"
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Toshiba"
+			(at 177.8 753.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "SSM3K2615R,LF"
+			(at 177.8 853.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 177.8 453.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "757-SSM3K2615RLF"
+			(at 177.8 553.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.70"
+			(at 177.8 653.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.19"
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" ""
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Population Option" ""
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "538eaf0f-3808-4065-b96f-1f79949605e6")
+		)
+		(pin "2"
+			(uuid "4c2f28ed-a5cf-47cf-927b-ab785d655f92")
+		)
+		(pin "1"
+			(uuid "5a48468a-ccdf-4073-bbac-b06097300233")
+		)
+		(instances
+			(project ""
+				(path "/da4b17a0-c783-4eac-be85-8eec7b7dd8dd/729e9d85-dd77-4127-ac85-6a69a54dacc9"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS:TP5010")
+		(at 257.81 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad3c09be-cdbf-4540-953f-27c451e34ca0")
+		(property "Reference" "TP4"
+			(at 274.32 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP5010"
+			(at 274.32 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONNECTORS:5010"
+			(at 274.32 174.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 274.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point, Through Hole"
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Keystone"
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "5010"
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a " "Mouser"
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "534-5010"
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.33"
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.188"
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90821efd-3321-47bb-948e-6485014a3d6d")
+		)
+		(instances
+			(project ""
+				(path "/da4b17a0-c783-4eac-be85-8eec7b7dd8dd/729e9d85-dd77-4127-ac85-6a69a54dacc9"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
-		(at 115.57 144.78 0)
+		(at 49.53 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2718,7 +6818,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4ba6ac0-9170-4e04-a59c-5adb9ddd6f6b")
 		(property "Reference" "#PWR010"
-			(at 115.57 148.59 0)
+			(at 49.53 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2727,7 +6827,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 115.57 139.7 0)
+			(at 49.53 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,7 +6835,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 144.78 0)
+			(at 49.53 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +6844,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 144.78 0)
+			(at 49.53 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,7 +6853,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 115.57 144.78 0)
+			(at 49.53 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2775,7 +6875,7 @@
 	)
 	(symbol
 		(lib_id "CONNECTORS:KHS4B-PH-SM4-TB(LF)(SN)")
-		(at 110.49 68.58 0)
+		(at 30.48 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2784,7 +6884,7 @@
 		(fields_autoplaced yes)
 		(uuid "b920a50f-d8ca-46b6-a077-f79de0d9b6d9")
 		(property "Reference" "CN1"
-			(at 127 68.5799 0)
+			(at 46.99 144.7799 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2793,7 +6893,7 @@
 			)
 		)
 		(property "Value" "KHS4B-PH-SM4-TB(LF)(SN)"
-			(at 127 71.1199 0)
+			(at 46.99 147.3199 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2802,7 +6902,7 @@
 			)
 		)
 		(property "Footprint" "CONNECTORS:S4B-PH-SM4-TB"
-			(at 101.346 61.722 0)
+			(at 21.336 137.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,7 +6912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.744 78.486 0)
+			(at 30.734 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,7 +6922,7 @@
 			)
 		)
 		(property "Description" "Connector, Pluggable, 4 Circuit, 1 Row, Right Angle, SMD, 2.0mm Pitch, 100V @ 2A, -25°C to 85°C, RoHS"
-			(at 110.49 68.58 0)
+			(at 30.48 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2831,7 +6931,7 @@
 			)
 		)
 		(property "Manufacturer 1" "JST"
-			(at 110.49 68.58 0)
+			(at 30.48 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2840,7 +6940,7 @@
 			)
 		)
 		(property "Manufacturer 1 P/N" "S4B-PH-SM4-TB(LF)(SN)"
-			(at 110.49 68.58 0)
+			(at 30.48 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2849,7 +6949,7 @@
 			)
 		)
 		(property "Vendor 1a" "Mouser"
-			(at 110.49 68.58 0)
+			(at 30.48 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2858,7 +6958,7 @@
 			)
 		)
 		(property "Vendor 1a P/N" "306-S4BPHSM4TBLFSN"
-			(at 110.49 68.58 0)
+			(at 30.48 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2867,7 +6967,7 @@
 			)
 		)
 		(property "Vendor 1a Cost LV" "0.79"
-			(at 110.49 68.58 0)
+			(at 30.48 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2876,7 +6976,7 @@
 			)
 		)
 		(property "Vendor 1a Cost HV" "0.369"
-			(at 110.49 68.58 0)
+			(at 30.48 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2885,7 +6985,7 @@
 			)
 		)
 		(property "Mate" "PHR-4"
-			(at 127 73.6599 0)
+			(at 46.99 149.8599 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2895,7 +6995,7 @@
 			)
 		)
 		(property "Terminals" "SPH-002T-P0.5L"
-			(at 127 76.1999 0)
+			(at 46.99 152.3999 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2926,8 +7026,144 @@
 		)
 	)
 	(symbol
+		(lib_id "COMPONENTS:DLQ62702P5179")
+		(at 102.87 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca4d3723-5111-4108-baf9-65eacb7bda9e")
+		(property "Reference" "D4"
+			(at 106.68 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DLQ62702P5179"
+			(at 106.68 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "COMPONENTS:LED-0805"
+			(at 196.52 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 296.52 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED, Green 572nm, 0805, 2.2V, 20mA, Diffused, Top View, -30°C to 85°C, RoHS"
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "OSRAM"
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "Q62702P5179"
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "720-Q62702P5179"
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.27"
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.049"
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" "Green"
+			(at 106.68 101.5999 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "0e7ee075-51ec-45b3-9d78-0dd7e3d10b02")
+		)
+		(pin "2"
+			(uuid "bc63f0f1-ca28-46f4-a6e7-07a699e60740")
+		)
+		(instances
+			(project ""
+				(path "/da4b17a0-c783-4eac-be85-8eec7b7dd8dd/729e9d85-dd77-4127-ac85-6a69a54dacc9"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
-		(at 26.67 97.79 0)
+		(at 173.99 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2936,7 +7172,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce217152-e5cb-4e51-a4f7-79a2b2a8cfd8")
 		(property "Reference" "#PWR07"
-			(at 26.67 101.6 0)
+			(at 173.99 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2945,7 +7181,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 26.67 92.71 0)
+			(at 173.99 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2953,7 +7189,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 97.79 0)
+			(at 173.99 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2962,7 +7198,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 97.79 0)
+			(at 173.99 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2971,7 +7207,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 26.67 97.79 0)
+			(at 173.99 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2992,8 +7228,144 @@
 		)
 	)
 	(symbol
+		(lib_id "COMPONENTS:RC0603510075AAA")
+		(at 102.87 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce5f6eab-93a4-4054-b379-0324452a7e8a")
+		(property "Reference" "R5"
+			(at 105.41 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RC0603510075AAA"
+			(at 96.774 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "COMPONENTS:RES-0603"
+			(at 6.68 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -93.32 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, Chip, 0603, 510Ω, 75V, 1%, -55°C to 155°C, RoHS"
+			(at 93.726 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Yageo"
+			(at 87.376 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1 P/N" "SR0603FR-7W510RL"
+			(at 89.662 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a" "Mouser"
+			(at 105.156 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a P/N" "603-SR0603FR-7W510RL"
+			(at 113.284 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost LV" "0.10"
+			(at 102.616 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 1a Cost HV" "0.021"
+			(at 109.22 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "510Ω"
+			(at 105.41 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "7055defd-7633-451a-a721-8e49d05df777")
+		)
+		(pin "2"
+			(uuid "538a4b96-b367-4ebf-bb2a-9597e6b7cbef")
+		)
+		(instances
+			(project ""
+				(path "/da4b17a0-c783-4eac-be85-8eec7b7dd8dd/729e9d85-dd77-4127-ac85-6a69a54dacc9"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 115.57 45.72 0)
+		(at 203.2 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3002,7 +7374,7 @@
 		(fields_autoplaced yes)
 		(uuid "de0c0887-4dd7-4899-b81d-f1125f34a019")
 		(property "Reference" "#PWR028"
-			(at 115.57 52.07 0)
+			(at 203.2 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3011,7 +7383,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 50.8 0)
+			(at 203.2 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,7 +7391,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 45.72 0)
+			(at 203.2 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3028,7 +7400,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 45.72 0)
+			(at 203.2 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3037,7 +7409,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 45.72 0)
+			(at 203.2 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3059,7 +7431,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 25.4 25.4 0)
+		(at 267.97 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3068,7 +7440,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7657039-747d-4aa1-9453-ddc4ae7a1522")
 		(property "Reference" "#PWR029"
-			(at 25.4 29.21 0)
+			(at 267.97 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3077,7 +7449,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 25.4 20.32 0)
+			(at 267.97 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3085,7 +7457,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 25.4 0)
+			(at 267.97 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3094,7 +7466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 25.4 0)
+			(at 267.97 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3103,7 +7475,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 25.4 25.4 0)
+			(at 267.97 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3118,6 +7490,270 @@
 			(project "P0304202601-ESP32_Multi_Fan_Tester"
 				(path "/da4b17a0-c783-4eac-be85-8eec7b7dd8dd/729e9d85-dd77-4127-ac85-6a69a54dacc9"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e905b304-a0bc-4f56-8f5c-90c5c7929017")
+		(property "Reference" "#PWR030"
+			(at 27.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a29fef8e-29d6-4fdf-8e45-a77486c668d0")
+		)
+		(instances
+			(project "P0304202601-ESP32_Multi_Fan_Tester"
+				(path "/da4b17a0-c783-4eac-be85-8eec7b7dd8dd/729e9d85-dd77-4127-ac85-6a69a54dacc9"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 232.41 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec14f79c-fb85-4775-bd77-1fa2a45a6b6d")
+		(property "Reference" "#PWR047"
+			(at 232.41 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.41 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06978737-ef50-45f2-a65f-eccd78e9c403")
+		)
+		(instances
+			(project "P0304202601-ESP32_Multi_Fan_Tester"
+				(path "/da4b17a0-c783-4eac-be85-8eec7b7dd8dd/729e9d85-dd77-4127-ac85-6a69a54dacc9"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed112f20-a00b-4423-b915-7cc602ab9789")
+		(property "Reference" "#PWR031"
+			(at 109.22 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63c15be5-e1a9-4b81-9ec4-3103c7e3dc57")
+		)
+		(instances
+			(project "P0304202601-ESP32_Multi_Fan_Tester"
+				(path "/da4b17a0-c783-4eac-be85-8eec7b7dd8dd/729e9d85-dd77-4127-ac85-6a69a54dacc9"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f070ca20-8de9-4ae2-872f-3de69a2f05fd")
+		(property "Reference" "#PWR033"
+			(at 168.91 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27b856d1-e3e9-43c6-8ff4-a2f59e59bd2c")
+		)
+		(instances
+			(project "P0304202601-ESP32_Multi_Fan_Tester"
+				(path "/da4b17a0-c783-4eac-be85-8eec7b7dd8dd/729e9d85-dd77-4127-ac85-6a69a54dacc9"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)

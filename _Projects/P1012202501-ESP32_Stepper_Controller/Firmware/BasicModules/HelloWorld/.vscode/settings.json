@@ -5,7 +5,7 @@
     "interface/ftdi/esp32_devkitj_v1.cfg",
     "target/esp32.cfg"
   ],
-  "idf.portWin": "COM23",
+  "idf.portWin": "COM5",
   "files.associations": {
     "spi_master.h": "c"
   },
@@ -15,5 +15,6 @@
     "IDF_CCACHE_ENABLE": "1",
     "ESP_ROM_ELF_DIR": "C:\\Users\\Mike\\.espressif\\tools\\esp-rom-elfs\\20240305/",
     "IDF_TARGET": "esp32"
-  }
+  },
+  "idf.currentSetup": "C:\\Users\\Mike\\esp\\v5.3\\esp-idf"
 }
