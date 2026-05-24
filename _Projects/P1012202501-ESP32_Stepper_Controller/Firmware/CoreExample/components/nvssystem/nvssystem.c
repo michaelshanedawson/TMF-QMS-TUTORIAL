@@ -30,6 +30,8 @@ void nvs_read();
 void nvs_write();
 void nvs_clear();
 
+void nvs_fan_write();
+
 /* This is where we will itialize the NVS system on the ESP32*/
 void nvs_init()
 {
@@ -64,7 +66,7 @@ void nvs_read()
     if(NVS_ERROR != 0)
     {
         /*Error flag handler for the actual NVS system*/
-        STATUS_BYTE = (1 & 0x2); //Cannot open the storage device
+        STATUS_BYTE |= (1U << 2); //Cannot open the storage device
     }
 
     else
@@ -77,9 +79,26 @@ void nvs_read()
             break;
             case 2:
             /*Error indicating that the value is not found*/
-            STATUS_BYTE = (1 & 0x4); //Cannot locate the correct key
+            STATUS_BYTE |= (1U << 3);; //Cannot locate the correct key
             nvs_close(my_handle);
             nvs_write();
+            break;
+            default:
+            /*Error indicating that the data could not be read*/
+            break;
+        }
+
+         NVS_ERROR = nvs_get_i8(my_handle, "fan", &IS_FAN_INSTALLED);        
+        switch (NVS_ERROR)
+        {
+            case 0:
+            /*Error flagging control if the NVS is working ok*/
+            break;
+            case 2:
+            /*Error indicating that the value is not found*/
+            STATUS_BYTE |= (1U << 3);; //Cannot locate the correct key
+            nvs_close(my_handle);
+            nvs_fan_write();
             break;
             default:
             /*Error indicating that the data could not be read*/
@@ -96,7 +115,7 @@ void nvs_write()
     if(NVS_ERROR != 0)
     {
         /*Error flag handler for the actual NVS system*/
-        STATUS_BYTE = (1 & 0x2); //Cannot open the storage device
+        STATUS_BYTE |= (1U << 2); //Cannot open the storage device
     }
     else
     {
@@ -106,13 +125,29 @@ void nvs_write()
     }
 }
 
+void nvs_fan_write()
+{
+    NVS_ERROR = nvs_open("storage", NVS_READWRITE, &my_handle);    
+    if(NVS_ERROR != 0)
+    {
+        /*Error flag handler for the actual NVS system*/
+        STATUS_BYTE |= (1U << 2); //Cannot open the storage device
+    }
+    else
+    {
+        NVS_ERROR = nvs_set_i8(my_handle, "fan", IS_FAN_INSTALLED);
+        nvs_commit(my_handle);
+        nvs_close(my_handle);
+    }    
+}
+
 void nvs_clear()
 {
     NVS_ERROR = nvs_open("storage", NVS_READWRITE, &my_handle);    
     if(NVS_ERROR != 0)
     {
         /*Error flag handler for the actual NVS system*/
-        STATUS_BYTE = (1 & 0x2); //Cannot open the storage device
+        STATUS_BYTE |= (1U << 2); //Cannot open the storage device
     }
     else
     {

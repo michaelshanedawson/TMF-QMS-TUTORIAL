@@ -116,28 +116,28 @@ void app_main(void)
         LIMIT_2_STATUS = gpio_get_level(LIMIT_2);
         LIMIT_3_STATUS = gpio_get_level(LIMIT_3);
 
-        if((CONTROL_1_STATUS != 0) && (STATUS_BYTE == 0)) //Only proceed if the enable button is engaged and the system status is NO_FAULT
+        /*Primary safety check, if both limit switches fail then the system will stop and flag errors*/
+        if((LIMIT_1_STATUS != 1) && (LIMIT_2_STATUS != 1))
+        {
+            /*This will eventually become an error flag that can be monitored*/
+            IS_IN_ERROR = 1;
+            STATUS_BYTE |= (1U << 0);
+            DRV8825_STOP();
+        }
+
+        if((CONTROL_1_STATUS != 0) && (STATUS_BYTE == 0) && (IS_IN_ERROR != 1)) //Only proceed if the enable button is engaged and the system status is NO_FAULT
         {
             //RS485_send("Enable is good.\n");
             if(IS_OPERATING == 0)
             {
                 DRV8825_START();
                 IS_OPERATING = 1;
-            }
-
-            /*Secondary safety check, if both limit switches fail then the system will stop and flag errors*/
-            if((LIMIT_1_STATUS != 1) && (LIMIT_2_STATUS != 1))
-            {
-                /*This will eventually become an error flag that can be monitored*/
-                //RS485_send("Both Limit Switches Disconnected!\n");
-                STATUS_BYTE = (1 & 0x1);
-                DRV8825_STOP();
-            }
+            }            
 
             /*This is our main operating section of the system*/
             else
             {
-                STATUS_BYTE = (0 & 0x1);
+                //STATUS_BYTE &= ~(1U << 0);
                 if(LIMIT_1_STATUS != 1) //Indicates left side, stepper is CW rotation or dir of 1
                 {                     
                     if(TRAVEL_DIRECTION == 1)

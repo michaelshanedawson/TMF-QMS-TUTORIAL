@@ -28,13 +28,16 @@ uint8_t RS485_buffer_index = 0; // Index for the buffer
 char RS485_command[64]; // Buffer for commands
 char RS485_argument[192]; // Buffer for command arguments
 
+
 /*Define prototypes*/
 void RS485_init(uint8_t RS485_RX_PIN, uint8_t RS485_TX_PIN, uint32_t RS485_BAUD_RATE, uint8_t RS485_DIR_CONTROL, char* RS485_delimiter);
 void RS485_send(const char* data);
-static void RS485_tx_task(char* arg);
-static void RS485_rx_task(char* arg);
+void RS485_rx_task(void* pvParameters);
 void RS485_parse_input(const char* input);
 void RS485_process_command(const char* command, const char* argument);
+void RS485_status_decode();
+const char* lookupResponse(int key);
+int bit_test(char bit, char byte);
 
 /* This is where we will add any custom code to process terminal commands and provide any feedback*/
 void RS485_process_command(const char* command, const char* argument)
@@ -56,16 +59,45 @@ void RS485_process_command(const char* command, const char* argument)
         RS485_send("getcount - This will get current cycle count\n");
         RS485_send("clearcount - This will reset the cycle count to 0\n");
         RS485_send("writecount - This will write the current cycle count to 0\n");
-        RS485_send("getstatus - This will get current satatus byte\n");
+        RS485_send("getstatus - This will get current status byte\n");
         RS485_send("setstatus # to change the status byte\n");
         RS485_send("\n");
         RS485_send("---TEMPERATURE SENSOR---\n");
-        RS485_send("gettemp - This will get the current average temperature of the PCB by the DRV8825\n");
+        RS485_send("gettemp - This will get the current temperature of the PCB\n");
+        RS485_send("\n");
+        RS485_send("---FAN STATUS---\n");
+        RS485_send("fanget to get the current fan speed\n");
+        RS485_send("fanset # to set speed, 0 to 100\n");
         RS485_send("\n");
         // Add more commands as needed
     }
 
-     else if (strcmp(command, "gettemp") == 0)
+    else if (strcmp(command, "fanset") == 0)
+    {
+        // Extract the fan speed value from the argument
+        int fan_speed = atoi(argument);
+        if (fan_speed < 0 || fan_speed > 100)
+        {
+            RS485_send("Error: Fan speed must be between 0 and 100.\n");
+        }
+        else
+        {
+            fan_set(fan_speed); // Set the fan speed
+            char response[256];
+            snprintf(response, sizeof(response), "Fan speed set to: %d%%\n", fan_speed);
+            RS485_send(response);
+        }
+    }
+
+    else if (strcmp(command, "fanget") == 0)
+    {
+        uint32_t fanspeed = get_fan_rpm();
+        char response[256];
+        snprintf(response, sizeof(response), "Fan RPM value is: %ld\n", fanspeed);
+        RS485_send(response);
+    }
+    
+    else if (strcmp(command, "gettemp") == 0)
     {
         char response[256];
         snprintf(response, sizeof(response), "Current system temperature in C is: %f\n", TEMPERATURE);
@@ -77,12 +109,14 @@ void RS485_process_command(const char* command, const char* argument)
         char response[256];
         snprintf(response, sizeof(response), "Current system status is: %u\n", STATUS_BYTE);
         RS485_send(response);
+        RS485_status_decode();
     }
 
     else if (strcmp(command, "setstatus") == 0)
     {       
         int statusVal = atoi(argument);
-        STATUS_BYTE = statusVal;        
+        STATUS_BYTE = statusVal;
+        IS_IN_ERROR = 0;        
         char response[256];
         snprintf(response, sizeof(response), "Status Byte set to: %u\n", statusVal);
         RS485_send(response);         
@@ -219,21 +253,14 @@ void RS485_send(const char* data)
     gpio_set_level(RS485_DIR_CONTROL, 0);
 }
 
-static void RS485_tx_task(char* arg)
-{
-    char* data = arg;
-    RS485_send(data);
-    vTaskDelete(NULL);
-}
-
-static void RS485_rx_task(char* arg)
+void RS485_rx_task(void* pvParameters)
 {
     char* buffer = (char*)malloc(256);
     while (1) {
         int len = uart_read_bytes(UART_NUM_0, (uint8_t*)buffer, 256, 20 / portTICK_PERIOD_MS);
         if (len > 0) {
             buffer[len] = '\0'; // Null-terminate the string
-            //printf("Received: %s\n", buffer);
+            
             // Process the received data here
             if(buffer [strlen(buffer) -1]== '\r')
             {
@@ -250,4 +277,35 @@ static void RS485_rx_task(char* arg)
             
         }
     }
+}
+
+void RS485_status_decode()
+{
+    const char *lookup_table[] = {
+        "Limit Fault",
+        "DRV8825 Fault",
+        "NVS General Error",
+        "NVS Flag Error",
+        "Fan Error"        
+    };
+
+    char response[256];
+    for(int i = 0; i <= 7; i++)
+    {
+        int bitVal = bit_test(i, STATUS_BYTE);        
+        if(bitVal != 0)
+        {
+            snprintf(response, sizeof(response), lookup_table[i]);
+            RS485_send(response);
+            snprintf(response, sizeof(response), "\n");
+            RS485_send(response);          
+        }
+    }        
+    
+}
+
+int bit_test(char bit, char byte)
+{
+    bit = 1 << bit;
+    return(bit & byte);
 }

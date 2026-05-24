@@ -1,31 +1,33 @@
-# PWM fan driver for ESP32
-This is a lightweight, modular C driver for interfacing ESP32-based microcontrollers with most 4 pin PWM controlled fans.
+# UART FTDI Interface driver for ESP32
+This is a lightweight, modular C driver for interfacing ESP32-based microcontrollers to a basic UART console interface using a standard 
+FTDI interface cable.
 
 ## Features 
-*   Bare metal PWM and tachometer reading ( no dependency on Arduino layer)
+*   Bare metal UART and command processing ( no dependency on Arduino layer)
 *   Modular header/source structure for easy inclusion
 
 ## Folder Structure
-/components/pwmfan
-├── pwmfan.h        # Public API for external use
-├── pwmfan.c        # Core implementation
+/components/uartconsole
+├── uartconsole.h        # Public API for external use
+├── uartconsole.c        # Core implementation
 ├── LICENSE.md      # License information
 └── README.md       # This file
 
 ## Dependencies
 * ESP32 SDK (ESD-IDF, Arduino or VSCode)
-* LEDC + PULSECNT ESP32 modules
+* UART Number 1
 * FreeRTOS 
 
 ## Configuration
 * Place the pwmfan folder inside of the project components folder
-* In the main application C file, include the pwmfan.h file
-* FAN_PWM_PIN for the desired PWM output pin, 17 is the default
-* FAN_TACH_PIN for the desired tachometer input pin, 33 is the default
-* FAN_PULSE_PER_REV the number of pulses the fan generates per revolution, typically it is 2
+* In the main application C file, include the uartconsole.h file
+* UART_RX_PIN for the UART RX, 19 is the default
+* UART_TX_PIN for the UART TX, 21 is the default
+* BAUD_RATE for the UART baud rate, 115200 is the default
+* delimiter used for input parsing, a single space " " is the default, can be set to any valid char
 * Recommend disabling any watchdog in the ESP32 for basic use
 
 ## Documentation
-* fan_init()    Function to initialize the PWM system and set an initial fan speed
-* fan_set()     Function to set a new speed value to the fan via PWM
-* get_fan_rpm() Function to get the current RPM of the fan as read by the tach pin
+* uartconsole_init()    Function to initialize the UART module
+* uartconsole_send()    Function to send data over the UART lines
+* uartconsole_rx_task() Function that handles reading the UART RX buffer and handles the data parsing

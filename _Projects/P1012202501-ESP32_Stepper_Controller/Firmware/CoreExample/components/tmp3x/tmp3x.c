@@ -1,6 +1,6 @@
 /*
-* System Status for ESP32 source file
-* systemstatus.c
+* TMP3x Temperature Sensor for ESP32 source file
+* tmp3x.c
 * Michael Dawson
 * michaelshanedawson@gmail.com
 *
@@ -25,24 +25,11 @@
 #define ADC_BITWIDTH            ADC_BITWIDTH_12
 
 adc_oneshot_unit_handle_t adc1_handle;
-adc_cali_handle_t handle = NULL;
+adc_cali_handle_t cali_handle = NULL;
 
 static int adc_raw[1][10];
-static int voltage[1][10];
-
-
-double voltageConverted = 0.0;
+static int voltage;
 float TEMPERATURE = 0.0;
-
-#define WINDOW_SIZE 10
-
-int buffer[WINDOW_SIZE]; //Stores the last N samples
-int bufferindex = 0; //Current write position
-int count = 0; //How many samples have been added (up to N)
-int sum = 0; //Running SUM of samples
-int voltageValue = 0;
-int averageVoltage = 0;
-
 
 /*Define prototypes*/
 void tmp3x_init();
@@ -51,13 +38,7 @@ void temperature_monitor_task();
 /* This is where we will add any custom code to read the temperature data*/
 void tmp3x_init()
 {
-    for (int i = 0; i < WINDOW_SIZE; i++)
-    {
-        buffer[i] = 0;
-    }
-
-    /*ADC Unit 2 Init*/
-    
+    /*ADC Unit 1 Init*/    
     adc_oneshot_unit_init_cfg_t init_config1 = {
         .unit_id = ADC_UNIT_1,
     };
@@ -79,7 +60,7 @@ void tmp3x_init()
             .bitwidth = ADC_BITWIDTH,
         };
     
-    adc_cali_create_scheme_line_fitting(&cali_config, &handle);
+    adc_cali_create_scheme_line_fitting(&cali_config, &cali_handle);
 
     xTaskCreate(temperature_monitor_task, "temp_task", 1024 * 2, NULL, 2, NULL);
 }
@@ -88,35 +69,10 @@ void temperature_monitor_task()
 {
     while(1)
     {
-        //RS485_send("Temp Task Looping\n");
         adc_oneshot_read(adc1_handle, ADC_CHAN, &adc_raw[0][0]);
-        adc_cali_raw_to_voltage(handle, adc_raw[0][0], &voltage[0][0]);
-        voltageValue = adc_raw[0][0];
-        //printf("ADC Value: %u \n", voltageValue);
-
-        char response[256];
-        snprintf(response, sizeof(response), "ADC Value is: %d\n", voltageValue);
-        //RS485_send(response);
-
-        //Subtract value being overwritten
-        sum -= buffer[bufferindex];
-        //Store the new value
-        buffer[bufferindex] = voltageValue;
-        //Add the new value to the SUM
-        sum += voltageValue;
-        //Move the index forward in a circular manner
-        bufferindex = (bufferindex + 1) % WINDOW_SIZE;
-        //Increase count until full
-        if(count < WINDOW_SIZE)
-        {
-            count++;
-        }
-        averageVoltage = sum/count;
-
-        //TEMPERATURE = (averageVoltage - 500) / 100;
-        TEMPERATURE = adc_raw[0][0];
-
-        vTaskDelay(25 / portTICK_PERIOD_MS);    
+        adc_cali_raw_to_voltage(cali_handle, adc_raw[0][0], &voltage);
+        TEMPERATURE = (((int)voltage) - 750.00) / 10 + 25;
+        vTaskDelay(50 / portTICK_PERIOD_MS);    
     }
 }
 

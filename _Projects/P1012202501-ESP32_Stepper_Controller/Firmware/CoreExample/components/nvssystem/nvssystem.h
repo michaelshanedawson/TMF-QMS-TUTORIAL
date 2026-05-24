@@ -36,6 +36,7 @@ void nvs_init();
 void nvs_read();
 void nvs_write();
 void nvs_clear();
+void nvs_fan_write();
 
 
 

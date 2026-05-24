@@ -32,6 +32,8 @@ extern "C" {
 //Variable declarations
 extern uint8_t STATUS_LED_PIN;
 extern unsigned char STATUS_BYTE;
+extern int8_t IS_FAN_INSTALLED;
+extern bool IS_IN_ERROR;
 
 void status_init();
 

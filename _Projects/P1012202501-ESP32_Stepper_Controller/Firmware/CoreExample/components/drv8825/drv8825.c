@@ -137,7 +137,7 @@ static void drv8825_task()
     uint8_t faultDetected = gpio_get_level(STP_FAULT); //The pin will go LOW if a fault is detected
     if(STP_FAULT != 1)
     {
-        STATUS_BYTE = (1 & 0x8); //General DRV8825 fault condition exists, generic detection only
+        STATUS_BYTE |= (1U << 1); //General DRV8825 fault condition exists, generic detection only
     }
     vTaskDelay(25 / portTICK_PERIOD_MS);   
 }

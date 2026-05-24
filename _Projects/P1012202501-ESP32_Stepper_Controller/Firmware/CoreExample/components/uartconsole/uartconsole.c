@@ -13,10 +13,13 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "driver/gpio.h"
-//Add includes for any drivers that need to be used with the UART console here
-#include "../pwmfan/pwmfan.h"
 
-// Variables
+/*Add includes for any drivers that need to be used with the UART console here*/
+#include "../pwmfan/pwmfan.h"
+#include "../nvssystem/nvssystem.h"
+#include "../systemstatus/systemstatus.h"
+
+/*Variables*/
 char uartconsole_buffer[256]; // Buffer for UART console input
 uint8_t uartconsole_buffer_index = 0; // Index for the buffer
 char uartconsole_command[64]; // Buffer for commands
@@ -25,71 +28,39 @@ char uartconsole_argument[192]; // Buffer for command arguments
 /*Define prototypes*/
 void uartconsole_init(uint8_t UART_RX_PIN, uint8_t UART_TX_PIN, uint32_t BAUD_RATE, char* delimiter);
 void uartconsole_send(const char* data);
-static void uartconsole_tx_task(char* arg);
-static void uartconsole_rx_task(char* arg);
+void uartconsole_rx_task(void* pvParameters);
 void uartconsole_parse_input(const char* input);
 void uartconsole_process_command(const char* command, const char* argument);
 
 /* This is where we will add any custom code to process terminal commands and provide any feedback*/
 void uartconsole_process_command(const char* command, const char* argument)
 {
-    // Process the command and argument
-    // This function can be expanded to handle different commands
-    if (strcmp(command, "help") == 0)
+    /*PROCESS COMMANDS AND ARGUMENTS*/
+    /*Add additional commands below. Add additional header files above for any custom modules*/
+    if ((strcmp(command, "help") == 0) || (strcmp(command, "?") == 0))
     {
         uartconsole_send("\n");
         uartconsole_send("Available commands:\n");
-        uartconsole_send("help - Show this help message\n");
-        uartconsole_send("echo <message> - Echo the message back\n");
+        uartconsole_send("help or ? - Show this help message\n");
         uartconsole_send("clear - Clear the console\n");
-        uartconsole_send("---FAN COMMANDS---\n");
-        uartconsole_send("fanset # to set speed, 0 to 100\n");
-        uartconsole_send("fanget to get the current fan speed\n");
+        uartconsole_send("---SYSTEM SETTINGS---\n");
+        uartconsole_send("usefan # to set if the fan is installed, 0 or 1\n");
         uartconsole_send("\n");
-        // Add more commands as needed
-    }
-    //Fan Specific Commands
-    else if (strcmp(command, "fanset") == 0)
-    {
-        // Extract the fan speed value from the argument
-        int fan_speed = atoi(argument);
-        if (fan_speed < 0 || fan_speed > 100)
-        {
-            uartconsole_send("Error: Fan speed must be between 0 and 100.\n");
-        }
-        else
-        {
-            fan_set(fan_speed); // Set the fan speed
-            char response[256];
-            snprintf(response, sizeof(response), "Fan speed set to: %d%%\n", fan_speed);
-            uartconsole_send(response);
-        }
     }
 
-     else if (strcmp(command, "fanget") == 0)
-    {
-        uint32_t fanspeed = get_fan_rpm();
+    /*System Settings*/
+    else if (strcmp(command, "usefan") == 0)
+    {       
+        int fanVal = atoi(argument);
+        IS_FAN_INSTALLED = fanVal;
+        nvs_fan_write();
         char response[256];
-        snprintf(response, sizeof(response), "Fan RPM value is: %ld\n", fanspeed);
-        uartconsole_send(response);
+        snprintf(response, sizeof(response), "Fan Installed Set to: %u\n", fanVal);
+        uartconsole_send(response);         
     }
-
-
-    else if (strcmp(command, "echo") == 0)
-    {
-        char response[256];
-        snprintf(response, sizeof(response), "Echo: %s\n", argument);
-        uartconsole_send(response);
-    }    
     else if (strcmp(command, "clear") == 0)
     {
         uartconsole_send("\033[H\033[J"); // Clear the console
-    }
-    else if (strcmp(command, "exit") == 0)
-    {
-        uartconsole_send("Exiting console.\n");
-        // Add any cleanup code here if necessary
-        vTaskDelete(NULL); // Delete the task if needed
     }
     else
     {
@@ -145,7 +116,7 @@ void uartconsole_init(uint8_t UART_RX_PIN, uint8_t UART_TX_PIN, uint32_t BAUD_RA
     uartconsole_buffer[uartconsole_buffer_index] = '\0'; // Null-terminate the buffer
     memset(uartconsole_buffer, 0, sizeof(uartconsole_buffer)); // Clear the buffer
 
-    xTaskCreate(uartconsole_rx_task, "uart_rx_task", 1024 * 2, NULL, configMAX_PRIORITIES - 1, NULL);
+    xTaskCreate(uartconsole_rx_task, "uart_rx_task", 1024 * 2, NULL, 2, NULL);
 }
 
 void uartconsole_send(const char* data)
@@ -155,14 +126,7 @@ void uartconsole_send(const char* data)
     uart_write_bytes(UART_NUM_1, data, len);
 }
 
-static void uartconsole_tx_task(char* arg)
-{
-    char* data = arg;
-    uartconsole_send(data);
-    vTaskDelete(NULL);
-}
-
-static void uartconsole_rx_task(char* arg)
+void uartconsole_rx_task(void* pvParameters)
 {
     char* buffer = (char*)malloc(256);
     while (1) {
